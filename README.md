@@ -72,7 +72,7 @@ is optional and states the probability of creating an union graph pattern; 0.15 
 `-negationGraphPatternProbability <PROBABILITY>`
 is optional and states the probability of creating a negation graph pattern; 0.05 by default. Note that the sum of four types of graph patterns (conjunction, optional, union and negation) MUST be 1.
 
-What RDDG will do is:
+What SQG will do is:
 1. Load target RDF device descriptions and background knowledge.
 2. Process ontology (that includes Process Entities, Process Axioms and Infer New Knowledge). 
 3. Generate queries for matching devices.
