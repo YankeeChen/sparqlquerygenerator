@@ -41,7 +41,7 @@ logs/
 target/
 
 # ignore all files in the conf/ directory
-conf/
+#conf/
 
 # ignore all files in the javadoc/ directory
 javadoc/
