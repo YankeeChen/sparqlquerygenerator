@@ -1,0 +1,16 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
+
+SELECT DISTINCT  ?SurveillanceRadar_0
+WHERE
+  { ?SurveillanceRadar_0
+              a                     RFDevice:SurveillanceRadar
+    NOT EXISTS
+      { ?IEDTrigger_0
+                  Nuvio:compositeOf  ?SurveillanceRadar_0
+        { ?IEDTrigger_0
+                    a                     RFDevice:IEDTrigger
+        }
+      }
+  }

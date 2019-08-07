@@ -1,0 +1,18 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?System_0
+WHERE
+  { ?System_0  a                    ssn:System
+    { ?OperatingRange_0
+                ssn:hasOperatingRange  ?System_0
+      { ?OperatingRange_0
+                  a                     ssn:OperatingRange
+        { ?OperatingRange_0
+                    ssn:inCondition  ?Quality_0
+          { ?Quality_0  a                   DUL:Quality }
+        }
+      }
+    }
+  }

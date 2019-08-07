@@ -1,0 +1,11 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+
+SELECT DISTINCT  ?USRPX3xx_0
+WHERE
+  { ?USRPX3xx_0  a                  SDR:USRPX3xx
+    { SDR:USRP_SpectrumSensing_Instance5
+                RFDevice:supportsSpectrumSensing  ?USRPX3xx_0
+    }
+  }

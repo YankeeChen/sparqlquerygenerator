@@ -1,0 +1,9 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+
+SELECT DISTINCT  ?Trigger_Actuator_0
+WHERE
+  { ?Trigger_Actuator_0
+              a                     ContextAwareness_eDIANA:Trigger_Actuator
+    { ?Var0  ContextAwareness_eDIANA:provided_services  ?Trigger_Actuator_0 }
+  }

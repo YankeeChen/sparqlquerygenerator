@@ -1,0 +1,14 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  saref: <https://w3id.org/saref#>
+
+SELECT DISTINCT  ?Load_0
+WHERE
+  { ?Load_0  a                     saref:Load
+    { ?Profile_0  saref:hasProfile  ?Load_0
+      { ?Profile_0  a                   saref:Profile
+        { ?Var0  saref:isAbout  ?Profile_0
+          { ?Var0  a                     saref:Pressure }
+        }
+      }
+    }
+  }

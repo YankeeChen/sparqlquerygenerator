@@ -1,0 +1,18 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  saref: <https://w3id.org/saref#>
+
+SELECT DISTINCT  ?BuildingRelated_0
+WHERE
+  { ?BuildingRelated_0
+              a                     saref:BuildingRelated
+    OPTIONAL
+      { ?Multimedia_0
+                  saref:consistsOf  ?BuildingRelated_0
+        { ?Multimedia_0
+                    a                     saref:Multimedia
+          { :Commodity_instance49
+                      saref:isUsedFor  ?Multimedia_0
+          }
+        }
+      }
+  }

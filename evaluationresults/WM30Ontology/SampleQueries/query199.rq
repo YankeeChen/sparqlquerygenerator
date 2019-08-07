@@ -1,0 +1,14 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?Sensor_0
+WHERE
+  {   { ?Sensor_0  a                    ssn:Sensor }
+    UNION
+      { ?MolarEnergy_0
+                  ssn:observes  ?Sensor_0
+        { :WindFeature_instance18
+                    ssn:isPropertyOf  ?MolarEnergy_0
+        }
+      }
+  }

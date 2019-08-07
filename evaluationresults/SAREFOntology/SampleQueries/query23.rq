@@ -1,0 +1,14 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  saref: <https://w3id.org/saref#>
+
+SELECT DISTINCT  ?FunctionRelated_0
+WHERE
+  { ?FunctionRelated_0
+              a                     saref:FunctionRelated
+    { ?Electricity_0
+                saref:isUsedFor  ?FunctionRelated_0
+      { ?PowerUnit_0  saref:isMeasuredIn  ?Electricity_0
+        { ?PowerUnit_0  a                 saref:PowerUnit }
+      }
+    }
+  }

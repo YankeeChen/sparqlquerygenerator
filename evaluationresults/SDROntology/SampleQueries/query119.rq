@@ -1,0 +1,13 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
+
+SELECT DISTINCT  ?ElectronicAttackSystem_0
+WHERE
+  { ?ElectronicAttackSystem_0
+              a                     RFDevice:ElectronicAttackSystem
+    OPTIONAL
+      { :DirectConversionReceiver_instance112
+                  Nuvio:compositeOf  ?ElectronicAttackSystem_0
+      }
+  }

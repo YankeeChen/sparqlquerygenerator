@@ -1,0 +1,10 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+
+SELECT DISTINCT  ?ModelX_0
+WHERE
+  { ?ModelX_0  a                    RFDevice:ModelX
+    { ?Weight_0  RFDevice:hasWeight  ?ModelX_0
+      { ?Weight_0  a                    RFDevice:Weight }
+    }
+  }

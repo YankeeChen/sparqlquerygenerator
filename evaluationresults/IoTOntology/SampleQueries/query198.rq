@@ -1,0 +1,17 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?System_0
+WHERE
+  { ?System_0  a                    ssn:System
+    { ?DeploymentRelatedProcess_0
+                DUL:isParticipantIn  ?System_0
+      { ?DeploymentRelatedProcess_0
+                  a                     ssn:DeploymentRelatedProcess
+        { ?Deployment_0
+                    ssn:deploymentProcessPart  ?DeploymentRelatedProcess_0
+        }
+      }
+    }
+  }

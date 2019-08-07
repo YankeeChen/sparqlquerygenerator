@@ -1,0 +1,20 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?SensingDevice_0
+WHERE
+  { ?SensingDevice_0
+              a                     ssn:SensingDevice
+    { ?SensingDevice_0
+                ssn:observes  ?MeasurementCapability_0
+      {   { ?MeasurementCapability_0
+                      a                     ssn:MeasurementCapability
+          }
+        UNION
+          { ?MeasurementCapability_0
+                      ssn:forProperty  ?Condition_0
+            { ?Condition_0  a                 ssn:Condition }
+          }
+      }
+    }
+  }

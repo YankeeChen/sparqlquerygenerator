@@ -1,0 +1,16 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  dim:  <http://purl.oclc.org/NET/ssnx/qu/dim#>
+PREFIX  WM30: <http://purl.oclc.org/NET/ssnx/meteo/WM30#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?WM30_WindDirection_0
+WHERE
+  { ?WM30_WindDirection_0
+              a                     WM30:WM30_WindDirection
+    { ?WM30_WindDirection_0
+                ssn:observes  ?DoseEquivalent_0
+      { ?DoseEquivalent_0
+                  a                     dim:DoseEquivalent
+      }
+    }
+  }

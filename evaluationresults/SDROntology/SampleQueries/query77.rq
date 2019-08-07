@@ -1,0 +1,13 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+
+SELECT DISTINCT  ?USRPB200mini_0
+WHERE
+  { ?USRPB200mini_0
+              a                     SDR:USRPB200mini
+    OPTIONAL
+      { SDR:Weight_24g
+                  RFDevice:hasWeight  ?USRPB200mini_0
+      }
+  }

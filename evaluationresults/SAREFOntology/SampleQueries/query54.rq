@@ -1,0 +1,19 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  saref: <https://w3id.org/saref#>
+
+SELECT DISTINCT  ?Load_0
+WHERE
+  { ?Load_0  a                     saref:Load
+    { ?ActuatingFunction_0
+                saref:hasFunction  ?Load_0
+      { ?ActuatingFunction_0
+                  a                     saref:ActuatingFunction
+        { ?PauseCommand_0
+                    saref:isCommandOf  ?ActuatingFunction_0
+          { ?PauseCommand_0
+                      a                     saref:PauseCommand
+          }
+        }
+      }
+    }
+  }

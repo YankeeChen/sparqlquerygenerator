@@ -1,0 +1,12 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+
+SELECT DISTINCT  ?Boolean_Actuator_0
+WHERE
+  { ?Boolean_Actuator_0
+              a                     ContextAwareness_eDIANA:Boolean_Actuator
+    OPTIONAL
+      { ?Var0  ContextAwareness_eDIANA:provided_services  ?Boolean_Actuator_0
+        { ?Var0  a                     ContextAwareness_eDIANA:Configuration_Write_iEi_Service }
+      }
+  }

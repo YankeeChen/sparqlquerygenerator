@@ -1,0 +1,15 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+
+SELECT DISTINCT  ?CommunicationsSystem_0
+WHERE
+  {   { ?CommunicationsSystem_0
+                  a                     RFDevice:CommunicationsSystem
+      }
+    UNION
+      { ?Receiving_0  RFDevice:supportsSpectrumSensing  ?CommunicationsSystem_0
+        { :FreqencyRange_instance20
+                    RFDevice:hasBandwidthRange  ?Receiving_0
+        }
+      }
+  }

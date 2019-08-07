@@ -1,0 +1,6 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?Platform_0
+WHERE
+  { ?Platform_0  a                  ssn:Platform }

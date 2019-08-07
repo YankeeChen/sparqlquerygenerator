@@ -1,0 +1,11 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  saref: <https://w3id.org/saref#>
+
+SELECT DISTINCT  ?SmokeSensor_0
+WHERE
+  { ?SmokeSensor_0
+              a                     saref:SmokeSensor
+    { :Profile_instance201
+                saref:hasProfile  ?SmokeSensor_0
+    }
+  }

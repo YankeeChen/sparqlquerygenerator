@@ -1,0 +1,6 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+
+SELECT DISTINCT  ?Resource_0
+WHERE
+  { ?Resource_0  a                  IoT-ontology:Resource }

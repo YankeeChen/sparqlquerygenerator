@@ -1,0 +1,14 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?RFID_tag_0
+WHERE
+  { ?RFID_tag_0  a                  IoT-ontology:RFID_tag
+    { ?ActuatingDevice_0
+                ssn:deploymentProcessPart  ?RFID_tag_0
+      { ?ActuatingDevice_0
+                  a                     IoT-ontology:ActuatingDevice
+      }
+    }
+  }

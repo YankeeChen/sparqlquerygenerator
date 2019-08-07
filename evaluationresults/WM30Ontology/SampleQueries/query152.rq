@@ -1,0 +1,9 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?Device_0
+WHERE
+  { ?Device_0  a                    ssn:Device
+    MINUS
+      { ?Device_1  ssn:hasSubSystem  ?Device_0 }
+  }

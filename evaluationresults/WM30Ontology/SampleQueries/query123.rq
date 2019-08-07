@@ -1,0 +1,12 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  WM30: <http://purl.oclc.org/NET/ssnx/meteo/WM30#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?Vaisala_WM30_0
+WHERE
+  { ?Vaisala_WM30_0
+              a                     WM30:Vaisala_WM30
+    { ?Sensor_0  ssn:hasSubSystem  ?Vaisala_WM30_0
+      { ?Sensor_0  a                    ssn:Sensor }
+    }
+  }

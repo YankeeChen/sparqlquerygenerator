@@ -1,0 +1,276 @@
+112 out of 114 OWL classes are selected:
+false http://www.w3.org/2006/time#DateTimeDescription                                                     
+false http://www.w3.org/2006/time#DateTimeInterval                                                        
+false http://www.w3.org/2006/time#DayOfWeek                                                               
+false http://www.w3.org/2006/time#Duration                                                                
+false http://www.w3.org/2006/time#DurationDescription                                                     
+false http://www.w3.org/2006/time#GeneralDateTimeDescription                                              
+false http://www.w3.org/2006/time#GeneralDurationDescription                                              
+false http://www.w3.org/2006/time#Instant                                                                 
+false http://www.w3.org/2006/time#Interval                                                                
+false http://www.w3.org/2006/time#January                                                                 
+false http://www.w3.org/2006/time#MonthOfYear                                                             
+false http://www.w3.org/2006/time#ProperInterval                                                          
+false http://www.w3.org/2006/time#TRS                                                                     
+false http://www.w3.org/2006/time#TemporalDuration                                                        
+false http://www.w3.org/2006/time#TemporalEntity                                                          
+false http://www.w3.org/2006/time#TemporalPosition                                                        
+true  http://www.w3.org/2006/time#TemporalUnit                                                            
+false http://www.w3.org/2006/time#TimePosition                                                            
+false http://www.w3.org/2006/time#TimeZone                                                                
+false http://www.w3.org/2006/time#Year                                                                    
+true  https://w3id.org/saref#ActuatingFunction                                                            
+true  https://w3id.org/saref#Actuator                                                                     
+true  https://w3id.org/saref#Appliance                                                                    
+true  https://w3id.org/saref#BuildingRelated                                                              
+false https://w3id.org/saref#CloseCommand                                                                 
+true  https://w3id.org/saref#CloseState                                                                   
+true  https://w3id.org/saref#Coal                                                                         
+false https://w3id.org/saref#Command                                                                      
+true  https://w3id.org/saref#Commodity                                                                    
+false https://w3id.org/saref#Currency                                                                     
+true  https://w3id.org/saref#Device                                                                       
+true  https://w3id.org/saref#DoorSwitch                                                                   
+true  https://w3id.org/saref#Electricity                                                                  
+true  https://w3id.org/saref#Energy                                                                       
+true  https://w3id.org/saref#EnergyMeter                                                                  
+true  https://w3id.org/saref#EnergyRelated                                                                
+true  https://w3id.org/saref#EnergyUnit                                                                   
+true  https://w3id.org/saref#EventFunction                                                                
+true  https://w3id.org/saref#Function                                                                     
+true  https://w3id.org/saref#FunctionRelated                                                              
+true  https://w3id.org/saref#Gas                                                                          
+true  https://w3id.org/saref#Generator                                                                    
+true  https://w3id.org/saref#GetCommand                                                                   
+false https://w3id.org/saref#GetCurrentMeterValueCommand                                                  
+true  https://w3id.org/saref#GetMeterDataCommand                                                          
+true  https://w3id.org/saref#GetMeterHistoryCommand                                                       
+true  https://w3id.org/saref#GetSensingDataCommand                                                        
+true  https://w3id.org/saref#HVAC                                                                         
+true  https://w3id.org/saref#Humidity                                                                     
+true  https://w3id.org/saref#IlluminanceUnit                                                              
+true  https://w3id.org/saref#LevelControlFunction                                                         
+true  https://w3id.org/saref#Light                                                                        
+true  https://w3id.org/saref#LightSwitch                                                                  
+true  https://w3id.org/saref#LightingDevice                                                               
+true  https://w3id.org/saref#Load                                                                         
+true  https://w3id.org/saref#Measurement                                                                  
+true  https://w3id.org/saref#Meter                                                                        
+true  https://w3id.org/saref#MeteringFunction                                                             
+true  https://w3id.org/saref#MicroRenewable                                                               
+true  https://w3id.org/saref#Motion                                                                       
+true  https://w3id.org/saref#MultiLevelState                                                              
+true  https://w3id.org/saref#Multimedia                                                                   
+true  https://w3id.org/saref#Network                                                                      
+true  https://w3id.org/saref#NotifyCommand                                                                
+true  https://w3id.org/saref#Occupancy                                                                    
+true  https://w3id.org/saref#OffCommand                                                                   
+true  https://w3id.org/saref#OffState                                                                     
+true  https://w3id.org/saref#OnCommand                                                                    
+true  https://w3id.org/saref#OnOffFunction                                                                
+true  https://w3id.org/saref#OnOffState                                                                   
+true  https://w3id.org/saref#OnState                                                                      
+true  https://w3id.org/saref#OpenCloseFunction                                                            
+true  https://w3id.org/saref#OpenCloseState                                                               
+false https://w3id.org/saref#OpenCommand                                                                  
+true  https://w3id.org/saref#OpenState                                                                    
+false https://w3id.org/saref#PauseCommand                                                                 
+true  https://w3id.org/saref#Power                                                                        
+true  https://w3id.org/saref#PowerUnit                                                                    
+true  https://w3id.org/saref#Pressure                                                                     
+true  https://w3id.org/saref#PressureUnit                                                                 
+true  https://w3id.org/saref#Price                                                                        
+true  https://w3id.org/saref#Profile                                                                      
+true  https://w3id.org/saref#Property                                                                     
+true  https://w3id.org/saref#SensingFunction                                                              
+true  https://w3id.org/saref#Sensor                                                                       
+true  https://w3id.org/saref#Service                                                                      
+false https://w3id.org/saref#SetAbsoluteLevelCommand                                                      
+false https://w3id.org/saref#SetLevelCommand                                                              
+true  https://w3id.org/saref#SetRelativeLevelCommand                                                      
+true  https://w3id.org/saref#Smoke                                                                        
+true  https://w3id.org/saref#SmokeSensor                                                                  
+true  https://w3id.org/saref#StartCommand                                                                 
+true  https://w3id.org/saref#StartState                                                                   
+true  https://w3id.org/saref#StartStopFunction                                                            
+true  https://w3id.org/saref#StartStopState                                                               
+true  https://w3id.org/saref#State                                                                        
+false https://w3id.org/saref#StepDownCommand                                                              
+true  https://w3id.org/saref#StepUpCommand                                                                
+true  https://w3id.org/saref#StopCommand                                                                  
+true  https://w3id.org/saref#StopState                                                                    
+true  https://w3id.org/saref#Storage                                                                      
+true  https://w3id.org/saref#Switch                                                                       
+true  https://w3id.org/saref#SwitchOnService                                                              
+true  https://w3id.org/saref#Task                                                                         
+true  https://w3id.org/saref#Temperature                                                                  
+true  https://w3id.org/saref#TemperatureSensor                                                            
+true  https://w3id.org/saref#TemperatureUnit                                                              
+true  https://w3id.org/saref#Time                                                                         
+false https://w3id.org/saref#ToggleCommand                                                                
+true  https://w3id.org/saref#UnitOfMeasure                                                                
+true  https://w3id.org/saref#WashingMachine                                                               
+true  https://w3id.org/saref#Water                                                                        
+
+
+63 out of 63 OWL object properties are selected:
+false http://www.w3.org/2006/time#after                                                                   
+false http://www.w3.org/2006/time#before                                                                  
+false http://www.w3.org/2006/time#dayOfWeek                                                               
+false http://www.w3.org/2006/time#hasBeginning                                                            
+false http://www.w3.org/2006/time#hasDateTimeDescription                                                  
+false http://www.w3.org/2006/time#hasDuration                                                             
+false http://www.w3.org/2006/time#hasDurationDescription                                                  
+false http://www.w3.org/2006/time#hasEnd                                                                  
+false http://www.w3.org/2006/time#hasTRS                                                                  
+false http://www.w3.org/2006/time#hasTemporalDuration                                                     
+false http://www.w3.org/2006/time#hasTime                                                                 
+false http://www.w3.org/2006/time#inDateTime                                                              
+false http://www.w3.org/2006/time#inTemporalPosition                                                      
+false http://www.w3.org/2006/time#inTimePosition                                                          
+false http://www.w3.org/2006/time#inside                                                                  
+false http://www.w3.org/2006/time#intervalAfter                                                           
+false http://www.w3.org/2006/time#intervalBefore                                                          
+false http://www.w3.org/2006/time#intervalContains                                                        
+false http://www.w3.org/2006/time#intervalDisjoint                                                        
+false http://www.w3.org/2006/time#intervalDuring                                                          
+false http://www.w3.org/2006/time#intervalEquals                                                          
+false http://www.w3.org/2006/time#intervalFinishedBy                                                      
+false http://www.w3.org/2006/time#intervalFinishes                                                        
+false http://www.w3.org/2006/time#intervalIn                                                              
+false http://www.w3.org/2006/time#intervalMeets                                                           
+false http://www.w3.org/2006/time#intervalMetBy                                                           
+false http://www.w3.org/2006/time#intervalOverlappedBy                                                    
+false http://www.w3.org/2006/time#intervalOverlaps                                                        
+false http://www.w3.org/2006/time#intervalStartedBy                                                       
+false http://www.w3.org/2006/time#intervalStarts                                                          
+false http://www.w3.org/2006/time#monthOfYear                                                             
+false http://www.w3.org/2006/time#timeZone                                                                
+false http://www.w3.org/2006/time#unitType                                                                
+true  https://w3id.org/saref#accomplishes                                                                 
+true  https://w3id.org/saref#actsUpon                                                                     
+true  https://w3id.org/saref#consistsOf                                                                   
+true  https://w3id.org/saref#controlsProperty                                                             
+true  https://w3id.org/saref#hasCommand                                                                   
+true  https://w3id.org/saref#hasFunction                                                                  
+false https://w3id.org/saref#hasMeterReading                                                              
+true  https://w3id.org/saref#hasMeterReadingType                                                          
+true  https://w3id.org/saref#hasPrice                                                                     
+true  https://w3id.org/saref#hasProfile                                                                   
+true  https://w3id.org/saref#hasSensingRange                                                              
+true  https://w3id.org/saref#hasSensorType                                                                
+true  https://w3id.org/saref#hasState                                                                     
+false https://w3id.org/saref#hasThresholdMeasurement                                                      
+true  https://w3id.org/saref#hasTime                                                                      
+true  https://w3id.org/saref#hasTypicalConsumption                                                        
+true  https://w3id.org/saref#isAbout                                                                      
+true  https://w3id.org/saref#isAccomplishedBy                                                             
+true  https://w3id.org/saref#isCommandOf                                                                  
+true  https://w3id.org/saref#isControlledByDevice                                                         
+true  https://w3id.org/saref#isMeasuredByDevice                                                           
+true  https://w3id.org/saref#isMeasuredIn                                                                 
+true  https://w3id.org/saref#isOfferedBy                                                                  
+true  https://w3id.org/saref#isUsedFor                                                                    
+true  https://w3id.org/saref#makesMeasurement                                                             
+true  https://w3id.org/saref#measuresProperty                                                             
+true  https://w3id.org/saref#offers                                                                       
+true  https://w3id.org/saref#relatesToMeasurement                                                         
+true  https://w3id.org/saref#relatesToProperty                                                            
+true  https://w3id.org/saref#represents                                                                   
+
+
+30 out of 31 OWL data properties are selected:
+false http://www.w3.org/2006/time#day                                                                     
+false http://www.w3.org/2006/time#dayOfYear                                                               
+false http://www.w3.org/2006/time#days                                                                    
+false http://www.w3.org/2006/time#hasXSDDuration                                                          
+false http://www.w3.org/2006/time#hour                                                                    
+false http://www.w3.org/2006/time#hours                                                                   
+false http://www.w3.org/2006/time#inXSDDate                                                               
+false http://www.w3.org/2006/time#inXSDDateTime                                                           
+false http://www.w3.org/2006/time#inXSDDateTimeStamp                                                      
+false http://www.w3.org/2006/time#inXSDgYear                                                              
+false http://www.w3.org/2006/time#inXSDgYearMonth                                                         
+false http://www.w3.org/2006/time#minute                                                                  
+false http://www.w3.org/2006/time#minutes                                                                 
+false http://www.w3.org/2006/time#month                                                                   
+false http://www.w3.org/2006/time#months                                                                  
+false http://www.w3.org/2006/time#nominalPosition                                                         
+false http://www.w3.org/2006/time#numericDuration                                                         
+false http://www.w3.org/2006/time#numericPosition                                                         
+false http://www.w3.org/2006/time#second                                                                  
+false http://www.w3.org/2006/time#seconds                                                                 
+false http://www.w3.org/2006/time#week                                                                    
+false http://www.w3.org/2006/time#weeks                                                                   
+false http://www.w3.org/2006/time#xsdDateTime                                                             
+false http://www.w3.org/2006/time#year                                                                    
+false http://www.w3.org/2006/time#years                                                                   
+true  https://w3id.org/saref#hasDescription                                                               
+true  https://w3id.org/saref#hasManufacturer                                                              
+true  https://w3id.org/saref#hasModel                                                                     
+true  https://w3id.org/saref#hasTimestamp                                                                 
+true  https://w3id.org/saref#hasValue                                                                     
+
+
+Signature coverage of the queries is summarized below:
+Class coverage (CC) = 74.11%
+Data property coverage (DPC) = 16.67%
+Object property coverage (OPC) = 44.44%
+
+
+Keyword coverage of the queries is summarized below:
+FILTER coverage = 0.25%
+AND coverage = 36.90%
+UNION coverage = 4.70%
+OPTIONAL coverage = 4.60%
+MINUS coverage = 1.85%
+NOT EXISTS coverage = 1.55%
+EXISTS coverage = 1.65%
+
+
+Operator set distribution is summarized below:
+{} = 58.75%
+{And} = 31.90%
+{Filter} = 0.00%
+{Filter, And} = 0.20%
+CPF subtotal = 90.85%
+{Union} = 2.35%
+{Opt} = 2.00%
+{Filter, Union} = 0.00%
+{Filter, Opt} = 0.00%
+{And, Union} = 2.15%
+{And, Opt} = 2.45%
+{Union, Opt} = 0.00%
+{Filter, And, Union} = 0.05%
+{Filter, Union, Opt} = 0.00%
+{Filter, And, Opt} = 0.00%
+{And, Union, Opt} = 0.15%
+{Filter, And, Union, Opt} = 0.00%
+Non-CPF subtotal = 9.15%
+
+
+Triple pattern amount distribution is summarized below:
+{1~3} = 91.30%
+{4~6} = 8.05%
+{7~9} = 0.60%
+{10~12} = 0.00%
+{13~16} = 0.05%
+{16+} = 0.00%
+
+
+Join amount distribution is summarized below:
+{0~4} = 92.85%
+{5~9} = 6.10%
+{10~14} = 0.75%
+{15~19} = 0.15%
+{20~24} = 0.10%
+{25+} = 0.05%
+
+
+Join type distribution is summarized below:
+Subject-Subject (SS) = 33.33%
+Predicate-Predicate (PP) = 24.41%
+Object-Object (OO) = 1.32%
+Subject-Predicate (SP) = 0.00%
+Subject-Object (SO) = 40.93%
+Predicate-Object (PO) = 0.00%

@@ -1,0 +1,10 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+
+SELECT DISTINCT  ?USRPE3xx_0
+WHERE
+  { ?USRPE3xx_0  a                  SDR:USRPE3xx
+    NOT EXISTS
+      { ?USRPE3xx_0  RFDevice:hasWeight  :Weight_instance331 }
+  }

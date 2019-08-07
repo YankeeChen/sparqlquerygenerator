@@ -1,0 +1,18 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?Resource_0
+WHERE
+  { ?Resource_0  a                  IoT-ontology:Resource .
+    ?Service_0  DUL:isObjectIncludedIn  ?Resource_0
+    NOT EXISTS
+      { ?Agent_0  IoT-ontology:serviceProvidedBy  ?Service_0
+        { ?Var0  ssn:hasOutput  ?Service_0
+          { ?Agent_0  a                     DUL:Agent ;
+                      IoT-ontology:providesService  ?ObservationService_0
+          }
+        }
+      }
+  }

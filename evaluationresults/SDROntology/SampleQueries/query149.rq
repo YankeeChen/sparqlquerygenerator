@@ -1,0 +1,23 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
+
+SELECT DISTINCT  ?USRPN3xx_0
+WHERE
+  { ?USRPN3xx_0  a                  SDR:USRPN3xx
+    { ?Entity_0  RFDevice:isProducerOf  ?USRPN3xx_0
+      {   { ?Entity_0  Nuvio:expresses  ?Process_0
+            {   { ?Entity_0  a                    RFDevice:Tuning }
+              UNION
+                { ?Entity_0  a                    Nuvio:InformationEntity }
+            }
+          }
+        UNION
+          { ?Process_0  a                   Nuvio:Process .
+            :Instance1996
+                      Nuvio:subprocessOf    ?Process_0
+          }
+      }
+    }
+  }

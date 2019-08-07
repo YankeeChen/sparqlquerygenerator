@@ -1,0 +1,250 @@
+100 out of 100 OWL classes are selected:
+false http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Cell                                    
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#ActuatingDevice                              
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#ActuationService                             
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#Actuator                                     
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#AlignmentCell                                
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#Application                                  
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#BarCode                                      
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#CommandMessage                               
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#CommunicationBandwidth                       
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#CommunicationMessage                         
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#ComputingDevice                              
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#ControlEntity                                
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#DataObject                                   
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#Database                                     
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#ElectricHomeAppliance                        
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#ElectricMechanicDevice                       
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#ElectronicDevice                             
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#EmbeddedDevice                               
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#File                                         
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#Identifier                                   
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#IdentityCommunication                        
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#IdentityDevice                               
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#InformMessage                                
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#IoT_Entity                                   
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#MemorySpace                                  
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#Message                                      
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#ObservationService                           
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#Ontology                                     
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#OntologyAlignment                            
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#PersonalComputer                             
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#ProcessingPower                              
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#Processor                                    
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#QueryMessage                                 
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#RFID_tag                                     
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#RegisterPlate                                
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#RequestMessage                               
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#Resource                                     
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#Server                                       
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#Service                                      
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#SmartEntity                                  
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#SmartPhone                                   
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#Software                                     
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#SoftwareAgent                                
+true  http://purl.oclc.org/NET/ssnx/ssn#Accuracy                                                          
+true  http://purl.oclc.org/NET/ssnx/ssn#BatteryLifetime                                                   
+true  http://purl.oclc.org/NET/ssnx/ssn#Condition                                                         
+true  http://purl.oclc.org/NET/ssnx/ssn#Deployment                                                        
+true  http://purl.oclc.org/NET/ssnx/ssn#DeploymentRelatedProcess                                          
+true  http://purl.oclc.org/NET/ssnx/ssn#DetectionLimit                                                    
+true  http://purl.oclc.org/NET/ssnx/ssn#Device                                                            
+true  http://purl.oclc.org/NET/ssnx/ssn#Drift                                                             
+true  http://purl.oclc.org/NET/ssnx/ssn#FeatureOfInterest                                                 
+true  http://purl.oclc.org/NET/ssnx/ssn#Frequency                                                         
+true  http://purl.oclc.org/NET/ssnx/ssn#Input                                                             
+true  http://purl.oclc.org/NET/ssnx/ssn#Latency                                                           
+true  http://purl.oclc.org/NET/ssnx/ssn#MaintenanceSchedule                                               
+true  http://purl.oclc.org/NET/ssnx/ssn#MeasurementCapability                                             
+true  http://purl.oclc.org/NET/ssnx/ssn#MeasurementProperty                                               
+true  http://purl.oclc.org/NET/ssnx/ssn#MeasurementRange                                                  
+false http://purl.oclc.org/NET/ssnx/ssn#Observation                                                       
+true  http://purl.oclc.org/NET/ssnx/ssn#ObservationValue                                                  
+true  http://purl.oclc.org/NET/ssnx/ssn#OperatingPowerRange                                               
+true  http://purl.oclc.org/NET/ssnx/ssn#OperatingProperty                                                 
+true  http://purl.oclc.org/NET/ssnx/ssn#OperatingRange                                                    
+true  http://purl.oclc.org/NET/ssnx/ssn#Output                                                            
+true  http://purl.oclc.org/NET/ssnx/ssn#Platform                                                          
+true  http://purl.oclc.org/NET/ssnx/ssn#Precision                                                         
+true  http://purl.oclc.org/NET/ssnx/ssn#Process                                                           
+true  http://purl.oclc.org/NET/ssnx/ssn#Property                                                          
+true  http://purl.oclc.org/NET/ssnx/ssn#Resolution                                                        
+true  http://purl.oclc.org/NET/ssnx/ssn#ResponseTime                                                      
+true  http://purl.oclc.org/NET/ssnx/ssn#Selectivity                                                       
+true  http://purl.oclc.org/NET/ssnx/ssn#Sensing                                                           
+true  http://purl.oclc.org/NET/ssnx/ssn#SensingDevice                                                     
+true  http://purl.oclc.org/NET/ssnx/ssn#Sensitivity                                                       
+true  http://purl.oclc.org/NET/ssnx/ssn#Sensor                                                            
+false http://purl.oclc.org/NET/ssnx/ssn#SensorDataSheet                                                   
+true  http://purl.oclc.org/NET/ssnx/ssn#SensorInput                                                       
+true  http://purl.oclc.org/NET/ssnx/ssn#SensorOutput                                                      
+true  http://purl.oclc.org/NET/ssnx/ssn#Stimulus                                                          
+true  http://purl.oclc.org/NET/ssnx/ssn#SurvivalProperty                                                  
+true  http://purl.oclc.org/NET/ssnx/ssn#SurvivalRange                                                     
+true  http://purl.oclc.org/NET/ssnx/ssn#System                                                            
+true  http://purl.oclc.org/NET/ssnx/ssn#SystemLifetime                                                    
+true  http://www.loa-cnr.it/ontologies/DUL.owl#Agent                                                      
+false http://www.loa-cnr.it/ontologies/DUL.owl#Concept                                                    
+false http://www.loa-cnr.it/ontologies/DUL.owl#Description                                                
+true  http://www.loa-cnr.it/ontologies/DUL.owl#DesignedArtifact                                           
+true  http://www.loa-cnr.it/ontologies/DUL.owl#Event                                                      
+true  http://www.loa-cnr.it/ontologies/DUL.owl#InformationObject                                          
+true  http://www.loa-cnr.it/ontologies/DUL.owl#InformationRealization                                     
+true  http://www.loa-cnr.it/ontologies/DUL.owl#Method                                                     
+true  http://www.loa-cnr.it/ontologies/DUL.owl#Object                                                     
+true  http://www.loa-cnr.it/ontologies/DUL.owl#Organization                                               
+false http://www.loa-cnr.it/ontologies/DUL.owl#PhysicalAgent                                              
+true  http://www.loa-cnr.it/ontologies/DUL.owl#PhysicalObject                                             
+true  http://www.loa-cnr.it/ontologies/DUL.owl#Process                                                    
+true  http://www.loa-cnr.it/ontologies/DUL.owl#Quality                                                    
+true  http://www.loa-cnr.it/ontologies/DUL.owl#Region                                                     
+true  http://www.loa-cnr.it/ontologies/DUL.owl#Situation                                                  
+
+
+71 out of 79 OWL object properties are selected:
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#aligns                                       
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#attachedTo                                   
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#hasAlignmentCell                             
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#hasOwner                                     
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#hasVendor                                    
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#modifies                                     
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#providesService                              
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#resourceUsedIn                               
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#serviceProvidedBy                            
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#usesResource                                 
+true  http://purl.oclc.org/NET/ssnx/ssn#attachedSystem                                                    
+true  http://purl.oclc.org/NET/ssnx/ssn#deployedOnPlatform                                                
+true  http://purl.oclc.org/NET/ssnx/ssn#deployedSystem                                                    
+true  http://purl.oclc.org/NET/ssnx/ssn#deploymentProcessPart                                             
+true  http://purl.oclc.org/NET/ssnx/ssn#detects                                                           
+true  http://purl.oclc.org/NET/ssnx/ssn#endTime                                                           
+true  http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest                                                 
+true  http://purl.oclc.org/NET/ssnx/ssn#forProperty                                                       
+true  http://purl.oclc.org/NET/ssnx/ssn#hasDeployment                                                     
+true  http://purl.oclc.org/NET/ssnx/ssn#hasInput                                                          
+true  http://purl.oclc.org/NET/ssnx/ssn#hasMeasurementCapability                                          
+true  http://purl.oclc.org/NET/ssnx/ssn#hasMeasurementProperty                                            
+true  http://purl.oclc.org/NET/ssnx/ssn#hasOperatingProperty                                              
+true  http://purl.oclc.org/NET/ssnx/ssn#hasOperatingRange                                                 
+true  http://purl.oclc.org/NET/ssnx/ssn#hasOutput                                                         
+true  http://purl.oclc.org/NET/ssnx/ssn#hasProperty                                                       
+true  http://purl.oclc.org/NET/ssnx/ssn#hasSubSystem                                                      
+true  http://purl.oclc.org/NET/ssnx/ssn#hasSurvivalProperty                                               
+true  http://purl.oclc.org/NET/ssnx/ssn#hasSurvivalRange                                                  
+true  http://purl.oclc.org/NET/ssnx/ssn#hasValue                                                          
+true  http://purl.oclc.org/NET/ssnx/ssn#implementedBy                                                     
+true  http://purl.oclc.org/NET/ssnx/ssn#implements                                                        
+true  http://purl.oclc.org/NET/ssnx/ssn#inCondition                                                       
+true  http://purl.oclc.org/NET/ssnx/ssn#inDeployment                                                      
+true  http://purl.oclc.org/NET/ssnx/ssn#isProducedBy                                                      
+true  http://purl.oclc.org/NET/ssnx/ssn#isPropertyOf                                                      
+true  http://purl.oclc.org/NET/ssnx/ssn#isProxyFor                                                        
+true  http://purl.oclc.org/NET/ssnx/ssn#madeObservation                                                   
+true  http://purl.oclc.org/NET/ssnx/ssn#observationResult                                                 
+true  http://purl.oclc.org/NET/ssnx/ssn#observationResultTime                                             
+true  http://purl.oclc.org/NET/ssnx/ssn#observationSamplingTime                                           
+true  http://purl.oclc.org/NET/ssnx/ssn#observedBy                                                        
+true  http://purl.oclc.org/NET/ssnx/ssn#observedProperty                                                  
+true  http://purl.oclc.org/NET/ssnx/ssn#observes                                                          
+true  http://purl.oclc.org/NET/ssnx/ssn#onPlatform                                                        
+true  http://purl.oclc.org/NET/ssnx/ssn#qualityOfObservation                                              
+true  http://purl.oclc.org/NET/ssnx/ssn#sensingMethodUsed                                                 
+true  http://purl.oclc.org/NET/ssnx/ssn#startTime                                                         
+false http://www.loa-cnr.it/ontologies/DUL.owl#conceptualizes                                             
+false http://www.loa-cnr.it/ontologies/DUL.owl#defines                                                    
+false http://www.loa-cnr.it/ontologies/DUL.owl#describes                                                  
+true  http://www.loa-cnr.it/ontologies/DUL.owl#hasComponent                                               
+true  http://www.loa-cnr.it/ontologies/DUL.owl#hasLocation                                                
+true  http://www.loa-cnr.it/ontologies/DUL.owl#hasPart                                                    
+true  http://www.loa-cnr.it/ontologies/DUL.owl#hasParticipant                                             
+true  http://www.loa-cnr.it/ontologies/DUL.owl#hasQuality                                                 
+true  http://www.loa-cnr.it/ontologies/DUL.owl#hasRegion                                                  
+true  http://www.loa-cnr.it/ontologies/DUL.owl#includesAgent                                              
+true  http://www.loa-cnr.it/ontologies/DUL.owl#includesEvent                                              
+true  http://www.loa-cnr.it/ontologies/DUL.owl#includesObject                                             
+true  http://www.loa-cnr.it/ontologies/DUL.owl#isAgentIncludedIn                                          
+false http://www.loa-cnr.it/ontologies/DUL.owl#isConceptualizedBy                                         
+true  http://www.loa-cnr.it/ontologies/DUL.owl#isDescribedBy                                              
+true  http://www.loa-cnr.it/ontologies/DUL.owl#isLocationOf                                               
+true  http://www.loa-cnr.it/ontologies/DUL.owl#isObjectIncludedIn                                         
+true  http://www.loa-cnr.it/ontologies/DUL.owl#isParticipantIn                                            
+true  http://www.loa-cnr.it/ontologies/DUL.owl#isQualityOf                                                
+true  http://www.loa-cnr.it/ontologies/DUL.owl#isRealizedBy                                               
+true  http://www.loa-cnr.it/ontologies/DUL.owl#isRegionFor                                                
+true  http://www.loa-cnr.it/ontologies/DUL.owl#isSettingFor                                               
+true  http://www.loa-cnr.it/ontologies/DUL.owl#satisfies                                                  
+
+
+8 out of 8 OWL data properties are selected:
+false http://knowledgeweb.semanticweb.org/heterogeneity/alignment#entity1                                 
+false http://knowledgeweb.semanticweb.org/heterogeneity/alignment#entity2                                 
+false http://knowledgeweb.semanticweb.org/heterogeneity/alignment#measure                                 
+false http://knowledgeweb.semanticweb.org/heterogeneity/alignment#relation                                
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#alignmentProperty                            
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#hasAccessAddress                             
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#hasTarget                                    
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#hasTemplate                                  
+
+
+Signature coverage of the queries is summarized below:
+Class coverage (CC) = 83.00%
+Data property coverage (DPC) = 37.50%
+Object property coverage (OPC) = 91.55%
+
+
+Keyword coverage of the queries is summarized below:
+FILTER coverage = 0.00%
+AND coverage = 31.17%
+UNION coverage = 4.11%
+OPTIONAL coverage = 4.09%
+MINUS coverage = 1.39%
+NOT EXISTS coverage = 1.40%
+EXISTS coverage = 1.40%
+
+
+Operator set distribution is summarized below:
+{} = 66.29%
+{And} = 25.71%
+{Filter} = 0.00%
+{Filter, And} = 0.00%
+CPF subtotal = 92.01%
+{Union} = 1.26%
+{Opt} = 1.27%
+{Filter, Union} = 0.00%
+{Filter, Opt} = 0.00%
+{And, Union} = 2.64%
+{And, Opt} = 2.61%
+{Union, Opt} = 0.00%
+{Filter, And, Union} = 0.00%
+{Filter, Union, Opt} = 0.00%
+{Filter, And, Opt} = 0.00%
+{And, Union, Opt} = 0.21%
+{Filter, And, Union, Opt} = 0.00%
+Non-CPF subtotal = 7.99%
+
+
+Triple pattern amount distribution is summarized below:
+{1~3} = 91.40%
+{4~6} = 7.60%
+{7~9} = 0.92%
+{10~12} = 0.08%
+{13~16} = 0.01%
+{16+} = 0.00%
+
+
+Join amount distribution is summarized below:
+{0~4} = 92.77%
+{5~9} = 5.72%
+{10~14} = 1.08%
+{15~19} = 0.28%
+{20~24} = 0.10%
+{25+} = 0.05%
+
+
+Join type distribution is summarized below:
+Subject-Subject (SS) = 27.95%
+Predicate-Predicate (PP) = 26.69%
+Object-Object (OO) = 1.91%
+Subject-Predicate (SP) = 0.00%
+Subject-Object (SO) = 43.45%
+Predicate-Object (PO) = 0.00%

@@ -1,0 +1,12 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?SensingDevice_0
+WHERE
+  { ?SensingDevice_0
+              a                     ssn:SensingDevice
+    { ?Event_0  ssn:detects  ?SensingDevice_0
+      { ?Event_0  a                     DUL:Event }
+    }
+  }

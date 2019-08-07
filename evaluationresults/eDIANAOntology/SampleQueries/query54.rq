@@ -1,0 +1,6 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+
+SELECT DISTINCT  ?Appliance_0
+WHERE
+  { ?Appliance_0  a                 ContextAwareness_eDIANA:Appliance }

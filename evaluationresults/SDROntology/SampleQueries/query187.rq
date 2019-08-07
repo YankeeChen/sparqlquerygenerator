@@ -1,0 +1,23 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
+
+SELECT DISTINCT  ?SDR_0
+WHERE
+  { ?SDR_0  a                     SDR:SDR
+    { ?Entity_0  RFDevice:isProducerOf  ?SDR_0
+      { ?Entity_0  a                    Nuvio:Entity
+        { ?Entity_0  a                    RFDevice:FixedBandwidthSensing
+          { ?Entity_1  RFDevice:hasBandwidth  ?Entity_0 }
+          { ?Entity_0  a                    RFDevice:DoubleValue }
+          NOT EXISTS
+            { ?Entity_0  a                    RFDevice:Width
+              { :Instance4288
+                          Nuvio:relevantIndividual  ?Entity_0
+              }
+            }
+        }
+      }
+    }
+  }

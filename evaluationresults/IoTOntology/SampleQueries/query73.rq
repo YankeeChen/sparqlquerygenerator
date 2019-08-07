@@ -1,0 +1,17 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?Processor_0
+WHERE
+  { ?Processor_0  a                 IoT-ontology:Processor
+    { ?Property_0  DUL:hasQuality  ?Processor_0
+      { ?FeatureOfInterest_0
+                  ssn:isPropertyOf  ?Property_0
+        { ?FeatureOfInterest_0
+                    a                     ssn:Stimulus
+        }
+      }
+    }
+  }

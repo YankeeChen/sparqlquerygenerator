@@ -1,0 +1,13 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
+
+SELECT DISTINCT  ?PulseRadar_0
+WHERE
+  { ?PulseRadar_0
+              a                     RFDevice:PulseRadar
+    OPTIONAL
+      { ?PulseRadar_0
+                  Nuvio:compositeOf  :Receiver_instance153
+      }
+  }

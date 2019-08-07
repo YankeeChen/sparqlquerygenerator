@@ -1,0 +1,159 @@
+70 out of 70 OWL classes are selected:
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Actuator                                  
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Airflow_Sensor                            
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Appliance                                 
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Boolean_Actuator                          
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#CDC                                       
+false http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Change_Configuration_Command_Information  
+false http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Change_Parameter_Command_Information      
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Comfort_Variable_Information              
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Command_Actuator                          
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Command_Write_iEi_Service                 
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Complex_Device                            
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Complex_Sensor                            
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Concentrator                              
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Configuration_Read_iEi_Service            
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Configuration_Write_iEi_Service           
+false http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Delayed_Turn_Off_Command_Information      
+false http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Delayed_Turn_On_Command_Information       
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Device                                    
+false http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Direction_Information                     
+false http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#External_Service                          
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Fire_Sensor                               
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Gas_Sensor                                
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Generator                                 
+false http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Humidity_Information                      
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Humidity_Sensor                           
+false http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Information                               
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Input_Information                         
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Internal_Service                          
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Light_Sensor                              
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Load                                      
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#LogData_Write_iEi_Service                 
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Luminosity_Information                    
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#MCC                                       
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Movement_Sensor                           
+false http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Noise_Information                         
+false http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Output_Information                        
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Physical_Sensor                           
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Power_Sensor                              
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Profile_Read_iEi_Service                  
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#PwGRIDi_Service                           
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Read_iEi_Service                          
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Reset_Command_Write_iEi_Service           
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Sensor                                    
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#SensorData_Read_iEi_Service               
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Service                                   
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Simple_Device                             
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Smart_Actuator_Command_Information        
+false http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Smart_Command_Write_iEi_Service           
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Smoke_Sensor                              
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Sound_Sensor                              
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Status_Read_iEi_Service                   
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Storage                                   
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Sun_Radiation_Sensor                      
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Switch_Actuator                           
+false http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Switch_Mode_Command_Information           
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Temperature_Information                   
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Temperature_Sensor                        
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Threshold_Sensor                          
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Trigger_Actuator                          
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Turn_Off_Command_Information              
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Turn_On_Command_Information               
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#UserData_Read_iEi_Service                 
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#User_Interface                            
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Value_Actuator                            
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Value_Command_Write_iEi_Service           
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Video_Camera                              
+false http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#WWWi_Service                              
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Write_iEi_Service                         
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#c2MCCi_Service                            
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#iEi_Service                               
+
+
+6 out of 6 OWL object properties are selected:
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#accepted_commands                         
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#composing_devices                         
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#direction                                 
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#provided_services                         
+false http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#related_appliance                         
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#related_comfort_properties                
+
+
+12 out of 12 OWL data properties are selected:
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#coverage_area                             
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#gas_type                                  
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#is_calibrable                             
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#is_digital                                
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#is_generated                              
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#is_graphical                              
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#is_programmable                           
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#location                                  
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#max_value                                 
+true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#min_value                                 
+false http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#priority                                  
+false http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#unit                                      
+
+
+Signature coverage of the queries is summarized below:
+Class coverage (CC) = 81.43%
+Data property coverage (DPC) = 83.33%
+Object property coverage (OPC) = 83.33%
+
+
+Keyword coverage of the queries is summarized below:
+FILTER coverage = 9.50%
+AND coverage = 46.00%
+UNION coverage = 3.00%
+OPTIONAL coverage = 7.00%
+MINUS coverage = 2.00%
+NOT EXISTS coverage = 4.00%
+EXISTS coverage = 2.00%
+
+
+Operator set distribution is summarized below:
+{} = 53.00%
+{And} = 30.50%
+{Filter} = 0.00%
+{Filter, And} = 7.00%
+CPF subtotal = 90.50%
+{Union} = 0.50%
+{Opt} = 0.50%
+{Filter, Union} = 0.00%
+{Filter, Opt} = 0.00%
+{And, Union} = 1.50%
+{And, Opt} = 4.50%
+{Union, Opt} = 0.00%
+{Filter, And, Union} = 0.50%
+{Filter, Union, Opt} = 0.00%
+{Filter, And, Opt} = 1.50%
+{And, Union, Opt} = 0.00%
+{Filter, And, Union, Opt} = 0.50%
+Non-CPF subtotal = 9.50%
+
+
+Triple pattern amount distribution is summarized below:
+{1~3} = 80.00%
+{4~6} = 18.50%
+{7~9} = 1.50%
+{10~12} = 0.00%
+{13~16} = 0.00%
+{16+} = 0.00%
+
+
+Join amount distribution is summarized below:
+{0~4} = 80.00%
+{5~9} = 13.00%
+{10~14} = 4.50%
+{15~19} = 2.00%
+{20~24} = 0.50%
+{25+} = 0.00%
+
+
+Join type distribution is summarized below:
+Subject-Subject (SS) = 46.19%
+Predicate-Predicate (PP) = 27.89%
+Object-Object (OO) = 0.22%
+Subject-Predicate (SP) = 0.00%
+Subject-Object (SO) = 25.71%
+Predicate-Object (PO) = 0.00%

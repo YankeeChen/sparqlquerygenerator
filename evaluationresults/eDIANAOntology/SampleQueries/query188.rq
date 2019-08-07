@@ -1,0 +1,12 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+
+SELECT DISTINCT  ?User_Interface_0
+WHERE
+  { ?User_Interface_0
+              a                     ContextAwareness_eDIANA:User_Interface ;
+              ContextAwareness_eDIANA:direction  ?Comfort_Variable_Information_0
+    { ?Comfort_Variable_Information_0
+                a                     ContextAwareness_eDIANA:Comfort_Variable_Information
+    }
+  }

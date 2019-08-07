@@ -1,0 +1,510 @@
+321 out of 321 OWL classes are selected:
+true  http://cogradio.org/ont/Nuvio.owl#Attribute                                                         
+true  http://cogradio.org/ont/Nuvio.owl#DimensionlessUnit                                                 
+true  http://cogradio.org/ont/Nuvio.owl#Entity                                                            
+true  http://cogradio.org/ont/Nuvio.owl#InformationContent                                                
+true  http://cogradio.org/ont/Nuvio.owl#InformationEntity                                                 
+true  http://cogradio.org/ont/Nuvio.owl#InformationRepresentation                                         
+true  http://cogradio.org/ont/Nuvio.owl#Object                                                            
+true  http://cogradio.org/ont/Nuvio.owl#Process                                                           
+true  http://cogradio.org/ont/Nuvio.owl#Quality                                                           
+true  http://cogradio.org/ont/Nuvio.owl#Quantity                                                          
+true  http://cogradio.org/ont/Nuvio.owl#Situation                                                         
+true  http://cogradio.org/ont/Nuvio.owl#UnitOfMeasure                                                     
+true  http://cogradio.org/ont/Nuvio.owl#Value                                                             
+true  http://ece.neu.edu/ontologies/RFDevice.owl#ADC                                                      
+true  http://ece.neu.edu/ontologies/RFDevice.owl#AdjustableBandwidthSensing                               
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Aircraft                                                 
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Amplifier                                                
+true  http://ece.neu.edu/ontologies/RFDevice.owl#AmplitudeModulation                                      
+true  http://ece.neu.edu/ontologies/RFDevice.owl#AmplitudeShiftKeyingModulation                           
+true  http://ece.neu.edu/ontologies/RFDevice.owl#AnalogComponent                                          
+true  http://ece.neu.edu/ontologies/RFDevice.owl#AnalogModulation                                         
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Angle                                                    
+true  http://ece.neu.edu/ontologies/RFDevice.owl#AngleModulation                                          
+true  http://ece.neu.edu/ontologies/RFDevice.owl#AngleUnit                                                
+true  http://ece.neu.edu/ontologies/RFDevice.owl#AngleValue                                               
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Antenna                                                  
+true  http://ece.neu.edu/ontologies/RFDevice.owl#AntennaPolarization                                      
+true  http://ece.neu.edu/ontologies/RFDevice.owl#AutomaticGainControl                                     
+true  http://ece.neu.edu/ontologies/RFDevice.owl#BarrageJamming                                           
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Battery                                                  
+true  http://ece.neu.edu/ontologies/RFDevice.owl#BistaticRadar                                            
+true  http://ece.neu.edu/ontologies/RFDevice.owl#BlinkingJamming                                          
+true  http://ece.neu.edu/ontologies/RFDevice.owl#ChokeRingAntenna                                         
+true  http://ece.neu.edu/ontologies/RFDevice.owl#CommunicationsJamming                                    
+true  http://ece.neu.edu/ontologies/RFDevice.owl#CommunicationsSystem                                     
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Component                                                
+true  http://ece.neu.edu/ontologies/RFDevice.owl#ContinuousWaveRadar                                      
+true  http://ece.neu.edu/ontologies/RFDevice.owl#ContinuousWaveRadarModulation                            
+true  http://ece.neu.edu/ontologies/RFDevice.owl#CoverJamming                                             
+true  http://ece.neu.edu/ontologies/RFDevice.owl#CoverPulsesJamming                                       
+true  http://ece.neu.edu/ontologies/RFDevice.owl#CrossEyeJamming                                          
+true  http://ece.neu.edu/ontologies/RFDevice.owl#CrossPolarizationJamming                                 
+true  http://ece.neu.edu/ontologies/RFDevice.owl#CumulativeDetection                                      
+true  http://ece.neu.edu/ontologies/RFDevice.owl#CyclostationaryDetection                                 
+true  http://ece.neu.edu/ontologies/RFDevice.owl#DAC                                                      
+true  http://ece.neu.edu/ontologies/RFDevice.owl#DRFMJamming                                              
+true  http://ece.neu.edu/ontologies/RFDevice.owl#DataSize                                                 
+true  http://ece.neu.edu/ontologies/RFDevice.owl#DataTransmissionMode                                     
+true  http://ece.neu.edu/ontologies/RFDevice.owl#DeceptiveCommunicationsJamming                           
+true  http://ece.neu.edu/ontologies/RFDevice.owl#DeceptiveJamming                                         
+true  http://ece.neu.edu/ontologies/RFDevice.owl#DecimalValue                                             
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Detection                                                
+true  http://ece.neu.edu/ontologies/RFDevice.owl#DigitalComponent                                         
+true  http://ece.neu.edu/ontologies/RFDevice.owl#DigitalModulation                                        
+true  http://ece.neu.edu/ontologies/RFDevice.owl#DipoleAntenna                                            
+true  http://ece.neu.edu/ontologies/RFDevice.owl#DirectConversionReceiver                                 
+true  http://ece.neu.edu/ontologies/RFDevice.owl#DirectionalAntenna                                       
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Distance                                                 
+true  http://ece.neu.edu/ontologies/RFDevice.owl#DoubleValue                                              
+true  http://ece.neu.edu/ontologies/RFDevice.owl#ElectricCharge                                           
+true  http://ece.neu.edu/ontologies/RFDevice.owl#ElectricChargeUnit                                       
+true  http://ece.neu.edu/ontologies/RFDevice.owl#ElectronicAttack                                         
+true  http://ece.neu.edu/ontologies/RFDevice.owl#ElectronicAttackSystem                                   
+true  http://ece.neu.edu/ontologies/RFDevice.owl#ElectronicProtection                                     
+true  http://ece.neu.edu/ontologies/RFDevice.owl#ElectronicSupport                                        
+true  http://ece.neu.edu/ontologies/RFDevice.owl#ElectronicSupportSystem                                  
+true  http://ece.neu.edu/ontologies/RFDevice.owl#ElectronicWarfare                                        
+true  http://ece.neu.edu/ontologies/RFDevice.owl#EmitterIdentification                                    
+true  http://ece.neu.edu/ontologies/RFDevice.owl#EmitterLocationDetection                                 
+true  http://ece.neu.edu/ontologies/RFDevice.owl#EnergyDetection                                          
+true  http://ece.neu.edu/ontologies/RFDevice.owl#FeatureDetection                                         
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Filter                                                   
+true  http://ece.neu.edu/ontologies/RFDevice.owl#FixedBandwidthSensing                                    
+true  http://ece.neu.edu/ontologies/RFDevice.owl#FloatValue                                               
+true  http://ece.neu.edu/ontologies/RFDevice.owl#FormationJamming                                         
+true  http://ece.neu.edu/ontologies/RFDevice.owl#FreqencyRange                                            
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Frequency                                                
+true  http://ece.neu.edu/ontologies/RFDevice.owl#FrequencyAccuracy                                        
+true  http://ece.neu.edu/ontologies/RFDevice.owl#FrequencyModulation                                      
+true  http://ece.neu.edu/ontologies/RFDevice.owl#FrequencyScanRate                                        
+true  http://ece.neu.edu/ontologies/RFDevice.owl#FrequencyScanRateUnit                                    
+true  http://ece.neu.edu/ontologies/RFDevice.owl#FrequencyShiftKeyingModulation                           
+true  http://ece.neu.edu/ontologies/RFDevice.owl#FrequencyUnit                                            
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Full-DuplexCommunicationsSystem                          
+true  http://ece.neu.edu/ontologies/RFDevice.owl#GPS                                                      
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Gain                                                     
+true  http://ece.neu.edu/ontologies/RFDevice.owl#GainRange                                                
+true  http://ece.neu.edu/ontologies/RFDevice.owl#GroundPlatform                                           
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Half-DuplexCommunicationsSystem                          
+true  http://ece.neu.edu/ontologies/RFDevice.owl#HardwareComponent                                        
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Height                                                   
+true  http://ece.neu.edu/ontologies/RFDevice.owl#IEDJammer                                                
+true  http://ece.neu.edu/ontologies/RFDevice.owl#IEDTrigger                                               
+true  http://ece.neu.edu/ontologies/RFDevice.owl#InboundRangeGatePullOffJamming                           
+true  http://ece.neu.edu/ontologies/RFDevice.owl#InformationUnit                                          
+true  http://ece.neu.edu/ontologies/RFDevice.owl#InstantaneousFrequencyMeasurementReceiver                
+true  http://ece.neu.edu/ontologies/RFDevice.owl#IntValue                                                 
+true  http://ece.neu.edu/ontologies/RFDevice.owl#IntegerValue                                             
+true  http://ece.neu.edu/ontologies/RFDevice.owl#InverseGainJamming                                       
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Jammer                                                   
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Jamming                                                  
+true  http://ece.neu.edu/ontologies/RFDevice.owl#JammingSystem                                            
+true  http://ece.neu.edu/ontologies/RFDevice.owl#LatitudeValue                                            
+true  http://ece.neu.edu/ontologies/RFDevice.owl#LatitudeValueInDegree                                    
+true  http://ece.neu.edu/ontologies/RFDevice.owl#LatitudeValueInRadian                                    
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Length                                                   
+true  http://ece.neu.edu/ontologies/RFDevice.owl#LongValue                                                
+true  http://ece.neu.edu/ontologies/RFDevice.owl#LongitudeValue                                           
+true  http://ece.neu.edu/ontologies/RFDevice.owl#LongitudeValueInDegree                                   
+true  http://ece.neu.edu/ontologies/RFDevice.owl#LongitudeValueInRadian                                   
+true  http://ece.neu.edu/ontologies/RFDevice.owl#MannedPlatform                                           
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Mixer                                                    
+true  http://ece.neu.edu/ontologies/RFDevice.owl#MobilePlatform                                           
+true  http://ece.neu.edu/ontologies/RFDevice.owl#ModelX                                                   
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Modulation                                               
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Modulator                                                
+true  http://ece.neu.edu/ontologies/RFDevice.owl#MonostaticRadar                                          
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Moving                                                   
+true  http://ece.neu.edu/ontologies/RFDevice.owl#NoiseFigure                                              
+true  http://ece.neu.edu/ontologies/RFDevice.owl#NoiseJamming                                             
+true  http://ece.neu.edu/ontologies/RFDevice.owl#NonNegativeDecimalValue                                  
+true  http://ece.neu.edu/ontologies/RFDevice.owl#NonNegativeIntegerValue                                  
+true  http://ece.neu.edu/ontologies/RFDevice.owl#OmnidirectionalAntenna                                   
+true  http://ece.neu.edu/ontologies/RFDevice.owl#OnOffKeyingModulation                                    
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Oscillator                                               
+true  http://ece.neu.edu/ontologies/RFDevice.owl#ParabolicDishAntenna                                     
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Percentage                                               
+true  http://ece.neu.edu/ontologies/RFDevice.owl#PhaseModulation                                          
+true  http://ece.neu.edu/ontologies/RFDevice.owl#PhaseShiftKeyingModulation                               
+true  http://ece.neu.edu/ontologies/RFDevice.owl#PhasedArrayAntenna                                       
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Platform                                                 
+false http://ece.neu.edu/ontologies/RFDevice.owl#Port                                                     
+true  http://ece.neu.edu/ontologies/RFDevice.owl#PositiveDecimalValue                                     
+true  http://ece.neu.edu/ontologies/RFDevice.owl#PositiveFloatValue                                       
+true  http://ece.neu.edu/ontologies/RFDevice.owl#PositiveIntegerValue                                     
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Power                                                    
+true  http://ece.neu.edu/ontologies/RFDevice.owl#PowerRange                                               
+true  http://ece.neu.edu/ontologies/RFDevice.owl#PowerUnit                                                
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Processor                                                
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Producer                                                 
+true  http://ece.neu.edu/ontologies/RFDevice.owl#PulseDopplerRadar                                        
+true  http://ece.neu.edu/ontologies/RFDevice.owl#PulseDopplerRadarModulation                              
+true  http://ece.neu.edu/ontologies/RFDevice.owl#PulseRadar                                               
+true  http://ece.neu.edu/ontologies/RFDevice.owl#PulseRadarModulation                                     
+true  http://ece.neu.edu/ontologies/RFDevice.owl#QuadratureAmplitudeModulation                            
+true  http://ece.neu.edu/ontologies/RFDevice.owl#QuantityRange                                            
+true  http://ece.neu.edu/ontologies/RFDevice.owl#RFFrontEnd                                               
+true  http://ece.neu.edu/ontologies/RFDevice.owl#RFSystem                                                 
+true  http://ece.neu.edu/ontologies/RFDevice.owl#RadarFrequencyBand                                       
+true  http://ece.neu.edu/ontologies/RFDevice.owl#RadarJammer                                              
+true  http://ece.neu.edu/ontologies/RFDevice.owl#RadarJamming                                             
+true  http://ece.neu.edu/ontologies/RFDevice.owl#RadarModulation                                          
+true  http://ece.neu.edu/ontologies/RFDevice.owl#RadarSystem                                              
+true  http://ece.neu.edu/ontologies/RFDevice.owl#RadarWarningReceiver                                     
+true  http://ece.neu.edu/ontologies/RFDevice.owl#RadioComponent                                           
+true  http://ece.neu.edu/ontologies/RFDevice.owl#RadioFrequencyBand                                       
+true  http://ece.neu.edu/ontologies/RFDevice.owl#RangeGatePullOffJamming                                  
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Ratio                                                    
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Receiver                                                 
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Receiving                                                
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Role                                                     
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Satellite                                                
+true  http://ece.neu.edu/ontologies/RFDevice.owl#SearchRadar                                              
+true  http://ece.neu.edu/ontologies/RFDevice.owl#SelfProtectionJamming                                    
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Ship                                                     
+true  http://ece.neu.edu/ontologies/RFDevice.owl#ShortValue                                               
+true  http://ece.neu.edu/ontologies/RFDevice.owl#SoftwareComponent                                        
+true  http://ece.neu.edu/ontologies/RFDevice.owl#SpatialAreaUnit                                          
+true  http://ece.neu.edu/ontologies/RFDevice.owl#SpatialLinearUnit                                        
+true  http://ece.neu.edu/ontologies/RFDevice.owl#SpatialUnit                                              
+true  http://ece.neu.edu/ontologies/RFDevice.owl#SpatialVolumeUnit                                        
+true  http://ece.neu.edu/ontologies/RFDevice.owl#SpectrumSensing                                          
+true  http://ece.neu.edu/ontologies/RFDevice.owl#SpotJamming                                              
+true  http://ece.neu.edu/ontologies/RFDevice.owl#StandoffJamming                                          
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Submarine                                                
+true  http://ece.neu.edu/ontologies/RFDevice.owl#SuperheterodyneReceiver                                  
+true  http://ece.neu.edu/ontologies/RFDevice.owl#SurveillanceRadar                                        
+true  http://ece.neu.edu/ontologies/RFDevice.owl#SweepJamming                                             
+true  http://ece.neu.edu/ontologies/RFDevice.owl#SweptSpotJamming                                         
+true  http://ece.neu.edu/ontologies/RFDevice.owl#System                                                   
+true  http://ece.neu.edu/ontologies/RFDevice.owl#SystemCluster                                            
+true  http://ece.neu.edu/ontologies/RFDevice.owl#TerrainBounceJamming                                     
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Time                                                     
+true  http://ece.neu.edu/ontologies/RFDevice.owl#TimeInstant                                              
+true  http://ece.neu.edu/ontologies/RFDevice.owl#TimeInterval                                             
+true  http://ece.neu.edu/ontologies/RFDevice.owl#TimeUnit                                                 
+true  http://ece.neu.edu/ontologies/RFDevice.owl#TrackingRadar                                            
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Transceiver                                              
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Transceiving                                             
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Transmitter                                              
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Transmitting                                             
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Tuning                                                   
+true  http://ece.neu.edu/ontologies/RFDevice.owl#UnmannedPlatform                                         
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Velocity                                                 
+true  http://ece.neu.edu/ontologies/RFDevice.owl#VelocityUnit                                             
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Voltage                                                  
+true  http://ece.neu.edu/ontologies/RFDevice.owl#VoltageUnit                                              
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Weight                                                   
+true  http://ece.neu.edu/ontologies/RFDevice.owl#WeightUnit                                               
+true  http://ece.neu.edu/ontologies/RFDevice.owl#WhipAntenna                                              
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Width                                                    
+true  http://ece.neu.edu/ontologies/SDR.owl#ARMProcessor                                                  
+true  http://ece.neu.edu/ontologies/SDR.owl#Artix7FPGA                                                    
+true  http://ece.neu.edu/ontologies/SDR.owl#CR                                                            
+true  http://ece.neu.edu/ontologies/SDR.owl#CortexA9                                                      
+true  http://ece.neu.edu/ontologies/SDR.owl#FPGA                                                          
+true  http://ece.neu.edu/ontologies/SDR.owl#GNURadio                                                      
+true  http://ece.neu.edu/ontologies/SDR.owl#Kintex7FPGA                                                   
+true  http://ece.neu.edu/ontologies/SDR.owl#SDR                                                           
+true  http://ece.neu.edu/ontologies/SDR.owl#Series7FPGA                                                   
+true  http://ece.neu.edu/ontologies/SDR.owl#Spartan3ADSPFPGA                                              
+true  http://ece.neu.edu/ontologies/SDR.owl#Spartan6FPGA                                                  
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPB200                                                      
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPB200-210                                                  
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPB200mini                                                  
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPB200mini-i                                                
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPB205mini-i                                                
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPB210                                                      
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPB2xx                                                      
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPB2xxmini                                                  
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPE310                                                      
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPE312                                                      
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPE313                                                      
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPE3xx                                                      
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPN200                                                      
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPN210                                                      
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPN2xx                                                      
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPN300                                                      
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPN310                                                      
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPN3xx                                                      
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPX300                                                      
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPX310                                                      
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPX3xx                                                      
+true  http://ece.neu.edu/ontologies/SDR.owl#XC3SD1800AFPGA                                                
+true  http://ece.neu.edu/ontologies/SDR.owl#XC3SD3400AFPGA                                                
+true  http://ece.neu.edu/ontologies/SDR.owl#XC6SLX150FPGA                                                 
+true  http://ece.neu.edu/ontologies/SDR.owl#XC6SLX75FPGA                                                  
+true  http://ece.neu.edu/ontologies/SDR.owl#XC7K325TFPGA                                                  
+true  http://ece.neu.edu/ontologies/SDR.owl#XC7K410TFPGA                                                  
+true  http://ece.neu.edu/ontologies/SDR.owl#XilinxFPGA                                                    
+true  http://ece.neu.edu/ontologies/SDR.owl#XilinxZynq7000Family                                          
+true  http://ece.neu.edu/ontologies/SDR.owl#XilinxZynq7020SoC                                             
+true  http://ece.neu.edu/ontologies/SDR.owl#XilinxZynq7100SoC                                             
+false http://www.opengis.net/ont/geosparql#Feature                                                        
+true  http://www.opengis.net/ont/geosparql#Geometry                                                       
+true  http://www.opengis.net/ont/geosparql#SpatialObject                                                  
+true  http://www.opengis.net/ont/gml#AbstractCurveSegment                                                 
+true  http://www.opengis.net/ont/gml#AbstractGeometricPrimitive                                           
+true  http://www.opengis.net/ont/gml#AbstractGeometry                                                     
+false http://www.opengis.net/ont/gml#AbstractGriddedSurface                                               
+true  http://www.opengis.net/ont/gml#AbstractParametricCurveSurface                                       
+true  http://www.opengis.net/ont/gml#AbstractSurfacePatch                                                 
+true  http://www.opengis.net/ont/gml#Arc                                                                  
+true  http://www.opengis.net/ont/gml#ArcByBulge                                                           
+true  http://www.opengis.net/ont/gml#ArcByCenterPoint                                                     
+true  http://www.opengis.net/ont/gml#ArcString                                                            
+true  http://www.opengis.net/ont/gml#ArcStringByBulge                                                     
+true  http://www.opengis.net/ont/gml#BSpline                                                              
+true  http://www.opengis.net/ont/gml#Bezier                                                               
+true  http://www.opengis.net/ont/gml#Circle                                                               
+false http://www.opengis.net/ont/gml#CircleByCenterPoint                                                  
+true  http://www.opengis.net/ont/gml#Clothoid                                                             
+true  http://www.opengis.net/ont/gml#Composite                                                            
+true  http://www.opengis.net/ont/gml#CompositeCurve                                                       
+true  http://www.opengis.net/ont/gml#CompositeSolid                                                       
+true  http://www.opengis.net/ont/gml#CompositeSurface                                                     
+true  http://www.opengis.net/ont/gml#Cone                                                                 
+true  http://www.opengis.net/ont/gml#CubicSpline                                                          
+true  http://www.opengis.net/ont/gml#Curve                                                                
+true  http://www.opengis.net/ont/gml#Cylinder                                                             
+true  http://www.opengis.net/ont/gml#Geodesic                                                             
+true  http://www.opengis.net/ont/gml#GeodesicString                                                       
+true  http://www.opengis.net/ont/gml#GeometricComplex                                                     
+true  http://www.opengis.net/ont/gml#LineString                                                           
+true  http://www.opengis.net/ont/gml#LineStringSegment                                                    
+true  http://www.opengis.net/ont/gml#LinearRing                                                           
+true  http://www.opengis.net/ont/gml#MultiCurve                                                           
+true  http://www.opengis.net/ont/gml#MultiGeometry                                                        
+true  http://www.opengis.net/ont/gml#MultiPoint                                                           
+true  http://www.opengis.net/ont/gml#MultiSolid                                                           
+true  http://www.opengis.net/ont/gml#MultiSurface                                                         
+true  http://www.opengis.net/ont/gml#OffsetCurve                                                          
+true  http://www.opengis.net/ont/gml#OrientableCurve                                                      
+true  http://www.opengis.net/ont/gml#OrientableSurface                                                    
+false http://www.opengis.net/ont/gml#Point                                                                
+true  http://www.opengis.net/ont/gml#Polygon                                                              
+true  http://www.opengis.net/ont/gml#PolygonPatch                                                         
+true  http://www.opengis.net/ont/gml#PolyhedralSurface                                                    
+true  http://www.opengis.net/ont/gml#PolynomialSpline                                                     
+true  http://www.opengis.net/ont/gml#Rectangle                                                            
+true  http://www.opengis.net/ont/gml#Ring                                                                 
+true  http://www.opengis.net/ont/gml#Shell                                                                
+true  http://www.opengis.net/ont/gml#Solid                                                                
+true  http://www.opengis.net/ont/gml#Sphere                                                               
+true  http://www.opengis.net/ont/gml#SplineCurve                                                          
+false http://www.opengis.net/ont/gml#Surface                                                              
+true  http://www.opengis.net/ont/gml#Tin                                                                  
+true  http://www.opengis.net/ont/gml#Triangle                                                             
+true  http://www.opengis.net/ont/gml#TriangulatedSurface                                                  
+true  http://www.opengis.net/ont/sf#Curve                                                                 
+true  http://www.opengis.net/ont/sf#Geometry                                                              
+true  http://www.opengis.net/ont/sf#GeometryCollection                                                    
+true  http://www.opengis.net/ont/sf#Line                                                                  
+true  http://www.opengis.net/ont/sf#LineString                                                            
+true  http://www.opengis.net/ont/sf#LinearRing                                                            
+true  http://www.opengis.net/ont/sf#MultiCurve                                                            
+true  http://www.opengis.net/ont/sf#MultiLineString                                                       
+true  http://www.opengis.net/ont/sf#MultiPoint                                                            
+true  http://www.opengis.net/ont/sf#MultiPolygon                                                          
+true  http://www.opengis.net/ont/sf#MultiSurface                                                          
+true  http://www.opengis.net/ont/sf#Point                                                                 
+true  http://www.opengis.net/ont/sf#Polygon                                                               
+true  http://www.opengis.net/ont/sf#PolyhedralSurface                                                     
+true  http://www.opengis.net/ont/sf#Surface                                                               
+true  http://www.opengis.net/ont/sf#TIN                                                                   
+true  http://www.opengis.net/ont/sf#Triangle                                                              
+true  http://www.w3.org/1999/02/22-rdf-syntax-ns#List                                                     
+true  http://www.w3.org/2004/02/skos/core#Collection                                                      
+true  http://www.w3.org/2004/02/skos/core#Concept                                                         
+true  http://www.w3.org/2004/02/skos/core#ConceptScheme                                                   
+true  http://www.w3.org/2004/02/skos/core#OrderedCollection                                               
+
+
+102 out of 104 OWL object properties are selected:
+true  http://cogradio.org/ont/Nuvio.owl#aggregateOf                                                       
+true  http://cogradio.org/ont/Nuvio.owl#compositeOf                                                       
+true  http://cogradio.org/ont/Nuvio.owl#expresses                                                         
+true  http://cogradio.org/ont/Nuvio.owl#hasObjectQuality                                                  
+true  http://cogradio.org/ont/Nuvio.owl#hasObjectQuantity                                                 
+true  http://cogradio.org/ont/Nuvio.owl#hasParticipant                                                    
+true  http://cogradio.org/ont/Nuvio.owl#hasProcessQuality                                                 
+true  http://cogradio.org/ont/Nuvio.owl#hasProcessQuantity                                                
+true  http://cogradio.org/ont/Nuvio.owl#hasSubprocess                                                     
+true  http://cogradio.org/ont/Nuvio.owl#hasUnitOfMeasure                                                  
+true  http://cogradio.org/ont/Nuvio.owl#hasValue                                                          
+true  http://cogradio.org/ont/Nuvio.owl#informationSource                                                 
+true  http://cogradio.org/ont/Nuvio.owl#isExpressedBy                                                     
+true  http://cogradio.org/ont/Nuvio.owl#partOf                                                            
+true  http://cogradio.org/ont/Nuvio.owl#participatesIn                                                    
+true  http://cogradio.org/ont/Nuvio.owl#relevantIndividual                                                
+true  http://cogradio.org/ont/Nuvio.owl#representedBy                                                     
+true  http://cogradio.org/ont/Nuvio.owl#represents                                                        
+true  http://cogradio.org/ont/Nuvio.owl#subprocessOf                                                      
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasBandwidth                                             
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasBandwidthRange                                        
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasBeamwidth                                             
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasCapability                                            
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasCapacity                                              
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasCenterFrequency                                       
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasChargingTime                                          
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasDataTransmissionMode                                  
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasEffectiveRadiatedPower                                
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasFrequencyAccuracy                                     
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasFrequencyRange                                        
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasGain                                                  
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasHeight                                                
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasLength                                                
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasLevel                                                 
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasMax                                                   
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasMaxOutputPower                                        
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasMaxPowerConsumption                                   
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasMaxSensedPower                                        
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasMin                                                   
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasNoiseFigure                                           
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasPolarization                                          
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasPowerConsumptionRange                                 
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasProducer                                              
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasPulseRepetitionFrequency                              
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasPulseRepetitionInterval                               
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasPulseWidth                                            
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasResolution                                            
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasSamplingRate                                          
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasTarget                                                
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasTransmitPowerRange                                    
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasVoltage                                               
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasWeight                                                
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasWidth                                                 
+true  http://ece.neu.edu/ontologies/RFDevice.owl#isDeployedOn                                             
+true  http://ece.neu.edu/ontologies/RFDevice.owl#isProducerOf                                             
+true  http://ece.neu.edu/ontologies/RFDevice.owl#supportsJamming                                          
+true  http://ece.neu.edu/ontologies/RFDevice.owl#supportsSpectrumSensing                                  
+true  http://ece.neu.edu/ontologies/RFDevice.owl#supportsTransmitting                                     
+true  http://ece.neu.edu/ontologies/RFDevice.owl#supportsTuning                                           
+true  http://www.opengis.net/ont/geosparql#defaultGeometry                                                
+false http://www.opengis.net/ont/geosparql#ehContains                                                     
+false http://www.opengis.net/ont/geosparql#ehCoveredBy                                                    
+false http://www.opengis.net/ont/geosparql#ehCovers                                                       
+false http://www.opengis.net/ont/geosparql#ehDisjoint                                                     
+false http://www.opengis.net/ont/geosparql#ehEquals                                                       
+true  http://www.opengis.net/ont/geosparql#ehInside                                                       
+false http://www.opengis.net/ont/geosparql#ehMeet                                                         
+false http://www.opengis.net/ont/geosparql#ehOverlap                                                      
+false http://www.opengis.net/ont/geosparql#hasGeometry                                                    
+false http://www.opengis.net/ont/geosparql#rcc8dc                                                         
+false http://www.opengis.net/ont/geosparql#rcc8ec                                                         
+false http://www.opengis.net/ont/geosparql#rcc8eq                                                         
+false http://www.opengis.net/ont/geosparql#rcc8ntpp                                                       
+false http://www.opengis.net/ont/geosparql#rcc8ntppi                                                      
+false http://www.opengis.net/ont/geosparql#rcc8po                                                         
+false http://www.opengis.net/ont/geosparql#rcc8tpp                                                        
+false http://www.opengis.net/ont/geosparql#rcc8tppi                                                       
+false http://www.opengis.net/ont/geosparql#sfContains                                                     
+false http://www.opengis.net/ont/geosparql#sfCrosses                                                      
+false http://www.opengis.net/ont/geosparql#sfDisjoint                                                     
+false http://www.opengis.net/ont/geosparql#sfEquals                                                       
+true  http://www.opengis.net/ont/geosparql#sfIntersects                                                   
+false http://www.opengis.net/ont/geosparql#sfOverlaps                                                     
+false http://www.opengis.net/ont/geosparql#sfTouches                                                      
+false http://www.opengis.net/ont/geosparql#sfWithin                                                       
+false http://www.w3.org/2004/02/skos/core#broadMatch                                                      
+true  http://www.w3.org/2004/02/skos/core#broader                                                         
+false http://www.w3.org/2004/02/skos/core#broaderTransitive                                               
+false http://www.w3.org/2004/02/skos/core#closeMatch                                                      
+false http://www.w3.org/2004/02/skos/core#exactMatch                                                      
+true  http://www.w3.org/2004/02/skos/core#hasTopConcept                                                   
+true  http://www.w3.org/2004/02/skos/core#inScheme                                                        
+true  http://www.w3.org/2004/02/skos/core#mappingRelation                                                 
+true  http://www.w3.org/2004/02/skos/core#member                                                          
+true  http://www.w3.org/2004/02/skos/core#memberList                                                      
+false http://www.w3.org/2004/02/skos/core#narrowMatch                                                     
+false http://www.w3.org/2004/02/skos/core#narrower                                                        
+false http://www.w3.org/2004/02/skos/core#narrowerTransitive                                              
+false http://www.w3.org/2004/02/skos/core#related                                                         
+false http://www.w3.org/2004/02/skos/core#relatedMatch                                                    
+false http://www.w3.org/2004/02/skos/core#semanticRelation                                                
+true  http://www.w3.org/2004/02/skos/core#topConceptOf                                                    
+
+
+16 out of 21 OWL data properties are selected:
+true  http://cogradio.org/ont/Nuvio.owl#hasDataValue                                                      
+true  http://cogradio.org/ont/Nuvio.owl#hasPrecision                                                      
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasDecimalValue                                          
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasDoubleValue                                           
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasFloatValue                                            
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasIntegerValue                                          
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasNonNegativeIntegerValue                               
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasPositiveIntegerValue                                  
+false http://www.opengis.net/ont/geosparql#asGML                                                          
+false http://www.opengis.net/ont/geosparql#asWKT                                                          
+false http://www.opengis.net/ont/geosparql#coordinateDimension                                            
+false http://www.opengis.net/ont/geosparql#dimension                                                      
+true  http://www.opengis.net/ont/geosparql#hasSerialization                                               
+false http://www.opengis.net/ont/geosparql#isEmpty                                                        
+false http://www.opengis.net/ont/geosparql#isSimple                                                       
+false http://www.opengis.net/ont/geosparql#spatialDimension                                               
+
+
+Signature coverage of the queries is summarized below:
+Class coverage (CC) = 98.13%
+Data property coverage (DPC) = 56.25%
+Object property coverage (OPC) = 67.65%
+
+
+Keyword coverage of the queries is summarized below:
+FILTER coverage = 1.96%
+AND coverage = 38.71%
+UNION coverage = 7.00%
+OPTIONAL coverage = 6.83%
+MINUS coverage = 2.46%
+NOT EXISTS coverage = 2.63%
+EXISTS coverage = 2.34%
+
+
+Operator set distribution is summarized below:
+{} = 57.08%
+{And} = 29.63%
+{Filter} = 0.00%
+{Filter, And} = 0.56%
+CPF subtotal = 87.27%
+{Union} = 2.19%
+{Opt} = 2.02%
+{Filter, Union} = 0.00%
+{Filter, Opt} = 0.00%
+{And, Union} = 3.17%
+{And, Opt} = 3.21%
+{Union, Opt} = 0.00%
+{Filter, And, Union} = 0.55%
+{Filter, Union, Opt} = 0.00%
+{Filter, And, Opt} = 0.49%
+{And, Union, Opt} = 0.73%
+{Filter, And, Union, Opt} = 0.37%
+Non-CPF subtotal = 12.73%
+
+
+Triple pattern amount distribution is summarized below:
+{1~3} = 87.52%
+{4~6} = 7.61%
+{7~9} = 2.88%
+{10~12} = 1.38%
+{13~16} = 0.48%
+{16+} = 0.13%
+
+
+Join amount distribution is summarized below:
+{0~4} = 88.65%
+{5~9} = 5.08%
+{10~14} = 1.79%
+{15~19} = 1.07%
+{20~24} = 0.80%
+{25+} = 2.60%
+
+
+Join type distribution is summarized below:
+Subject-Subject (SS) = 33.68%
+Predicate-Predicate (PP) = 26.23%
+Object-Object (OO) = 3.13%
+Subject-Predicate (SP) = 0.00%
+Subject-Object (SO) = 36.95%
+Predicate-Object (PO) = 0.00%

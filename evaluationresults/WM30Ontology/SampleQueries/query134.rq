@@ -1,0 +1,17 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?Device_0
+WHERE
+  { ?Device_0  a                    ssn:Device
+    { ?System_0  ssn:hasSubSystem  ?Device_0
+      { ?System_0  a                    ssn:System
+        { ?OperatingRange_0
+                    ssn:hasOperatingRange  ?System_0
+          { :MaintenanceSchedule_instance6
+                      ssn:hasOperatingRange  ?OperatingRange_0
+          }
+        }
+      }
+    }
+  }

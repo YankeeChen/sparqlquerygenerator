@@ -1,0 +1,13 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  WM30: <http://purl.oclc.org/NET/ssnx/meteo/WM30#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?Vaisala_WM30_0
+WHERE
+  { ?Vaisala_WM30_0
+              a                     WM30:Vaisala_WM30
+    EXISTS
+      { ?Property_0  ssn:observes  ?Vaisala_WM30_0
+        { ?Property_0  ssn:isPropertyOf  :WindFeature_instance92 }
+      }
+  }

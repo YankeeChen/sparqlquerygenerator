@@ -1,0 +1,35 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  saref: <https://w3id.org/saref#>
+
+SELECT DISTINCT  ?Generator_0
+WHERE
+  { ?Generator_0  a                 saref:Generator
+    { ?OnOffFunction_0
+                saref:hasFunction  ?Generator_0
+      {   { ?OnOffFunction_0
+                      a                     saref:OnOffFunction
+          }
+        UNION
+          { ?GetCommand_0
+                      saref:isCommandOf  ?OnOffFunction_0
+            { ?SensingFunction_0
+                        saref:isCommandOf  ?GetCommand_0
+              {   { ?SensingFunction_0
+                              a                     saref:SensingFunction
+                  }
+                UNION
+                  { ?Measurement_0
+                              saref:hasSensingRange  ?SensingFunction_0
+                    { ?Measurement_0
+                                a                     saref:Measurement
+                      { ?EnergyUnit_0
+                                  saref:isMeasuredIn  ?Measurement_0
+                      }
+                    }
+                  }
+              }
+            }
+          }
+      }
+    }
+  }

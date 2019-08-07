@@ -1,0 +1,14 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  saref: <https://w3id.org/saref#>
+
+SELECT DISTINCT  ?TemperatureSensor_0
+WHERE
+  { ?TemperatureSensor_0
+              a                     saref:TemperatureSensor
+    { ?SensingFunction_0
+                saref:hasFunction  ?TemperatureSensor_0
+      { ?SensingFunction_0
+                  a                     saref:SensingFunction
+      }
+    }
+  }

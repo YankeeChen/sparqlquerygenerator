@@ -1,0 +1,13 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?ElectronicDevice_0
+WHERE
+  { ?ElectronicDevice_0
+              a                     IoT-ontology:ElectronicDevice
+    OPTIONAL
+      { ?IdentityDevice_0
+                  ssn:deploymentProcessPart  ?ElectronicDevice_0
+      }
+  }

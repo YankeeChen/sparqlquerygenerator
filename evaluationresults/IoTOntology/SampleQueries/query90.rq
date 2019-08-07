@@ -1,0 +1,22 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?ElectricMechanicDevice_0
+WHERE
+  { ?ElectricMechanicDevice_0
+              a                     IoT-ontology:ElectricMechanicDevice
+    { ?PhysicalObject_0
+                ssn:onPlatform  ?ElectricMechanicDevice_0
+      { ?PhysicalObject_0
+                  a                     DUL:PhysicalObject .
+        ?ElectricHomeAppliance_0
+                  DUL:hasLocation       ?PhysicalObject_0
+        { ?ElectricHomeAppliance_0
+                    a                     IoT-ontology:ElectricHomeAppliance
+          { ?Property_0  ssn:qualityOfObservation  ?ElectricHomeAppliance_0 }
+        }
+      }
+    }
+  }

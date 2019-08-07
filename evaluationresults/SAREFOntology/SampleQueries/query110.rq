@@ -1,0 +1,14 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  saref: <https://w3id.org/saref#>
+
+SELECT DISTINCT  ?LightingDevice_0
+WHERE
+  { ?LightingDevice_0
+              a                     saref:LightingDevice
+    { ?LightingDevice_0
+                saref:makesMeasurement  ?Measurement_0
+      { ?Measurement_0
+                  a                     saref:Measurement
+      }
+    }
+  }

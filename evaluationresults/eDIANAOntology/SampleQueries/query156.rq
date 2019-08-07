@@ -1,0 +1,10 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+
+SELECT DISTINCT  ?CDC_0
+WHERE
+  { ?CDC_0  a                     ContextAwareness_eDIANA:CDC
+    { ?Var0  ContextAwareness_eDIANA:provided_services  ?CDC_0
+      { ?Var0  a                     ContextAwareness_eDIANA:Service }
+    }
+  }

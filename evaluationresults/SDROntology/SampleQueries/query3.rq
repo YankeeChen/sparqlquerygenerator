@@ -1,0 +1,11 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+
+SELECT DISTINCT  ?USRPE313_0
+WHERE
+  { ?USRPE313_0  a                  SDR:USRPE313
+    { SDR:Length_186mm
+                RFDevice:hasWidth  ?USRPE313_0
+    }
+  }

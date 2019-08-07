@@ -1,0 +1,13 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?Platform_0
+WHERE
+  { ?Platform_0  a                  ssn:Platform
+    { ?Platform_0  ssn:attachedSystem  ?IdentityDevice_0
+      { ?IdentityDevice_0
+                  a                     IoT-ontology:IdentityDevice
+      }
+    }
+  }

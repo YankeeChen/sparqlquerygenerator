@@ -1,0 +1,19 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?IdentityDevice_0
+WHERE
+  { ?IdentityDevice_0
+              a                     IoT-ontology:IdentityDevice
+    { ?PhysicalObject_0
+                ssn:deploymentProcessPart  ?IdentityDevice_0
+      { ?PersonalComputer_0
+                  DUL:hasLocation  ?PhysicalObject_0
+        { ?PersonalComputer_0
+                    a                     IoT-ontology:PersonalComputer
+        }
+      }
+    }
+  }

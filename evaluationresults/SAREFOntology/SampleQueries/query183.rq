@@ -1,0 +1,11 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  saref: <https://w3id.org/saref#>
+
+SELECT DISTINCT  ?WashingMachine_0
+WHERE
+  { ?WashingMachine_0
+              a                     saref:WashingMachine
+    { :LevelControlFunction_instance27
+                saref:hasFunction  ?WashingMachine_0
+    }
+  }

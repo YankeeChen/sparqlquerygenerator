@@ -1,0 +1,15 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  dim:  <http://purl.oclc.org/NET/ssnx/qu/dim#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?Sensor_0
+WHERE
+  { ?Sensor_0  a                    ssn:Sensor
+    NOT EXISTS
+      { ?Reluctance_0
+                  ssn:observes  ?Sensor_0
+        { ?Reluctance_0
+                    a                     dim:Reluctance
+        }
+      }
+  }

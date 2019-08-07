@@ -1,0 +1,14 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+
+SELECT DISTINCT  ?Load_0
+WHERE
+  { ?Load_0  a                     ContextAwareness_eDIANA:Load
+    NOT EXISTS
+      { ?Profile_Read_iEi_Service_0
+                  ContextAwareness_eDIANA:provided_services  ?Load_0
+        { ?Profile_Read_iEi_Service_0
+                    a                     ContextAwareness_eDIANA:Profile_Read_iEi_Service
+        }
+      }
+  }

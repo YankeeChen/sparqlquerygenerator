@@ -1,0 +1,6 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  saref: <https://w3id.org/saref#>
+
+SELECT DISTINCT  ?Sensor_0
+WHERE
+  { ?Sensor_0  a                    saref:Sensor }

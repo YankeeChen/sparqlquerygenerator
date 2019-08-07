@@ -1,0 +1,11 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  saref: <https://w3id.org/saref#>
+
+SELECT DISTINCT  ?Generator_0
+WHERE
+  {   { ?Generator_0  a                 saref:Generator }
+    UNION
+      { :Profile_instance13
+                  saref:hasProfile  ?Generator_0
+      }
+  }

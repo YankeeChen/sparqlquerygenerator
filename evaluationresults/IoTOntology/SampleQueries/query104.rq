@@ -1,0 +1,8 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+
+SELECT DISTINCT  ?ComputingDevice_0
+WHERE
+  { ?ComputingDevice_0
+              a                     IoT-ontology:ComputingDevice
+  }

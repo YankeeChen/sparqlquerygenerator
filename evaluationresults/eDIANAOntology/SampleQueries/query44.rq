@@ -1,0 +1,10 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+
+SELECT DISTINCT  ?Storage_0
+WHERE
+  { ?Storage_0  a                   ContextAwareness_eDIANA:Storage
+    { ?Read_iEi_Service_0
+                ContextAwareness_eDIANA:provided_services  ?Storage_0
+    }
+  }

@@ -1,0 +1,12 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
+
+SELECT DISTINCT  ?SDR_0
+WHERE
+  { ?SDR_0  a                     SDR:SDR
+    OPTIONAL
+      { :RadarJammer_instance120
+                  Nuvio:partOf  ?SDR_0
+      }
+  }

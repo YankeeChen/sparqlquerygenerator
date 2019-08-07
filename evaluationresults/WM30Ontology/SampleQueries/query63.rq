@@ -1,0 +1,12 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  WM30: <http://purl.oclc.org/NET/ssnx/meteo/WM30#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?WM30_WindSpeed_0
+WHERE
+  { ?WM30_WindSpeed_0
+              a                     WM30:WM30_WindSpeed
+    { :WM30_WindSpeed_MeasurementCapability_WSgrt10ms_instance49
+                ssn:hasMeasurementCapability  ?WM30_WindSpeed_0
+    }
+  }

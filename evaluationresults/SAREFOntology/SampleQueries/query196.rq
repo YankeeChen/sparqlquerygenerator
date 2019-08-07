@@ -1,0 +1,15 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  saref: <https://w3id.org/saref#>
+
+SELECT DISTINCT  ?BuildingRelated_0
+WHERE
+  { ?BuildingRelated_0
+              a                     saref:BuildingRelated
+    NOT EXISTS
+      { ?ActuatingFunction_0
+                  saref:hasFunction  ?BuildingRelated_0
+        { ?ActuatingFunction_0
+                    a                     saref:ActuatingFunction
+        }
+      }
+  }

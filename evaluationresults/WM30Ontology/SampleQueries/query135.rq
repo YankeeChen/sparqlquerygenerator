@@ -1,0 +1,16 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  WM30: <http://purl.oclc.org/NET/ssnx/meteo/WM30#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?SensingDevice_0
+WHERE
+  { ?SensingDevice_0
+              a                     ssn:SensingDevice
+    OPTIONAL
+      { ?WM30_CharacteristicTransferFunction_0
+                  ssn:implements  ?SensingDevice_0
+        { ?WM30_CharacteristicTransferFunction_0
+                    a                     WM30:WM30_CharacteristicTransferFunction
+        }
+      }
+  }

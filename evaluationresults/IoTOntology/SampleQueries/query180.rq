@@ -1,0 +1,19 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?ElectricHomeAppliance_0
+WHERE
+  {   { ?ElectricHomeAppliance_0
+                  a                     IoT-ontology:ElectricHomeAppliance
+      }
+    UNION
+      { ?System_0  DUL:hasPart  ?ElectricHomeAppliance_0
+        { ?System_0  a                    ssn:System
+          { :PersonalComputer_instance110
+                      ssn:deploymentProcessPart  ?System_0
+          }
+        }
+      }
+  }

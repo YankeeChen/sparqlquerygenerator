@@ -1,0 +1,18 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
+PREFIX  gml:  <http://www.opengis.net/ont/gml#>
+
+SELECT DISTINCT  ?USRPX3xx_0
+WHERE
+  { ?USRPX3xx_0  a                  SDR:USRPX3xx
+    { ?Entity_0  RFDevice:isProducerOf  ?USRPX3xx_0
+      { ?Entity_0  a                    Nuvio:Entity .
+        ?Process_0  Nuvio:isExpressedBy  ?Entity_0
+        { ?Entity_0  a                    gml:Rectangle
+          { ?Process_0  a                   Nuvio:Process }
+        }
+      }
+    }
+  }

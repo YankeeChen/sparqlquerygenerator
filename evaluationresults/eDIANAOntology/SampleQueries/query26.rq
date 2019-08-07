@@ -1,0 +1,12 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+
+SELECT DISTINCT  ?Command_Actuator_0
+WHERE
+  { ?Command_Actuator_0
+              a                     ContextAwareness_eDIANA:Command_Actuator ;
+              ContextAwareness_eDIANA:accepted_commands  ?Turn_Off_Command_Information_0
+    { ?Turn_Off_Command_Information_0
+                a                     ContextAwareness_eDIANA:Turn_Off_Command_Information
+    }
+  }

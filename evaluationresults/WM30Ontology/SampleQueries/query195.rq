@@ -1,0 +1,14 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  WM30: <http://purl.oclc.org/NET/ssnx/meteo/WM30#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?Vaisala_WM30_0
+WHERE
+  { ?Vaisala_WM30_0
+              a                     WM30:Vaisala_WM30
+    { ?Vaisala_WM30_0
+                ssn:hasDeployment  ?Process_0
+      { ?Process_0  a                   DUL:Process }
+    }
+  }

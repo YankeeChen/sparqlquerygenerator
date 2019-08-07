@@ -1,0 +1,13 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  WM30: <http://purl.oclc.org/NET/ssnx/meteo/WM30#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?WM30_WindSpeed_0
+WHERE
+  { ?WM30_WindSpeed_0
+              a                     WM30:WM30_WindSpeed
+    { ?Quality_0  ssn:hasMeasurementCapability  ?WM30_WindSpeed_0
+      { ?Quality_0  a                   DUL:Quality }
+    }
+  }

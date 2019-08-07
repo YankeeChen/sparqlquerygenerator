@@ -1,0 +1,13 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+
+SELECT DISTINCT  ?Generator_0
+WHERE
+  { ?Generator_0  a                 ContextAwareness_eDIANA:Generator
+    { ?UserData_Read_iEi_Service_0
+                ContextAwareness_eDIANA:provided_services  ?Generator_0
+      { ?UserData_Read_iEi_Service_0
+                  a                     ContextAwareness_eDIANA:UserData_Read_iEi_Service
+      }
+    }
+  }

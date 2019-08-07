@@ -1,0 +1,10 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  saref: <https://w3id.org/saref#>
+
+SELECT DISTINCT  ?Switch_0
+WHERE
+  { ?Switch_0  a                    saref:Switch
+    { ?Task_0  saref:accomplishes  ?Switch_0
+      { ?Task_0  a                     saref:Task }
+    }
+  }

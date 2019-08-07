@@ -1,0 +1,18 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  saref: <https://w3id.org/saref#>
+
+SELECT DISTINCT  ?LightSwitch_0
+WHERE
+  { ?LightSwitch_0
+              a                     saref:LightSwitch
+    { ?Commodity_0  saref:isUsedFor  ?LightSwitch_0
+      { ?Commodity_0  a                 saref:Commodity
+        { ?IlluminanceUnit_0
+                    saref:isMeasuredIn  ?Commodity_0
+          { ?IlluminanceUnit_0
+                      a                     saref:IlluminanceUnit
+          }
+        }
+      }
+    }
+  }

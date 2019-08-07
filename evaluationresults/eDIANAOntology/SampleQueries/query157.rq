@@ -1,0 +1,8 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+
+SELECT DISTINCT  ?Physical_Sensor_0
+WHERE
+  { ?Physical_Sensor_0
+              a                     ContextAwareness_eDIANA:Physical_Sensor
+  }

@@ -1,0 +1,10 @@
+PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+
+SELECT DISTINCT  ?Sensor_0
+WHERE
+  { ?Sensor_0  a                    ssn:Sensor
+    { :Stimulus_instance33
+                ssn:detects  ?Sensor_0
+    }
+  }
