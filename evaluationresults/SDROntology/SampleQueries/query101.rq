@@ -1,11 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?BistaticRadar_0
+SELECT DISTINCT  ?USRPB200_0
 WHERE
-  {   { ?BistaticRadar_0
-                  a                     RFDevice:BistaticRadar
-      }
-    UNION
-      { ?Quantity_0  RFDevice:hasWeight  ?BistaticRadar_0 }
-  }
+  { ?USRPB200_0  a                  SDR:USRPB200 }

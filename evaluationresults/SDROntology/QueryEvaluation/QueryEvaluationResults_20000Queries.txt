@@ -130,7 +130,7 @@ true  http://ece.neu.edu/ontologies/RFDevice.owl#PhaseModulation
 true  http://ece.neu.edu/ontologies/RFDevice.owl#PhaseShiftKeyingModulation                               
 true  http://ece.neu.edu/ontologies/RFDevice.owl#PhasedArrayAntenna                                       
 true  http://ece.neu.edu/ontologies/RFDevice.owl#Platform                                                 
-false http://ece.neu.edu/ontologies/RFDevice.owl#Port                                                     
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Port                                                     
 true  http://ece.neu.edu/ontologies/RFDevice.owl#PositiveDecimalValue                                     
 true  http://ece.neu.edu/ontologies/RFDevice.owl#PositiveFloatValue                                       
 true  http://ece.neu.edu/ontologies/RFDevice.owl#PositiveIntegerValue                                     
@@ -242,13 +242,13 @@ true  http://ece.neu.edu/ontologies/SDR.owl#XilinxFPGA
 true  http://ece.neu.edu/ontologies/SDR.owl#XilinxZynq7000Family                                          
 true  http://ece.neu.edu/ontologies/SDR.owl#XilinxZynq7020SoC                                             
 true  http://ece.neu.edu/ontologies/SDR.owl#XilinxZynq7100SoC                                             
-false http://www.opengis.net/ont/geosparql#Feature                                                        
+true  http://www.opengis.net/ont/geosparql#Feature                                                        
 true  http://www.opengis.net/ont/geosparql#Geometry                                                       
-true  http://www.opengis.net/ont/geosparql#SpatialObject                                                  
+false http://www.opengis.net/ont/geosparql#SpatialObject                                                  
 true  http://www.opengis.net/ont/gml#AbstractCurveSegment                                                 
 true  http://www.opengis.net/ont/gml#AbstractGeometricPrimitive                                           
 true  http://www.opengis.net/ont/gml#AbstractGeometry                                                     
-false http://www.opengis.net/ont/gml#AbstractGriddedSurface                                               
+true  http://www.opengis.net/ont/gml#AbstractGriddedSurface                                               
 true  http://www.opengis.net/ont/gml#AbstractParametricCurveSurface                                       
 true  http://www.opengis.net/ont/gml#AbstractSurfacePatch                                                 
 true  http://www.opengis.net/ont/gml#Arc                                                                  
@@ -259,13 +259,13 @@ true  http://www.opengis.net/ont/gml#ArcStringByBulge
 true  http://www.opengis.net/ont/gml#BSpline                                                              
 true  http://www.opengis.net/ont/gml#Bezier                                                               
 true  http://www.opengis.net/ont/gml#Circle                                                               
-false http://www.opengis.net/ont/gml#CircleByCenterPoint                                                  
+true  http://www.opengis.net/ont/gml#CircleByCenterPoint                                                  
 true  http://www.opengis.net/ont/gml#Clothoid                                                             
 true  http://www.opengis.net/ont/gml#Composite                                                            
 true  http://www.opengis.net/ont/gml#CompositeCurve                                                       
 true  http://www.opengis.net/ont/gml#CompositeSolid                                                       
 true  http://www.opengis.net/ont/gml#CompositeSurface                                                     
-true  http://www.opengis.net/ont/gml#Cone                                                                 
+false http://www.opengis.net/ont/gml#Cone                                                                 
 true  http://www.opengis.net/ont/gml#CubicSpline                                                          
 true  http://www.opengis.net/ont/gml#Curve                                                                
 true  http://www.opengis.net/ont/gml#Cylinder                                                             
@@ -283,7 +283,7 @@ true  http://www.opengis.net/ont/gml#MultiSurface
 true  http://www.opengis.net/ont/gml#OffsetCurve                                                          
 true  http://www.opengis.net/ont/gml#OrientableCurve                                                      
 true  http://www.opengis.net/ont/gml#OrientableSurface                                                    
-false http://www.opengis.net/ont/gml#Point                                                                
+true  http://www.opengis.net/ont/gml#Point                                                                
 true  http://www.opengis.net/ont/gml#Polygon                                                              
 true  http://www.opengis.net/ont/gml#PolygonPatch                                                         
 true  http://www.opengis.net/ont/gml#PolyhedralSurface                                                    
@@ -388,7 +388,7 @@ false http://www.opengis.net/ont/geosparql#ehCoveredBy
 false http://www.opengis.net/ont/geosparql#ehCovers                                                       
 false http://www.opengis.net/ont/geosparql#ehDisjoint                                                     
 false http://www.opengis.net/ont/geosparql#ehEquals                                                       
-true  http://www.opengis.net/ont/geosparql#ehInside                                                       
+false http://www.opengis.net/ont/geosparql#ehInside                                                       
 false http://www.opengis.net/ont/geosparql#ehMeet                                                         
 false http://www.opengis.net/ont/geosparql#ehOverlap                                                      
 false http://www.opengis.net/ont/geosparql#hasGeometry                                                    
@@ -404,24 +404,24 @@ false http://www.opengis.net/ont/geosparql#sfContains
 false http://www.opengis.net/ont/geosparql#sfCrosses                                                      
 false http://www.opengis.net/ont/geosparql#sfDisjoint                                                     
 false http://www.opengis.net/ont/geosparql#sfEquals                                                       
-true  http://www.opengis.net/ont/geosparql#sfIntersects                                                   
+false http://www.opengis.net/ont/geosparql#sfIntersects                                                   
 false http://www.opengis.net/ont/geosparql#sfOverlaps                                                     
 false http://www.opengis.net/ont/geosparql#sfTouches                                                      
 false http://www.opengis.net/ont/geosparql#sfWithin                                                       
 false http://www.w3.org/2004/02/skos/core#broadMatch                                                      
-true  http://www.w3.org/2004/02/skos/core#broader                                                         
+false http://www.w3.org/2004/02/skos/core#broader                                                         
 false http://www.w3.org/2004/02/skos/core#broaderTransitive                                               
 false http://www.w3.org/2004/02/skos/core#closeMatch                                                      
-false http://www.w3.org/2004/02/skos/core#exactMatch                                                      
+true  http://www.w3.org/2004/02/skos/core#exactMatch                                                      
 true  http://www.w3.org/2004/02/skos/core#hasTopConcept                                                   
-true  http://www.w3.org/2004/02/skos/core#inScheme                                                        
-true  http://www.w3.org/2004/02/skos/core#mappingRelation                                                 
+false http://www.w3.org/2004/02/skos/core#inScheme                                                        
+false http://www.w3.org/2004/02/skos/core#mappingRelation                                                 
 true  http://www.w3.org/2004/02/skos/core#member                                                          
 true  http://www.w3.org/2004/02/skos/core#memberList                                                      
 false http://www.w3.org/2004/02/skos/core#narrowMatch                                                     
 false http://www.w3.org/2004/02/skos/core#narrower                                                        
 false http://www.w3.org/2004/02/skos/core#narrowerTransitive                                              
-false http://www.w3.org/2004/02/skos/core#related                                                         
+true  http://www.w3.org/2004/02/skos/core#related                                                         
 false http://www.w3.org/2004/02/skos/core#relatedMatch                                                    
 false http://www.w3.org/2004/02/skos/core#semanticRelation                                                
 true  http://www.w3.org/2004/02/skos/core#topConceptOf                                                    
@@ -440,71 +440,71 @@ false http://www.opengis.net/ont/geosparql#asGML
 false http://www.opengis.net/ont/geosparql#asWKT                                                          
 false http://www.opengis.net/ont/geosparql#coordinateDimension                                            
 false http://www.opengis.net/ont/geosparql#dimension                                                      
-true  http://www.opengis.net/ont/geosparql#hasSerialization                                               
+false http://www.opengis.net/ont/geosparql#hasSerialization                                               
 false http://www.opengis.net/ont/geosparql#isEmpty                                                        
-false http://www.opengis.net/ont/geosparql#isSimple                                                       
+true  http://www.opengis.net/ont/geosparql#isSimple                                                       
 false http://www.opengis.net/ont/geosparql#spatialDimension                                               
 
 
 Signature coverage of the queries is summarized below:
-Class coverage (CC) = 98.13%
+Class coverage (CC) = 99.07%
 Data property coverage (DPC) = 56.25%
-Object property coverage (OPC) = 67.65%
+Object property coverage (OPC) = 64.71%
 
 
 Keyword coverage of the queries is summarized below:
-FILTER coverage = 1.96%
-AND coverage = 38.71%
-UNION coverage = 7.00%
-OPTIONAL coverage = 6.83%
-MINUS coverage = 2.46%
-NOT EXISTS coverage = 2.63%
-EXISTS coverage = 2.34%
+FILTER coverage = 2.14%
+AND coverage = 40.85%
+UNION coverage = 2.69%
+OPTIONAL coverage = 7.22%
+MINUS coverage = 2.43%
+NOT EXISTS coverage = 2.58%
+EXISTS coverage = 2.33%
 
 
 Operator set distribution is summarized below:
-{} = 57.08%
-{And} = 29.63%
+{} = 56.96%
+{And} = 33.27%
 {Filter} = 0.00%
-{Filter, And} = 0.56%
-CPF subtotal = 87.27%
-{Union} = 2.19%
-{Opt} = 2.02%
+{Filter, And} = 0.85%
+CPF subtotal = 91.09%
+{Union} = 0.00%
+{Opt} = 2.19%
 {Filter, Union} = 0.00%
 {Filter, Opt} = 0.00%
-{And, Union} = 3.17%
-{And, Opt} = 3.21%
+{And, Union} = 1.31%
+{And, Opt} = 3.45%
 {Union, Opt} = 0.00%
-{Filter, And, Union} = 0.55%
+{Filter, And, Union} = 0.37%
 {Filter, Union, Opt} = 0.00%
-{Filter, And, Opt} = 0.49%
-{And, Union, Opt} = 0.73%
-{Filter, And, Union, Opt} = 0.37%
-Non-CPF subtotal = 12.73%
+{Filter, And, Opt} = 0.58%
+{And, Union, Opt} = 0.68%
+{Filter, And, Union, Opt} = 0.33%
+Non-CPF subtotal = 8.91%
 
 
 Triple pattern amount distribution is summarized below:
 {1~3} = 87.52%
-{4~6} = 7.61%
-{7~9} = 2.88%
-{10~12} = 1.38%
+{4~6} = 7.42%
+{7~9} = 3.12%
+{10~12} = 1.32%
 {13~16} = 0.48%
 {16+} = 0.13%
 
 
 Join amount distribution is summarized below:
-{0~4} = 88.65%
-{5~9} = 5.08%
-{10~14} = 1.79%
-{15~19} = 1.07%
-{20~24} = 0.80%
-{25+} = 2.60%
+{0~4} = 88.64%
+{5~9} = 5.04%
+{10~14} = 1.77%
+{15~19} = 1.13%
+{20~24} = 0.87%
+{25+} = 2.55%
 
 
 Join type distribution is summarized below:
-Subject-Subject (SS) = 33.68%
-Predicate-Predicate (PP) = 26.23%
-Object-Object (OO) = 3.13%
+Subject-Subject (SS) = 33.63%
+Predicate-Predicate (PP) = 26.02%
+Object-Object (OO) = 3.40%
 Subject-Predicate (SP) = 0.00%
 Subject-Object (SO) = 36.95%
 Predicate-Object (PO) = 0.00%

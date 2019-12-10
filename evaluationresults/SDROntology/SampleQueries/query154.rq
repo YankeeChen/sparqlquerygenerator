@@ -1,6 +1,22 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
 
-SELECT DISTINCT  ?USRPN3xx_0
+SELECT DISTINCT  ?USRPB200mini_i_0
 WHERE
-  { ?USRPN3xx_0  a                  SDR:USRPN3xx }
+  { ?USRPB200mini_i_0
+              a                     SDR:USRPB200mini-i
+    MINUS
+      { ?Var0  RFDevice:supportsSpectrumSensing  ?USRPB200mini_i_0
+        { ?RadarFrequencyBand_0
+                    RFDevice:hasBandwidthRange  ?Var0
+          { ?RadarFrequencyBand_0
+                      a                     RFDevice:RadarFrequencyBand
+            OPTIONAL
+              { ?Frequency_0  RFDevice:hasMax  ?RadarFrequencyBand_0
+                { ?Frequency_0  a                 RFDevice:Frequency }
+              }
+          }
+        }
+      }
+  }

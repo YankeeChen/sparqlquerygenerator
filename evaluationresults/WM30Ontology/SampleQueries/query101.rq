@@ -1,6 +1,11 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  WM30: <http://purl.oclc.org/NET/ssnx/meteo/WM30#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?System_0
+SELECT DISTINCT  ?WMS302_0
 WHERE
-  { ?System_0  a                    ssn:System }
+  { ?WMS302_0  a                    WM30:WMS302
+    { ObjectDescription:WindSpeed_instance92
+                ssn:observes  ?WMS302_0
+    }
+  }

@@ -1,6 +1,26 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?Resource_0
+SELECT DISTINCT  ?RFID_tag_0
 WHERE
-  { ?Resource_0  a                  IoT-ontology:Resource }
+  { ?RFID_tag_0  a                  IoT-ontology:RFID_tag
+    { ?Property_0  ssn:hasProperty  ?RFID_tag_0
+      { ?Property_0  a                  ssn:Property
+        { ?FeatureOfInterest_0
+                    ssn:qualityOfObservation  ?Property_0
+          { ?FeatureOfInterest_0
+                      a                     ssn:FeatureOfInterest
+            {   { ?FeatureOfInterest_0
+                            a                     DUL:Object .
+                  ?Agent_0  IoT-ontology:hasOwner  ?FeatureOfInterest_0
+                }
+              UNION
+                { ?Agent_0  a                     DUL:Agent }
+            }
+          }
+        }
+      }
+    }
+  }

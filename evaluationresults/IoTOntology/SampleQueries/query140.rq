@@ -1,5 +1,5 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
@@ -7,10 +7,10 @@ SELECT DISTINCT  ?ElectricMechanicDevice_0
 WHERE
   { ?ElectricMechanicDevice_0
               a                     IoT-ontology:ElectricMechanicDevice
-    { ?System_0  DUL:hasPart  ?ElectricMechanicDevice_0
-      { ?System_0  a                    ssn:System
-        { ?Process_0  ssn:inDeployment  ?System_0
-          { ?Process_0  a                   DUL:Process }
+    { ?RFID_tag_0  DUL:hasPart  ?ElectricMechanicDevice_0
+      { ?RFID_tag_0  a                  IoT-ontology:RFID_tag
+        { ?Quality_0  ssn:hasProperty  ?RFID_tag_0
+          { ?Quality_0  a                   DUL:Quality }
         }
       }
     }

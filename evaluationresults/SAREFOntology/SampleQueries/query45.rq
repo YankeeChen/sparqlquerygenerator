@@ -1,12 +1,15 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?SmokeSensor_0
+SELECT DISTINCT  ?FunctionRelated_0
 WHERE
-  { ?SmokeSensor_0
-              a                     saref:SmokeSensor
-    NOT EXISTS
-      { :TemperatureSensor_instance33
-                  saref:consistsOf  ?SmokeSensor_0
+  { ?FunctionRelated_0
+              a                     saref:FunctionRelated
+    OPTIONAL
+      { ?Measurement_0
+                  saref:makesMeasurement  ?FunctionRelated_0
+        { ?Measurement_0
+                    a                     saref:Measurement
+        }
       }
   }

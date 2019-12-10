@@ -1,8 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?RegisterPlate_0
+SELECT DISTINCT  ?RFID_tag_0
 WHERE
-  { ?RegisterPlate_0
-              a                     IoT-ontology:RegisterPlate
-  }
+  { ?RFID_tag_0  a                  IoT-ontology:RFID_tag }

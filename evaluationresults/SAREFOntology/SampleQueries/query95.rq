@@ -1,6 +1,22 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
 
-SELECT DISTINCT  ?Appliance_0
+SELECT DISTINCT  ?EnergyRelated_0
 WHERE
-  { ?Appliance_0  a                 saref:Appliance }
+  { ?EnergyRelated_0
+              a                     saref:EnergyRelated
+    FILTER EXISTS { ?EnergyRelated_0
+                              saref:consistsOf  ?Actuator_0
+                    { ?Actuator_0  a                  saref:Actuator
+                      OPTIONAL
+                        { ?Measurement_0
+                                    saref:makesMeasurement  ?Actuator_0
+                          { ?Measurement_0
+                                      saref:hasValue  ?DataValue0
+                            FILTER ( ?DataValue0 <= "22.576942"^^xsd:double )
+                          }
+                        }
+                    }
+                  }
+  }

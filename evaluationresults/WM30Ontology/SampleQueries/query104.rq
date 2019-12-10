@@ -1,14 +1,28 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  WM30: <http://purl.oclc.org/NET/ssnx/meteo/WM30#>
+PREFIX  dim:  <http://purl.oclc.org/NET/ssnx/qu/dim#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  qu:   <http://purl.oclc.org/NET/ssnx/qu/qu#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?WMS301_0
+SELECT DISTINCT  ?Sensor_0
 WHERE
-  { ?WMS301_0  a                    WM30:WMS301
-    { ?WM30_WindSpeed_MeasurementCapability_WSgrt10ms_0
-                ssn:hasMeasurementCapability  ?WMS301_0
-      { ?WM30_WindSpeed_MeasurementCapability_WSgrt10ms_0
-                  a                     WM30:WM30_WindSpeed_MeasurementCapability_WSgrt10ms
+  { ?Sensor_0  a                    ssn:Sensor
+    { ?StressOrPressure_0
+                ssn:observes  ?Sensor_0
+      { ?StressOrPressure_0
+                  a                     dim:StressOrPressure
+        OPTIONAL
+          { ?SpecificVolumeUnit_0
+                      qu:quantityKind  ?StressOrPressure_0
+            { ?SpecificVolumeUnit_0
+                        a                     dim:SpecificVolumeUnit
+              { ?SpecificVolumeUnit_0
+                          qu:name  ?DataValue0
+                { ?SpecificVolumeUnit_0
+                            qu:description  ?DataValue1
+                }
+              }
+            }
+          }
       }
     }
   }

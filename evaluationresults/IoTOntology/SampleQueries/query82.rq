@@ -1,12 +1,9 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
-PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?EmbeddedDevice_0
+SELECT DISTINCT  ?Resource_0
 WHERE
-  { ?EmbeddedDevice_0
-              a                     IoT-ontology:EmbeddedDevice
-    { :SurvivalRange_instance162
-                ssn:hasSurvivalRange  ?EmbeddedDevice_0
-    }
+  { ?Resource_0  a                  IoT-ontology:Resource .
+    ObjectDescription:Service_instance0
+              IoT-ontology:resourceUsedIn  ?Resource_0
   }

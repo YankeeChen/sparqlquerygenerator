@@ -1,11 +1,16 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?MCC_0
+SELECT DISTINCT  ?Appliance_0
 WHERE
-  {   { ?MCC_0  a                     ContextAwareness_eDIANA:MCC }
-    UNION
-      { ?Var0  ContextAwareness_eDIANA:provided_services  ?MCC_0
-        { ?Var0  a                     ContextAwareness_eDIANA:PwGRIDi_Service }
+  { ?Appliance_0  a                 ContextAwareness_eDIANA:Appliance .
+    ?Smart_Actuator_Command_Information_0
+              ContextAwareness_eDIANA:related_comfort_properties  ?Appliance_0
+    OPTIONAL
+      { ?Internal_Service_0
+                  ContextAwareness_eDIANA:provided_services  ?Appliance_0
+        { ?Internal_Service_0
+                    a                     ContextAwareness_eDIANA:Internal_Service
+        }
       }
   }

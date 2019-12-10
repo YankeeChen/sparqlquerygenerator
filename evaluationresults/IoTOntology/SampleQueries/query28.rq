@@ -1,8 +1,15 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?Identifier_0
+SELECT DISTINCT  ?ActuatingDevice_0
 WHERE
-  { ?Identifier_0
-              a                     IoT-ontology:Identifier
+  { ?ActuatingDevice_0
+              a                     IoT-ontology:ActuatingDevice
+    { ?ElectricHomeAppliance_0
+                ssn:deploymentProcessPart  ?ActuatingDevice_0
+      { ?PhysicalObject_0
+                  ssn:attachedSystem  ?ElectricHomeAppliance_0
+      }
+    }
   }

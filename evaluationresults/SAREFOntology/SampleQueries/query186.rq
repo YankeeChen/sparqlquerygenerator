@@ -1,11 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?EnergyRelated_0
+SELECT DISTINCT  ?EnergyMeter_0
 WHERE
-  { ?EnergyRelated_0
-              a                     saref:EnergyRelated
-    { ?Var0  saref:hasTypicalConsumption  ?EnergyRelated_0
-      { ?Var0  a                     saref:Power }
-    }
+  { ?EnergyMeter_0
+              a                     saref:EnergyMeter
   }

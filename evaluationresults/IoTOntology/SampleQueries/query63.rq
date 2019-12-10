@@ -1,6 +1,11 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
 
-SELECT DISTINCT  ?Device_0
+SELECT DISTINCT  ?RFID_tag_0
 WHERE
-  { ?Device_0  a                    ssn:Device }
+  { ?RFID_tag_0  a                  IoT-ontology:RFID_tag
+    { ObjectDescription:Platform_instance54
+                DUL:isLocationOf  ?RFID_tag_0
+    }
+  }

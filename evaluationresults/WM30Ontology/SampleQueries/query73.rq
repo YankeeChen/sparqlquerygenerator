@@ -1,6 +1,12 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  WM30: <http://purl.oclc.org/NET/ssnx/meteo/WM30#>
 
-SELECT DISTINCT  ?Platform_0
+SELECT DISTINCT  ?Vaisala_WM30_0
 WHERE
-  { ?Platform_0  a                  ssn:Platform }
+  { ?Vaisala_WM30_0
+              a                     WM30:Vaisala_WM30
+    { ObjectDescription:WMS302_instance256
+                DUL:hasPart  ?Vaisala_WM30_0
+    }
+  }

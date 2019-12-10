@@ -1,10 +1,12 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
-PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?Resource_0
+SELECT DISTINCT  ?SmartPhone_0
 WHERE
-  { ?Resource_0  a                  IoT-ontology:Resource .
-    :Service_instance1
-              ssn:observedBy        ?Resource_0
+  { ?SmartPhone_0
+              a                     IoT-ontology:SmartPhone
+    { ObjectDescription:ComputingDevice_instance85
+                DUL:hasPart  ?SmartPhone_0
+    }
   }

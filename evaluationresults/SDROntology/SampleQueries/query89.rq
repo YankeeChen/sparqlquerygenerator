@@ -1,6 +1,12 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
 
-SELECT DISTINCT  ?USRPN2xx_0
+SELECT DISTINCT  ?JammingSystem_0
 WHERE
-  { ?USRPN2xx_0  a                  SDR:USRPN2xx }
+  { ?JammingSystem_0
+              a                     RFDevice:JammingSystem
+    { ?Quantity_0  RFDevice:hasGain  ?JammingSystem_0
+      { ?Quantity_0  a                  Nuvio:Quantity }
+    }
+  }

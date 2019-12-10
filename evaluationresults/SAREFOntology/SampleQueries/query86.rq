@@ -1,13 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?SmokeSensor_0
+SELECT DISTINCT  ?Generator_0
 WHERE
-  {   { ?SmokeSensor_0
-                  a                     saref:SmokeSensor
-      }
-    UNION
-      { :Occupancy_instance74
-                  saref:controlsProperty  ?SmokeSensor_0
-      }
-  }
+  { ?Generator_0  a                 saref:Generator }

@@ -1,12 +1,9 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
 
-SELECT DISTINCT  ?USRPX300_0
+SELECT DISTINCT  ?USRPE312_0
 WHERE
-  { ?USRPX300_0  a                  SDR:USRPX300
-    NOT EXISTS
-      { ?USRPX300_0  RFDevice:isProducerOf  ?Entity_0
-        { ?Entity_0  a                    RFDevice:LongitudeValue }
-      }
+  { ?USRPE312_0  a                  SDR:USRPE312
+    { ?Var0  RFDevice:hasMaxPowerConsumption  ?USRPE312_0 }
   }

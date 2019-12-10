@@ -1,13 +1,15 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  WM30: <http://purl.oclc.org/NET/ssnx/meteo/WM30#>
+PREFIX  qu:   <http://purl.oclc.org/NET/ssnx/qu/qu#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?WM30_WindSpeed_0
+SELECT DISTINCT  ?WMS301_0
 WHERE
-  { ?WM30_WindSpeed_0
-              a                     WM30:WM30_WindSpeed
-    MINUS
-      { :Sensing_instance150
-                  ssn:implementedBy  ?WM30_WindSpeed_0
+  { ?WMS301_0  a                    WM30:WMS301
+    { ?QuantityKind_0
+                ssn:observes  ?WMS301_0
+      { ?QuantityKind_0
+                  qu:symbol  ?DataValue0
       }
+    }
   }

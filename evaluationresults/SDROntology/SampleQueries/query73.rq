@@ -1,8 +1,25 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
 
-SELECT DISTINCT  ?MonostaticRadar_0
+SELECT DISTINCT  ?Full_DuplexCommunicationsSystem_0
 WHERE
-  { ?MonostaticRadar_0
-              a                     RFDevice:MonostaticRadar
+  { ?Full_DuplexCommunicationsSystem_0
+              a                     RFDevice:Full-DuplexCommunicationsSystem
+    FILTER NOT EXISTS { ?Full_DuplexCommunicationsSystem_0
+                                  RFDevice:isProducerOf  ?Entity_0
+                        {   { ?Entity_0  a                    Nuvio:Entity }
+                          UNION
+                            { ObjectDescription:ParabolicDishAntenna_instance17
+                                        Nuvio:aggregateOf  ?Entity_0
+                              OPTIONAL
+                                { ?Entity_0  a                    RFDevice:PositiveFloatValue
+                                  FILTER NOT EXISTS { ?Entity_0  Nuvio:hasPrecision  ?DataValue0
+                                                      FILTER ( ?DataValue0 <= 1760073219 )
+                                                    }
+                                }
+                            }
+                        }
+                      }
   }

@@ -1,8 +1,20 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?TemperatureSensor_0
+SELECT DISTINCT  ?EnergyMeter_0
 WHERE
-  { ?TemperatureSensor_0
-              a                     saref:TemperatureSensor
+  { ?EnergyMeter_0
+              a                     saref:EnergyMeter
+    { ?Device_0  saref:consistsOf  ?EnergyMeter_0
+      { ?MeteringFunction_0
+                  saref:hasFunction  ?Device_0
+        { ?MeteringFunction_0
+                    a                     saref:MeteringFunction
+          { ?MeteringFunction_0
+                      saref:hasMeterReadingType  ?Var0
+            { ?Var0  a                     saref:Property }
+          }
+        }
+      }
+    }
   }

@@ -1,8 +1,19 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?CommunicationBandwidth_0
+SELECT DISTINCT  ?ElectricMechanicDevice_0
 WHERE
-  { ?CommunicationBandwidth_0
-              a                     IoT-ontology:CommunicationBandwidth
+  { ?ElectricMechanicDevice_0
+              a                     IoT-ontology:ElectricMechanicDevice
+    { ?EmbeddedDevice_0
+                ssn:deploymentProcessPart  ?ElectricMechanicDevice_0
+      { ?EmbeddedDevice_0
+                  a                     IoT-ontology:EmbeddedDevice
+        FILTER NOT EXISTS { ?Device_0  DUL:hasPart  ?EmbeddedDevice_0
+                            { ?Device_0  a                    ssn:Device }
+                          }
+      }
+    }
   }

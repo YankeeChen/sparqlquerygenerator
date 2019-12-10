@@ -1,22 +1,14 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  WM30: <http://purl.oclc.org/NET/ssnx/meteo/WM30#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?WM30_WindDirection_0
+SELECT DISTINCT  ?WMS301_0
 WHERE
-  { ?WM30_WindDirection_0
-              a                     WM30:WM30_WindDirection
-    { ?WM30_WindSpeed_MeasurementCapability_WSgrt10ms_0
-                ssn:hasMeasurementCapability  ?WM30_WindDirection_0
-      { ?WM30_WindSpeed_MeasurementCapability_WSgrt10ms_0
-                  a                     WM30:WM30_WindSpeed_MeasurementCapability_WSgrt10ms
-        NOT EXISTS
-          { ?Var0  ssn:hasMeasurementProperty  ?WM30_WindSpeed_MeasurementCapability_WSgrt10ms_0
-            { ?Var1  ssn:observationResultTime  ?Var0
-              { ?Var2  DUL:isParametrizedBy  ?Var1 }
-            }
-          }
-      }
-    }
+  { ?WMS301_0  a                    WM30:WMS301
+    FILTER NOT EXISTS { ?MeasurementCapability_0
+                                  ssn:hasMeasurementCapability  ?WMS301_0
+                        { ?MeasurementCapability_0
+                                    a                     ssn:MeasurementCapability
+                        }
+                      }
   }

@@ -1,13 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?SensingDevice_0
+SELECT DISTINCT  ?Device_0
 WHERE
-  {   { ?SensingDevice_0
-                  a                     ssn:SensingDevice
-      }
-    UNION
-      { ?Vaisala_WM30_0
-                  ssn:hasSubSystem  ?SensingDevice_0
-      }
-  }
+  { ?Device_0  a                    ssn:Device }

@@ -1,9 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Device_0
+SELECT DISTINCT  ?MicroRenewable_0
 WHERE
-  {   { ?Device_0  a                    saref:Device }
-    UNION
-      { ?Device_0  saref:hasManufacturer  ?DataValue0 }
+  { ?MicroRenewable_0
+              a                     saref:MicroRenewable
   }

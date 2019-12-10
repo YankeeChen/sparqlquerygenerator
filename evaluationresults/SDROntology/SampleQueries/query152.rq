@@ -1,6 +1,11 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?USRPE310_0
+SELECT DISTINCT  ?PulseDopplerRadar_0
 WHERE
-  { ?USRPE310_0  a                  SDR:USRPE310 }
+  { ?PulseDopplerRadar_0
+              a                     RFDevice:PulseDopplerRadar
+    { ?Entity_0  RFDevice:isProducerOf  ?PulseDopplerRadar_0
+      { ?Entity_0  a                    RFDevice:DataSize }
+    }
+  }

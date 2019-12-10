@@ -1,12 +1,10 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?TemperatureSensor_0
+SELECT DISTINCT  ?Switch_0
 WHERE
-  { ?TemperatureSensor_0
-              a                     saref:TemperatureSensor
-    EXISTS
-      { ?Sensor_0  saref:consistsOf  ?TemperatureSensor_0
-        { ?Sensor_0  a                    saref:Sensor }
-      }
+  { ?Switch_0  a                    saref:Switch
+    { ?Switch_0  saref:hasProfile  ?Profile_0
+      { ?Profile_0  a                   saref:Profile }
+    }
   }

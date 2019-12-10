@@ -1,18 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
-PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
-PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?GNURadio_0
+SELECT DISTINCT  ?USRPX310_0
 WHERE
-  { ?GNURadio_0  a                  SDR:GNURadio
-    { ?Entity_0  RFDevice:isProducerOf  ?GNURadio_0
-      { ?Entity_0  a                    Nuvio:Entity
-        { ?Entity_0  a                    RFDevice:Full-DuplexCommunicationsSystem
-          { ?Entity_0  a                    Nuvio:InformationEntity .
-            ?Var0     Nuvio:informationSource  ?Entity_0
-          }
-        }
-      }
-    }
-  }
+  { ?USRPX310_0  a                  SDR:USRPX310 }

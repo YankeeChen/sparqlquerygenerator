@@ -1,11 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Light_Sensor_0
+SELECT DISTINCT  ?Device_0
 WHERE
-  { ?Light_Sensor_0
-              a                     ContextAwareness_eDIANA:Light_Sensor
-    { ContextAwareness_eDIANA:Luminosity_Information
-                ContextAwareness_eDIANA:related_comfort_properties  ?Light_Sensor_0
-    }
+  { ?Device_0  a                    ContextAwareness_eDIANA:Device ;
+              ContextAwareness_eDIANA:location  ?DataValue0
   }

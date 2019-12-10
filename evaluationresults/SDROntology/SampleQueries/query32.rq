@@ -1,6 +1,16 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
 
-SELECT DISTINCT  ?USRPB210_0
+SELECT DISTINCT  ?RadarWarningReceiver_0
 WHERE
-  { ?USRPB210_0  a                  SDR:USRPB210 }
+  { ?RadarWarningReceiver_0
+              a                     RFDevice:RadarWarningReceiver
+    { ?RadarWarningReceiver_0
+                RFDevice:supportsSpectrumSensing  ?Var0
+      { ?Var0     a                     Nuvio:Process .
+        ?AntennaPolarization_0
+                  Nuvio:hasProcessQuality  ?Var0
+      }
+    }
+  }

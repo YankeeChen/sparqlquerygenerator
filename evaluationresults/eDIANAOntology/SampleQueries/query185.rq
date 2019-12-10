@@ -1,8 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Sound_Sensor_0
+SELECT DISTINCT  ?Sun_Radiation_Sensor_0
 WHERE
-  { ?Sound_Sensor_0
-              a                     ContextAwareness_eDIANA:Sound_Sensor
+  { ?Sun_Radiation_Sensor_0
+              a                     ContextAwareness_eDIANA:Sun_Radiation_Sensor
   }

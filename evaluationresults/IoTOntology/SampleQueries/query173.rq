@@ -1,8 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?MemorySpace_0
+SELECT DISTINCT  ?Processor_0
 WHERE
-  { ?MemorySpace_0
-              a                     IoT-ontology:MemorySpace
-  }
+  { ?Processor_0  a                 IoT-ontology:Processor }

@@ -1,10 +1,11 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
-PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?USRPB205mini_i_0
+SELECT DISTINCT  ?SearchRadar_0
 WHERE
-  { ?USRPB205mini_i_0
-              a                     SDR:USRPB205mini-i
-    { ?Var0  Nuvio:partOf  ?USRPB205mini_i_0 }
+  { ?SearchRadar_0
+              a                     RFDevice:SearchRadar
+    { ObjectDescription:MannedPlatform_instance41
+                RFDevice:isDeployedOn  ?SearchRadar_0
+    }
   }

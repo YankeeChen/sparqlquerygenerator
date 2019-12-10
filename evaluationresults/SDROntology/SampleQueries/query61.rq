@@ -1,6 +1,11 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
 
-SELECT DISTINCT  ?USRPB200_0
+SELECT DISTINCT  ?USRPX300_0
 WHERE
-  { ?USRPB200_0  a                  SDR:USRPB200 }
+  { ?USRPX300_0  a                  SDR:USRPX300
+    { ?InstantaneousFrequencyMeasurementReceiver_0
+                Nuvio:partOf  ?USRPX300_0
+    }
+  }

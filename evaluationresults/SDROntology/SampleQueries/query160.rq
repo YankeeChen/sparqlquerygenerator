@@ -1,11 +1,22 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  sf:   <http://www.opengis.net/ont/sf#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
+PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
 
-SELECT DISTINCT  ?SearchRadar_0
+SELECT DISTINCT  ?USRPB210_0
 WHERE
-  { ?SearchRadar_0
-              a                     RFDevice:SearchRadar
-    { ?Producer_0  RFDevice:hasProducer  ?SearchRadar_0
-      { ?Producer_0  a                  RFDevice:Producer }
+  { ?USRPB210_0  a                  SDR:USRPB210
+    { ?Entity_0  Nuvio:aggregateOf  ?USRPB210_0
+      {   { ?Entity_0  a                    sf:MultiLineString }
+        UNION
+          { ?Entity_0  RFDevice:hasFloatValue  ?DataValue0
+            FILTER ( ?DataValue0 > 41.15 )
+            { ?Entity_0  a                    Nuvio:InformationContent .
+              ?Entity_1  Nuvio:representedBy  ?Entity_0
+            }
+          }
+      }
     }
   }

@@ -1,20 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
 PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
-PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Platform_0
+SELECT DISTINCT  ?BarCode_0
 WHERE
-  { ?Platform_0  a                  ssn:Platform
-    { ?SmartPhone_0
-                DUL:isLocationOf  ?Platform_0
-      { ?SmartPhone_0
-                  a                     IoT-ontology:SmartPhone
-        { ?System_0  DUL:hasComponent  ?SmartPhone_0
-          { ?System_0  a                    ssn:System
-            { ?System_0  ssn:qualityOfObservation  ?Quality_0 }
-          }
-        }
-      }
-    }
-  }
+  { ?BarCode_0  a                   IoT-ontology:BarCode }

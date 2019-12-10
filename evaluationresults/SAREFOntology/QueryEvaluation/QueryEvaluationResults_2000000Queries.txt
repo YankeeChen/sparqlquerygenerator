@@ -1,7 +1,7 @@
 112 out of 114 OWL classes are selected:
 true  http://www.w3.org/2006/time#DateTimeDescription                                                     
 true  http://www.w3.org/2006/time#DateTimeInterval                                                        
-true  http://www.w3.org/2006/time#DayOfWeek                                                               
+false http://www.w3.org/2006/time#DayOfWeek                                                               
 true  http://www.w3.org/2006/time#Duration                                                                
 true  http://www.w3.org/2006/time#DurationDescription                                                     
 true  http://www.w3.org/2006/time#GeneralDateTimeDescription                                              
@@ -185,7 +185,7 @@ true  http://www.w3.org/2006/time#dayOfYear
 true  http://www.w3.org/2006/time#days                                                                    
 true  http://www.w3.org/2006/time#hasXSDDuration                                                          
 true  http://www.w3.org/2006/time#hour                                                                    
-false http://www.w3.org/2006/time#hours                                                                   
+true  http://www.w3.org/2006/time#hours                                                                   
 true  http://www.w3.org/2006/time#inXSDDate                                                               
 true  http://www.w3.org/2006/time#inXSDDateTime                                                           
 true  http://www.w3.org/2006/time#inXSDDateTimeStamp                                                      
@@ -199,9 +199,9 @@ true  http://www.w3.org/2006/time#nominalPosition
 true  http://www.w3.org/2006/time#numericDuration                                                         
 true  http://www.w3.org/2006/time#numericPosition                                                         
 true  http://www.w3.org/2006/time#second                                                                  
-false http://www.w3.org/2006/time#seconds                                                                 
+true  http://www.w3.org/2006/time#seconds                                                                 
 true  http://www.w3.org/2006/time#week                                                                    
-true  http://www.w3.org/2006/time#weeks                                                                   
+false http://www.w3.org/2006/time#weeks                                                                   
 true  http://www.w3.org/2006/time#xsdDateTime                                                             
 true  http://www.w3.org/2006/time#year                                                                    
 true  http://www.w3.org/2006/time#years                                                                   
@@ -213,64 +213,64 @@ true  https://w3id.org/saref#hasValue
 
 
 Signature coverage of the queries is summarized below:
-Class coverage (CC) = 100.00%
-Data property coverage (DPC) = 93.33%
+Class coverage (CC) = 99.11%
+Data property coverage (DPC) = 96.67%
 Object property coverage (OPC) = 100.00%
 
 
 Keyword coverage of the queries is summarized below:
 FILTER coverage = 0.27%
-AND coverage = 37.82%
-UNION coverage = 5.37%
-OPTIONAL coverage = 5.36%
-MINUS coverage = 1.81%
-NOT EXISTS coverage = 1.83%
-EXISTS coverage = 1.82%
+AND coverage = 40.27%
+UNION coverage = 0.98%
+OPTIONAL coverage = 5.38%
+MINUS coverage = 1.82%
+NOT EXISTS coverage = 1.84%
+EXISTS coverage = 1.81%
 
 
 Operator set distribution is summarized below:
-{} = 57.43%
-{And} = 31.89%
+{} = 57.35%
+{And} = 36.22%
 {Filter} = 0.00%
-{Filter, And} = 0.18%
-CPF subtotal = 89.50%
-{Union} = 2.38%
-{Opt} = 2.37%
+{Filter, And} = 0.20%
+CPF subtotal = 93.77%
+{Union} = 0.00%
+{Opt} = 2.38%
 {Filter, Union} = 0.00%
 {Filter, Opt} = 0.00%
-{And, Union} = 2.71%
-{And, Opt} = 2.72%
+{And, Union} = 0.82%
+{And, Opt} = 2.82%
 {Union, Opt} = 0.00%
-{Filter, And, Union} = 0.04%
+{Filter, And, Union} = 0.02%
 {Filter, Union, Opt} = 0.00%
-{Filter, And, Opt} = 0.04%
-{And, Union, Opt} = 0.22%
-{Filter, And, Union, Opt} = 0.01%
-Non-CPF subtotal = 10.50%
+{Filter, And, Opt} = 0.05%
+{And, Union, Opt} = 0.14%
+{Filter, And, Union, Opt} = 0.00%
+Non-CPF subtotal = 6.23%
 
 
 Triple pattern amount distribution is summarized below:
-{1~3} = 90.58%
-{4~6} = 8.44%
-{7~9} = 0.89%
-{10~12} = 0.09%
+{1~3} = 90.52%
+{4~6} = 8.49%
+{7~9} = 0.90%
+{10~12} = 0.08%
 {13~16} = 0.01%
 {16+} = 0.00%
 
 
 Join amount distribution is summarized below:
-{0~4} = 92.03%
-{5~9} = 6.31%
-{10~14} = 1.22%
+{0~4} = 92.00%
+{5~9} = 6.34%
+{10~14} = 1.23%
 {15~19} = 0.28%
 {20~24} = 0.11%
-{25+} = 0.05%
+{25+} = 0.04%
 
 
 Join type distribution is summarized below:
-Subject-Subject (SS) = 33.47%
+Subject-Subject (SS) = 33.45%
 Predicate-Predicate (PP) = 24.39%
-Object-Object (OO) = 1.78%
+Object-Object (OO) = 1.76%
 Subject-Predicate (SP) = 0.00%
-Subject-Object (SO) = 40.36%
+Subject-Object (SO) = 40.40%
 Predicate-Object (PO) = 0.00%

@@ -1,6 +1,18 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Actuator_0
+SELECT DISTINCT  ?LightingDevice_0
 WHERE
-  { ?Actuator_0  a                  saref:Actuator }
+  { ?LightingDevice_0
+              a                     saref:LightingDevice
+    FILTER NOT EXISTS { ?Var0  saref:hasTypicalConsumption  ?LightingDevice_0
+                        { ?Var0  a                     saref:Property
+                          { ?DoorSwitch_0
+                                      saref:isControlledByDevice  ?Var0
+                            { ?DoorSwitch_0
+                                        a                     saref:DoorSwitch
+                            }
+                          }
+                        }
+                      }
+  }

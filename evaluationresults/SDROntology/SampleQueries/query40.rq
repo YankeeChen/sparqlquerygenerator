@@ -1,6 +1,17 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
 
-SELECT DISTINCT  ?USRPE312_0
+SELECT DISTINCT  ?TrackingRadar_0
 WHERE
-  { ?USRPE312_0  a                  SDR:USRPE312 }
+  { ?TrackingRadar_0
+              a                     RFDevice:TrackingRadar
+    { ?Entity_0  RFDevice:isDeployedOn  ?TrackingRadar_0
+      { ?Entity_0  a                    RFDevice:LatitudeValue
+        FILTER NOT EXISTS { ?NoiseFigure_0
+                                      RFDevice:hasLevel  ?Entity_0
+                          }
+        { ?Entity_0  a                    Nuvio:InformationRepresentation }
+      }
+    }
+  }

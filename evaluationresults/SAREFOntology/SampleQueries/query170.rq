@@ -1,8 +1,10 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?WashingMachine_0
+SELECT DISTINCT  ?Network_0
 WHERE
-  { ?WashingMachine_0
-              a                     saref:WashingMachine
+  { ?Network_0  a                   saref:Network
+    { ObjectDescription:Instance1539
+                saref:controlsProperty  ?Network_0
+    }
   }

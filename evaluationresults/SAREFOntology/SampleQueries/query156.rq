@@ -1,35 +1,10 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Generator_0
+SELECT DISTINCT  ?Load_0
 WHERE
-  { ?Generator_0  a                 saref:Generator
-    { ?OnOffFunction_0
-                saref:hasFunction  ?Generator_0
-      {   { ?OnOffFunction_0
-                      a                     saref:OnOffFunction
-          }
-        UNION
-          { ?GetCommand_0
-                      saref:isCommandOf  ?OnOffFunction_0
-            { ?SensingFunction_0
-                        saref:isCommandOf  ?GetCommand_0
-              {   { ?SensingFunction_0
-                              a                     saref:SensingFunction
-                  }
-                UNION
-                  { ?Measurement_0
-                              saref:hasSensingRange  ?SensingFunction_0
-                    { ?Measurement_0
-                                a                     saref:Measurement
-                      { ?EnergyUnit_0
-                                  saref:isMeasuredIn  ?Measurement_0
-                      }
-                    }
-                  }
-              }
-            }
-          }
-      }
+  { ?Load_0  a                     saref:Load
+    { ?HVAC_0  saref:consistsOf  ?Load_0
+      { ?HVAC_0  saref:hasManufacturer  ?DataValue0 }
     }
   }

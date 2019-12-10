@@ -1,13 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
-PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?CommunicationsSystem_0
+SELECT DISTINCT  ?Full_DuplexCommunicationsSystem_0
 WHERE
-  { ?CommunicationsSystem_0
-              a                     RFDevice:CommunicationsSystem
-    { ?CommunicationsSystem_0
-                Nuvio:compositeOf  ?Component_0
-      { ?Component_0  a                 RFDevice:Component }
-    }
+  { ?Full_DuplexCommunicationsSystem_0
+              a                     RFDevice:Full-DuplexCommunicationsSystem
   }

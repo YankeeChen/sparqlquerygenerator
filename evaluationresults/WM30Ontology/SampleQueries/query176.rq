@@ -1,10 +1,29 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  dim:  <http://purl.oclc.org/NET/ssnx/qu/dim#>
+PREFIX  quantity: <http://purl.oclc.org/NET/ssnx/qu/quantity#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  qu:   <http://purl.oclc.org/NET/ssnx/qu/qu#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?SensingDevice_0
+SELECT DISTINCT  ?Sensor_0
 WHERE
-  { ?SensingDevice_0
-              a                     ssn:SensingDevice
-    MINUS
-      { ?Platform_0  ssn:onPlatform  ?SensingDevice_0 }
+  { ?Sensor_0  a                    ssn:Sensor
+    OPTIONAL
+      { ?DifferentialCrossSection_0
+                  ssn:observes  ?Sensor_0
+        { ?DifferentialCrossSection_0
+                    qu:quantityKind  ?HeatCapacityUnit_0
+          { ?HeatCapacityUnit_0
+                      a                     dim:HeatCapacityUnit
+            { quantity:weight
+                        qu:quantityKind  ?HeatCapacityUnit_0
+              { ?HeatCapacityUnit_0
+                          qu:symbol  ?DataValue0
+                { ?HeatCapacityUnit_0
+                            qu:definitionURI  ?DataValue1
+                }
+              }
+            }
+          }
+        }
+      }
   }

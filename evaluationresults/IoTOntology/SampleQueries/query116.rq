@@ -1,13 +1,9 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?PersonalComputer_0
+SELECT DISTINCT  ?Platform_0
 WHERE
-  { ?PersonalComputer_0
-              a                     IoT-ontology:PersonalComputer
+  { ?Platform_0  a                  ssn:Platform
     OPTIONAL
-      { ?DeploymentRelatedProcess_0
-                  ssn:inDeployment  ?PersonalComputer_0
-      }
+      { ?RFID_tag_0  ssn:attachedSystem  ?Platform_0 }
   }

@@ -1,16 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?IdentityDevice_0
+SELECT DISTINCT  ?SensingDevice_0
 WHERE
-  { ?IdentityDevice_0
-              a                     IoT-ontology:IdentityDevice
-    { ?RFID_tag_0  ssn:deploymentProcessPart  ?IdentityDevice_0
-      { ?RFID_tag_0  ssn:hasMeasurementProperty  ?Property_0
-        { :FeatureOfInterest_instance0
-                    ssn:isPropertyOf  ?Property_0
-        }
-      }
-    }
+  { ?SensingDevice_0
+              a                     ssn:SensingDevice
   }

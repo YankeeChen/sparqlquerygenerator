@@ -1,8 +1,13 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?ActuatingDevice_0
+SELECT DISTINCT  ?PersonalComputer_0
 WHERE
-  { ?ActuatingDevice_0
-              a                     IoT-ontology:ActuatingDevice
+  { ?PersonalComputer_0
+              a                     IoT-ontology:PersonalComputer
+    { ?Platform_0  DUL:hasLocation  ?PersonalComputer_0
+      { ?Platform_0  a                  ssn:Platform }
+    }
   }

@@ -1,17 +1,10 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
 SELECT DISTINCT  ?Appliance_0
 WHERE
-  {   { ?Appliance_0  a                 saref:Appliance }
-    UNION
-      { ?TemperatureSensor_0
-                  saref:consistsOf  ?Appliance_0
-        { ?TemperatureSensor_0
-                    saref:hasTypicalConsumption  ?Var0
-          { ?Meter_0  saref:isMeasuredByDevice  ?Var0
-            { ?Meter_0  a                     saref:Meter }
-          }
-        }
-      }
+  { ?Appliance_0  a                 saref:Appliance
+    { ObjectDescription:ActuatingFunction_instance17
+                saref:hasFunction  ?Appliance_0
+    }
   }

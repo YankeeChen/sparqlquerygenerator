@@ -1,12 +1,12 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
 PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
 
-SELECT DISTINCT  ?GNURadio_0
+SELECT DISTINCT  ?RadarSystem_0
 WHERE
-  { ?GNURadio_0  a                  SDR:GNURadio
-    { ?Receiver_0  Nuvio:partOf  ?GNURadio_0
-      { ?Receiver_0  a                  RFDevice:Receiver }
+  { ?RadarSystem_0
+              a                     RFDevice:RadarSystem
+    { ?RadarSystem_0
+                Nuvio:aggregateOf  ?Receiver_0
     }
   }

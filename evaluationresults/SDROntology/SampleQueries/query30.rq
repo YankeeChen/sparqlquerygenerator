@@ -1,8 +1,13 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
 
-SELECT DISTINCT  ?USRPB200mini_0
+SELECT DISTINCT  ?BistaticRadar_0
 WHERE
-  { ?USRPB200mini_0
-              a                     SDR:USRPB200mini
+  { ?BistaticRadar_0
+              a                     RFDevice:BistaticRadar
+    OPTIONAL
+      { ?Attribute_0  RFDevice:hasHeight  ?BistaticRadar_0
+        { ?Attribute_0  a                 Nuvio:Attribute }
+      }
   }

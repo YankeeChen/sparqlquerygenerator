@@ -1,17 +1,17 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Actuator_0
+SELECT DISTINCT  ?WashingMachine_0
 WHERE
-  { ?Actuator_0  a                  saref:Actuator
-    { ?Actuator_0  saref:isOfferedBy  ?Service_0
-      { ?Service_0  a                   saref:Service
-        { ?EventFunction_0
-                    saref:represents  ?Service_0
-          { ?EventFunction_0
-                      a                     saref:EventFunction
-          }
-        }
+  { ?WashingMachine_0
+              a                     saref:WashingMachine
+    { ?Measurement_0
+                saref:makesMeasurement  ?WashingMachine_0
+      { ?Measurement_0
+                  a                     saref:Measurement
+        FILTER EXISTS { ?Measurement_0
+                                  saref:hasTimestamp  ?DataValue0
+                      }
       }
     }
   }

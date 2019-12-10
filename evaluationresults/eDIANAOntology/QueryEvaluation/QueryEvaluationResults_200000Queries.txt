@@ -102,58 +102,58 @@ Object property coverage (OPC) = 100.00%
 
 
 Keyword coverage of the queries is summarized below:
-FILTER coverage = 8.78%
-AND coverage = 50.48%
-UNION coverage = 6.55%
-OPTIONAL coverage = 6.62%
-MINUS coverage = 2.23%
-NOT EXISTS coverage = 2.23%
+FILTER coverage = 8.80%
+AND coverage = 51.48%
+UNION coverage = 2.17%
+OPTIONAL coverage = 6.60%
+MINUS coverage = 2.24%
+NOT EXISTS coverage = 2.24%
 EXISTS coverage = 2.27%
 
 
 Operator set distribution is summarized below:
-{} = 47.48%
-{And} = 32.58%
+{} = 47.54%
+{And} = 36.22%
 {Filter} = 0.00%
-{Filter, And} = 7.40%
-CPF subtotal = 87.45%
-{Union} = 1.02%
-{Opt} = 1.02%
+{Filter, And} = 7.83%
+CPF subtotal = 91.59%
+{Union} = 0.00%
+{Opt} = 0.98%
 {Filter, Union} = 0.00%
 {Filter, Opt} = 0.00%
-{And, Union} = 4.27%
-{And, Opt} = 4.32%
+{And, Union} = 1.60%
+{And, Opt} = 4.54%
 {Union, Opt} = 0.00%
-{Filter, And, Union} = 0.64%
+{Filter, And, Union} = 0.21%
 {Filter, Union, Opt} = 0.00%
-{Filter, And, Opt} = 0.66%
-{And, Union, Opt} = 0.54%
-{Filter, And, Union, Opt} = 0.08%
-Non-CPF subtotal = 12.54%
+{Filter, And, Opt} = 0.72%
+{And, Union, Opt} = 0.32%
+{Filter, And, Union, Opt} = 0.04%
+Non-CPF subtotal = 8.41%
 
 
 Triple pattern amount distribution is summarized below:
-{1~3} = 80.25%
-{4~6} = 18.91%
-{7~9} = 0.82%
-{10~12} = 0.02%
+{1~3} = 80.19%
+{4~6} = 18.96%
+{7~9} = 0.84%
+{10~12} = 0.01%
 {13~16} = 0.00%
 {16+} = 0.00%
 
 
 Join amount distribution is summarized below:
-{0~4} = 80.36%
-{5~9} = 13.35%
-{10~14} = 4.69%
+{0~4} = 80.29%
+{5~9} = 13.38%
+{10~14} = 4.73%
 {15~19} = 1.32%
 {20~24} = 0.23%
-{25+} = 0.05%
+{25+} = 0.04%
 
 
 Join type distribution is summarized below:
-Subject-Subject (SS) = 44.67%
-Predicate-Predicate (PP) = 26.90%
-Object-Object (OO) = 1.05%
+Subject-Subject (SS) = 44.71%
+Predicate-Predicate (PP) = 26.89%
+Object-Object (OO) = 1.04%
 Subject-Predicate (SP) = 0.00%
-Subject-Object (SO) = 27.38%
+Subject-Object (SO) = 27.37%
 Predicate-Object (PO) = 0.00%

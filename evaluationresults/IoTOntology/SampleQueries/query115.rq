@@ -1,6 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Server_0
+SELECT DISTINCT  ?BarCode_0
 WHERE
-  { ?Server_0  a                    IoT-ontology:Server }
+  { ?BarCode_0  a                   IoT-ontology:BarCode }

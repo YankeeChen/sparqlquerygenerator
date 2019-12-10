@@ -1,8 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?Sensor_0
+SELECT DISTINCT  ?System_0
 WHERE
-  { ?Sensor_0  a                    ssn:Sensor
-    { ?Sensor_0  ssn:hasMeasurementCapability  :MeasurementCapability_instance30 }
-  }
+  { ?System_0  a                    ssn:System }

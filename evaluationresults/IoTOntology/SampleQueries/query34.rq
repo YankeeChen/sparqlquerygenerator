@@ -1,6 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Platform_0
+SELECT DISTINCT  ?CommunicationBandwidth_0
 WHERE
-  { ?Platform_0  a                  ssn:Platform }
+  { ?CommunicationBandwidth_0
+              a                     IoT-ontology:CommunicationBandwidth
+  }

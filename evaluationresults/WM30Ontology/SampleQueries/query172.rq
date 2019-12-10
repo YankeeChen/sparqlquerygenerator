@@ -1,8 +1,9 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  WM30: <http://purl.oclc.org/NET/ssnx/meteo/WM30#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?PhysicalObject_0
+SELECT DISTINCT  ?WMS302_0
 WHERE
-  { ?PhysicalObject_0
-              a                     DUL:PhysicalObject
+  { ?WMS302_0  a                    WM30:WMS302
+    { ?WMS302_0  ssn:hasMeasurementCapability  ObjectDescription:WM30_WindDirection_MeasurementCapability_WMS302_instance22 }
   }

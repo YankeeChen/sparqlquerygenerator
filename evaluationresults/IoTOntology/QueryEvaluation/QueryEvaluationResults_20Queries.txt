@@ -1,244 +1,218 @@
-112 out of 114 OWL classes are selected:
-false http://www.w3.org/2006/time#DateTimeDescription                                                     
-false http://www.w3.org/2006/time#DateTimeInterval                                                        
-false http://www.w3.org/2006/time#DayOfWeek                                                               
-false http://www.w3.org/2006/time#Duration                                                                
-false http://www.w3.org/2006/time#DurationDescription                                                     
-false http://www.w3.org/2006/time#GeneralDateTimeDescription                                              
-false http://www.w3.org/2006/time#GeneralDurationDescription                                              
-false http://www.w3.org/2006/time#Instant                                                                 
-false http://www.w3.org/2006/time#Interval                                                                
-false http://www.w3.org/2006/time#January                                                                 
-false http://www.w3.org/2006/time#MonthOfYear                                                             
-false http://www.w3.org/2006/time#ProperInterval                                                          
-false http://www.w3.org/2006/time#TRS                                                                     
-false http://www.w3.org/2006/time#TemporalDuration                                                        
-false http://www.w3.org/2006/time#TemporalEntity                                                          
-false http://www.w3.org/2006/time#TemporalPosition                                                        
-false http://www.w3.org/2006/time#TemporalUnit                                                            
-false http://www.w3.org/2006/time#TimePosition                                                            
-false http://www.w3.org/2006/time#TimeZone                                                                
-false http://www.w3.org/2006/time#Year                                                                    
-false https://w3id.org/saref#ActuatingFunction                                                            
-false https://w3id.org/saref#Actuator                                                                     
-true  https://w3id.org/saref#Appliance                                                                    
-true  https://w3id.org/saref#BuildingRelated                                                              
-false https://w3id.org/saref#CloseCommand                                                                 
-false https://w3id.org/saref#CloseState                                                                   
-false https://w3id.org/saref#Coal                                                                         
-false https://w3id.org/saref#Command                                                                      
-true  https://w3id.org/saref#Commodity                                                                    
-false https://w3id.org/saref#Currency                                                                     
-true  https://w3id.org/saref#Device                                                                       
-true  https://w3id.org/saref#DoorSwitch                                                                   
-false https://w3id.org/saref#Electricity                                                                  
-false https://w3id.org/saref#Energy                                                                       
-true  https://w3id.org/saref#EnergyMeter                                                                  
-true  https://w3id.org/saref#EnergyRelated                                                                
-false https://w3id.org/saref#EnergyUnit                                                                   
-false https://w3id.org/saref#EventFunction                                                                
-false https://w3id.org/saref#Function                                                                     
-false https://w3id.org/saref#FunctionRelated                                                              
-false https://w3id.org/saref#Gas                                                                          
-false https://w3id.org/saref#Generator                                                                    
-false https://w3id.org/saref#GetCommand                                                                   
-false https://w3id.org/saref#GetCurrentMeterValueCommand                                                  
-false https://w3id.org/saref#GetMeterDataCommand                                                          
-false https://w3id.org/saref#GetMeterHistoryCommand                                                       
-false https://w3id.org/saref#GetSensingDataCommand                                                        
-true  https://w3id.org/saref#HVAC                                                                         
-false https://w3id.org/saref#Humidity                                                                     
-false https://w3id.org/saref#IlluminanceUnit                                                              
-false https://w3id.org/saref#LevelControlFunction                                                         
-false https://w3id.org/saref#Light                                                                        
-false https://w3id.org/saref#LightSwitch                                                                  
-true  https://w3id.org/saref#LightingDevice                                                               
-false https://w3id.org/saref#Load                                                                         
-false https://w3id.org/saref#Measurement                                                                  
-true  https://w3id.org/saref#Meter                                                                        
-false https://w3id.org/saref#MeteringFunction                                                             
-false https://w3id.org/saref#MicroRenewable                                                               
-false https://w3id.org/saref#Motion                                                                       
-false https://w3id.org/saref#MultiLevelState                                                              
-true  https://w3id.org/saref#Multimedia                                                                   
-true  https://w3id.org/saref#Network                                                                      
-false https://w3id.org/saref#NotifyCommand                                                                
-true  https://w3id.org/saref#Occupancy                                                                    
-false https://w3id.org/saref#OffCommand                                                                   
-false https://w3id.org/saref#OffState                                                                     
-false https://w3id.org/saref#OnCommand                                                                    
-false https://w3id.org/saref#OnOffFunction                                                                
-false https://w3id.org/saref#OnOffState                                                                   
-false https://w3id.org/saref#OnState                                                                      
-false https://w3id.org/saref#OpenCloseFunction                                                            
-false https://w3id.org/saref#OpenCloseState                                                               
-false https://w3id.org/saref#OpenCommand                                                                  
-false https://w3id.org/saref#OpenState                                                                    
-false https://w3id.org/saref#PauseCommand                                                                 
-false https://w3id.org/saref#Power                                                                        
-false https://w3id.org/saref#PowerUnit                                                                    
-false https://w3id.org/saref#Pressure                                                                     
-false https://w3id.org/saref#PressureUnit                                                                 
-false https://w3id.org/saref#Price                                                                        
-true  https://w3id.org/saref#Profile                                                                      
-false https://w3id.org/saref#Property                                                                     
-false https://w3id.org/saref#SensingFunction                                                              
-true  https://w3id.org/saref#Sensor                                                                       
-true  https://w3id.org/saref#Service                                                                      
-false https://w3id.org/saref#SetAbsoluteLevelCommand                                                      
-false https://w3id.org/saref#SetLevelCommand                                                              
-false https://w3id.org/saref#SetRelativeLevelCommand                                                      
-false https://w3id.org/saref#Smoke                                                                        
-false https://w3id.org/saref#SmokeSensor                                                                  
-false https://w3id.org/saref#StartCommand                                                                 
-false https://w3id.org/saref#StartState                                                                   
-false https://w3id.org/saref#StartStopFunction                                                            
-false https://w3id.org/saref#StartStopState                                                               
-false https://w3id.org/saref#State                                                                        
-false https://w3id.org/saref#StepDownCommand                                                              
-false https://w3id.org/saref#StepUpCommand                                                                
-false https://w3id.org/saref#StopCommand                                                                  
-false https://w3id.org/saref#StopState                                                                    
-false https://w3id.org/saref#Storage                                                                      
-false https://w3id.org/saref#Switch                                                                       
-false https://w3id.org/saref#SwitchOnService                                                              
-false https://w3id.org/saref#Task                                                                         
-false https://w3id.org/saref#Temperature                                                                  
-true  https://w3id.org/saref#TemperatureSensor                                                            
-false https://w3id.org/saref#TemperatureUnit                                                              
-false https://w3id.org/saref#Time                                                                         
-false https://w3id.org/saref#ToggleCommand                                                                
-false https://w3id.org/saref#UnitOfMeasure                                                                
-false https://w3id.org/saref#WashingMachine                                                               
-false https://w3id.org/saref#Water                                                                        
+100 out of 100 OWL classes are selected:
+false http://knowledgeweb.semanticweb.org/heterogeneity/alignment#Cell                                    
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#ActuatingDevice                              
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#ActuationService                             
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#Actuator                                     
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#AlignmentCell                                
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#Application                                  
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#BarCode                                      
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#CommandMessage                               
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#CommunicationBandwidth                       
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#CommunicationMessage                         
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#ComputingDevice                              
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#ControlEntity                                
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#DataObject                                   
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#Database                                     
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#ElectricHomeAppliance                        
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#ElectricMechanicDevice                       
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#ElectronicDevice                             
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#EmbeddedDevice                               
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#File                                         
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#Identifier                                   
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#IdentityCommunication                        
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#IdentityDevice                               
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#InformMessage                                
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#IoT_Entity                                   
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#MemorySpace                                  
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#Message                                      
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#ObservationService                           
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#Ontology                                     
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#OntologyAlignment                            
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#PersonalComputer                             
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#ProcessingPower                              
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#Processor                                    
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#QueryMessage                                 
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#RFID_tag                                     
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#RegisterPlate                                
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#RequestMessage                               
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#Resource                                     
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#Server                                       
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#Service                                      
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#SmartEntity                                  
+true  http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#SmartPhone                                   
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#Software                                     
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#SoftwareAgent                                
+false http://purl.oclc.org/NET/ssnx/ssn#Accuracy                                                          
+false http://purl.oclc.org/NET/ssnx/ssn#BatteryLifetime                                                   
+false http://purl.oclc.org/NET/ssnx/ssn#Condition                                                         
+false http://purl.oclc.org/NET/ssnx/ssn#Deployment                                                        
+false http://purl.oclc.org/NET/ssnx/ssn#DeploymentRelatedProcess                                          
+false http://purl.oclc.org/NET/ssnx/ssn#DetectionLimit                                                    
+true  http://purl.oclc.org/NET/ssnx/ssn#Device                                                            
+false http://purl.oclc.org/NET/ssnx/ssn#Drift                                                             
+false http://purl.oclc.org/NET/ssnx/ssn#FeatureOfInterest                                                 
+true  http://purl.oclc.org/NET/ssnx/ssn#Frequency                                                         
+false http://purl.oclc.org/NET/ssnx/ssn#Input                                                             
+false http://purl.oclc.org/NET/ssnx/ssn#Latency                                                           
+false http://purl.oclc.org/NET/ssnx/ssn#MaintenanceSchedule                                               
+false http://purl.oclc.org/NET/ssnx/ssn#MeasurementCapability                                             
+false http://purl.oclc.org/NET/ssnx/ssn#MeasurementProperty                                               
+false http://purl.oclc.org/NET/ssnx/ssn#MeasurementRange                                                  
+false http://purl.oclc.org/NET/ssnx/ssn#Observation                                                       
+false http://purl.oclc.org/NET/ssnx/ssn#ObservationValue                                                  
+false http://purl.oclc.org/NET/ssnx/ssn#OperatingPowerRange                                               
+false http://purl.oclc.org/NET/ssnx/ssn#OperatingProperty                                                 
+true  http://purl.oclc.org/NET/ssnx/ssn#OperatingRange                                                    
+false http://purl.oclc.org/NET/ssnx/ssn#Output                                                            
+true  http://purl.oclc.org/NET/ssnx/ssn#Platform                                                          
+false http://purl.oclc.org/NET/ssnx/ssn#Precision                                                         
+false http://purl.oclc.org/NET/ssnx/ssn#Process                                                           
+true  http://purl.oclc.org/NET/ssnx/ssn#Property                                                          
+false http://purl.oclc.org/NET/ssnx/ssn#Resolution                                                        
+false http://purl.oclc.org/NET/ssnx/ssn#ResponseTime                                                      
+false http://purl.oclc.org/NET/ssnx/ssn#Selectivity                                                       
+false http://purl.oclc.org/NET/ssnx/ssn#Sensing                                                           
+true  http://purl.oclc.org/NET/ssnx/ssn#SensingDevice                                                     
+false http://purl.oclc.org/NET/ssnx/ssn#Sensitivity                                                       
+false http://purl.oclc.org/NET/ssnx/ssn#Sensor                                                            
+false http://purl.oclc.org/NET/ssnx/ssn#SensorDataSheet                                                   
+false http://purl.oclc.org/NET/ssnx/ssn#SensorInput                                                       
+false http://purl.oclc.org/NET/ssnx/ssn#SensorOutput                                                      
+false http://purl.oclc.org/NET/ssnx/ssn#Stimulus                                                          
+false http://purl.oclc.org/NET/ssnx/ssn#SurvivalProperty                                                  
+false http://purl.oclc.org/NET/ssnx/ssn#SurvivalRange                                                     
+false http://purl.oclc.org/NET/ssnx/ssn#System                                                            
+false http://purl.oclc.org/NET/ssnx/ssn#SystemLifetime                                                    
+false http://www.loa-cnr.it/ontologies/DUL.owl#Agent                                                      
+false http://www.loa-cnr.it/ontologies/DUL.owl#Concept                                                    
+false http://www.loa-cnr.it/ontologies/DUL.owl#Description                                                
+false http://www.loa-cnr.it/ontologies/DUL.owl#DesignedArtifact                                           
+false http://www.loa-cnr.it/ontologies/DUL.owl#Event                                                      
+false http://www.loa-cnr.it/ontologies/DUL.owl#InformationObject                                          
+false http://www.loa-cnr.it/ontologies/DUL.owl#InformationRealization                                     
+false http://www.loa-cnr.it/ontologies/DUL.owl#Method                                                     
+false http://www.loa-cnr.it/ontologies/DUL.owl#Object                                                     
+false http://www.loa-cnr.it/ontologies/DUL.owl#Organization                                               
+false http://www.loa-cnr.it/ontologies/DUL.owl#PhysicalAgent                                              
+true  http://www.loa-cnr.it/ontologies/DUL.owl#PhysicalObject                                             
+false http://www.loa-cnr.it/ontologies/DUL.owl#Process                                                    
+false http://www.loa-cnr.it/ontologies/DUL.owl#Quality                                                    
+false http://www.loa-cnr.it/ontologies/DUL.owl#Region                                                     
+false http://www.loa-cnr.it/ontologies/DUL.owl#Situation                                                  
 
 
-63 out of 63 OWL object properties are selected:
-false http://www.w3.org/2006/time#after                                                                   
-false http://www.w3.org/2006/time#before                                                                  
-false http://www.w3.org/2006/time#dayOfWeek                                                               
-false http://www.w3.org/2006/time#hasBeginning                                                            
-false http://www.w3.org/2006/time#hasDateTimeDescription                                                  
-false http://www.w3.org/2006/time#hasDuration                                                             
-false http://www.w3.org/2006/time#hasDurationDescription                                                  
-false http://www.w3.org/2006/time#hasEnd                                                                  
-false http://www.w3.org/2006/time#hasTRS                                                                  
-false http://www.w3.org/2006/time#hasTemporalDuration                                                     
-false http://www.w3.org/2006/time#hasTime                                                                 
-false http://www.w3.org/2006/time#inDateTime                                                              
-false http://www.w3.org/2006/time#inTemporalPosition                                                      
-false http://www.w3.org/2006/time#inTimePosition                                                          
-false http://www.w3.org/2006/time#inside                                                                  
-false http://www.w3.org/2006/time#intervalAfter                                                           
-false http://www.w3.org/2006/time#intervalBefore                                                          
-false http://www.w3.org/2006/time#intervalContains                                                        
-false http://www.w3.org/2006/time#intervalDisjoint                                                        
-false http://www.w3.org/2006/time#intervalDuring                                                          
-false http://www.w3.org/2006/time#intervalEquals                                                          
-false http://www.w3.org/2006/time#intervalFinishedBy                                                      
-false http://www.w3.org/2006/time#intervalFinishes                                                        
-false http://www.w3.org/2006/time#intervalIn                                                              
-false http://www.w3.org/2006/time#intervalMeets                                                           
-false http://www.w3.org/2006/time#intervalMetBy                                                           
-false http://www.w3.org/2006/time#intervalOverlappedBy                                                    
-false http://www.w3.org/2006/time#intervalOverlaps                                                        
-false http://www.w3.org/2006/time#intervalStartedBy                                                       
-false http://www.w3.org/2006/time#intervalStarts                                                          
-false http://www.w3.org/2006/time#monthOfYear                                                             
-false http://www.w3.org/2006/time#timeZone                                                                
-false http://www.w3.org/2006/time#unitType                                                                
-false https://w3id.org/saref#accomplishes                                                                 
-false https://w3id.org/saref#actsUpon                                                                     
-false https://w3id.org/saref#consistsOf                                                                   
-true  https://w3id.org/saref#controlsProperty                                                             
-false https://w3id.org/saref#hasCommand                                                                   
-false https://w3id.org/saref#hasFunction                                                                  
-false https://w3id.org/saref#hasMeterReading                                                              
-false https://w3id.org/saref#hasMeterReadingType                                                          
-false https://w3id.org/saref#hasPrice                                                                     
-true  https://w3id.org/saref#hasProfile                                                                   
-false https://w3id.org/saref#hasSensingRange                                                              
-false https://w3id.org/saref#hasSensorType                                                                
-true  https://w3id.org/saref#hasState                                                                     
-false https://w3id.org/saref#hasThresholdMeasurement                                                      
-false https://w3id.org/saref#hasTime                                                                      
-false https://w3id.org/saref#hasTypicalConsumption                                                        
-false https://w3id.org/saref#isAbout                                                                      
-false https://w3id.org/saref#isAccomplishedBy                                                             
-false https://w3id.org/saref#isCommandOf                                                                  
-false https://w3id.org/saref#isControlledByDevice                                                         
-false https://w3id.org/saref#isMeasuredByDevice                                                           
-false https://w3id.org/saref#isMeasuredIn                                                                 
-false https://w3id.org/saref#isOfferedBy                                                                  
-true  https://w3id.org/saref#isUsedFor                                                                    
-false https://w3id.org/saref#makesMeasurement                                                             
-false https://w3id.org/saref#measuresProperty                                                             
-true  https://w3id.org/saref#offers                                                                       
-false https://w3id.org/saref#relatesToMeasurement                                                         
-false https://w3id.org/saref#relatesToProperty                                                            
-false https://w3id.org/saref#represents                                                                   
+71 out of 79 OWL object properties are selected:
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#aligns                                       
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#attachedTo                                   
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#hasAlignmentCell                             
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#hasOwner                                     
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#hasVendor                                    
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#modifies                                     
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#providesService                              
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#resourceUsedIn                               
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#serviceProvidedBy                            
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#usesResource                                 
+false http://purl.oclc.org/NET/ssnx/ssn#attachedSystem                                                    
+false http://purl.oclc.org/NET/ssnx/ssn#deployedOnPlatform                                                
+false http://purl.oclc.org/NET/ssnx/ssn#deployedSystem                                                    
+true  http://purl.oclc.org/NET/ssnx/ssn#deploymentProcessPart                                             
+false http://purl.oclc.org/NET/ssnx/ssn#detects                                                           
+false http://purl.oclc.org/NET/ssnx/ssn#endTime                                                           
+false http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest                                                 
+false http://purl.oclc.org/NET/ssnx/ssn#forProperty                                                       
+false http://purl.oclc.org/NET/ssnx/ssn#hasDeployment                                                     
+false http://purl.oclc.org/NET/ssnx/ssn#hasInput                                                          
+false http://purl.oclc.org/NET/ssnx/ssn#hasMeasurementCapability                                          
+false http://purl.oclc.org/NET/ssnx/ssn#hasMeasurementProperty                                            
+true  http://purl.oclc.org/NET/ssnx/ssn#hasOperatingProperty                                              
+true  http://purl.oclc.org/NET/ssnx/ssn#hasOperatingRange                                                 
+false http://purl.oclc.org/NET/ssnx/ssn#hasOutput                                                         
+false http://purl.oclc.org/NET/ssnx/ssn#hasProperty                                                       
+false http://purl.oclc.org/NET/ssnx/ssn#hasSubSystem                                                      
+false http://purl.oclc.org/NET/ssnx/ssn#hasSurvivalProperty                                               
+false http://purl.oclc.org/NET/ssnx/ssn#hasSurvivalRange                                                  
+false http://purl.oclc.org/NET/ssnx/ssn#hasValue                                                          
+false http://purl.oclc.org/NET/ssnx/ssn#implementedBy                                                     
+false http://purl.oclc.org/NET/ssnx/ssn#implements                                                        
+false http://purl.oclc.org/NET/ssnx/ssn#inCondition                                                       
+false http://purl.oclc.org/NET/ssnx/ssn#inDeployment                                                      
+false http://purl.oclc.org/NET/ssnx/ssn#isProducedBy                                                      
+true  http://purl.oclc.org/NET/ssnx/ssn#isPropertyOf                                                      
+false http://purl.oclc.org/NET/ssnx/ssn#isProxyFor                                                        
+false http://purl.oclc.org/NET/ssnx/ssn#madeObservation                                                   
+false http://purl.oclc.org/NET/ssnx/ssn#observationResult                                                 
+false http://purl.oclc.org/NET/ssnx/ssn#observationResultTime                                             
+false http://purl.oclc.org/NET/ssnx/ssn#observationSamplingTime                                           
+false http://purl.oclc.org/NET/ssnx/ssn#observedBy                                                        
+false http://purl.oclc.org/NET/ssnx/ssn#observedProperty                                                  
+true  http://purl.oclc.org/NET/ssnx/ssn#observes                                                          
+true  http://purl.oclc.org/NET/ssnx/ssn#onPlatform                                                        
+false http://purl.oclc.org/NET/ssnx/ssn#qualityOfObservation                                              
+false http://purl.oclc.org/NET/ssnx/ssn#sensingMethodUsed                                                 
+false http://purl.oclc.org/NET/ssnx/ssn#startTime                                                         
+false http://www.loa-cnr.it/ontologies/DUL.owl#conceptualizes                                             
+false http://www.loa-cnr.it/ontologies/DUL.owl#defines                                                    
+false http://www.loa-cnr.it/ontologies/DUL.owl#describes                                                  
+false http://www.loa-cnr.it/ontologies/DUL.owl#hasComponent                                               
+true  http://www.loa-cnr.it/ontologies/DUL.owl#hasLocation                                                
+false http://www.loa-cnr.it/ontologies/DUL.owl#hasPart                                                    
+true  http://www.loa-cnr.it/ontologies/DUL.owl#hasParticipant                                             
+false http://www.loa-cnr.it/ontologies/DUL.owl#hasQuality                                                 
+false http://www.loa-cnr.it/ontologies/DUL.owl#hasRegion                                                  
+false http://www.loa-cnr.it/ontologies/DUL.owl#includesAgent                                              
+false http://www.loa-cnr.it/ontologies/DUL.owl#includesEvent                                              
+true  http://www.loa-cnr.it/ontologies/DUL.owl#includesObject                                             
+false http://www.loa-cnr.it/ontologies/DUL.owl#isAgentIncludedIn                                          
+false http://www.loa-cnr.it/ontologies/DUL.owl#isConceptualizedBy                                         
+false http://www.loa-cnr.it/ontologies/DUL.owl#isDescribedBy                                              
+true  http://www.loa-cnr.it/ontologies/DUL.owl#isLocationOf                                               
+false http://www.loa-cnr.it/ontologies/DUL.owl#isObjectIncludedIn                                         
+false http://www.loa-cnr.it/ontologies/DUL.owl#isParticipantIn                                            
+false http://www.loa-cnr.it/ontologies/DUL.owl#isQualityOf                                                
+false http://www.loa-cnr.it/ontologies/DUL.owl#isRealizedBy                                               
+false http://www.loa-cnr.it/ontologies/DUL.owl#isRegionFor                                                
+false http://www.loa-cnr.it/ontologies/DUL.owl#isSettingFor                                               
+false http://www.loa-cnr.it/ontologies/DUL.owl#satisfies                                                  
 
 
-30 out of 31 OWL data properties are selected:
-false http://www.w3.org/2006/time#day                                                                     
-false http://www.w3.org/2006/time#dayOfYear                                                               
-false http://www.w3.org/2006/time#days                                                                    
-false http://www.w3.org/2006/time#hasXSDDuration                                                          
-false http://www.w3.org/2006/time#hour                                                                    
-false http://www.w3.org/2006/time#hours                                                                   
-false http://www.w3.org/2006/time#inXSDDate                                                               
-false http://www.w3.org/2006/time#inXSDDateTime                                                           
-false http://www.w3.org/2006/time#inXSDDateTimeStamp                                                      
-false http://www.w3.org/2006/time#inXSDgYear                                                              
-false http://www.w3.org/2006/time#inXSDgYearMonth                                                         
-false http://www.w3.org/2006/time#minute                                                                  
-false http://www.w3.org/2006/time#minutes                                                                 
-false http://www.w3.org/2006/time#month                                                                   
-false http://www.w3.org/2006/time#months                                                                  
-false http://www.w3.org/2006/time#nominalPosition                                                         
-false http://www.w3.org/2006/time#numericDuration                                                         
-false http://www.w3.org/2006/time#numericPosition                                                         
-false http://www.w3.org/2006/time#second                                                                  
-false http://www.w3.org/2006/time#seconds                                                                 
-false http://www.w3.org/2006/time#week                                                                    
-false http://www.w3.org/2006/time#weeks                                                                   
-false http://www.w3.org/2006/time#xsdDateTime                                                             
-false http://www.w3.org/2006/time#year                                                                    
-false http://www.w3.org/2006/time#years                                                                   
-false https://w3id.org/saref#hasDescription                                                               
-false https://w3id.org/saref#hasManufacturer                                                              
-true  https://w3id.org/saref#hasModel                                                                     
-false https://w3id.org/saref#hasTimestamp                                                                 
-false https://w3id.org/saref#hasValue                                                                     
+8 out of 8 OWL data properties are selected:
+false http://knowledgeweb.semanticweb.org/heterogeneity/alignment#entity1                                 
+false http://knowledgeweb.semanticweb.org/heterogeneity/alignment#entity2                                 
+false http://knowledgeweb.semanticweb.org/heterogeneity/alignment#measure                                 
+false http://knowledgeweb.semanticweb.org/heterogeneity/alignment#relation                                
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#alignmentProperty                            
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#hasAccessAddress                             
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#hasTarget                                    
+false http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#hasTemplate                                  
 
 
 Signature coverage of the queries is summarized below:
-Class coverage (CC) = 15.18%
-Data property coverage (DPC) = 3.33%
-Object property coverage (OPC) = 7.94%
+Class coverage (CC) = 18.00%
+Data property coverage (DPC) = 0.00%
+Object property coverage (OPC) = 14.08%
 
 
 Keyword coverage of the queries is summarized below:
 FILTER coverage = 0.00%
 AND coverage = 40.00%
-UNION coverage = 10.00%
-OPTIONAL coverage = 0.00%
-MINUS coverage = 0.00%
-NOT EXISTS coverage = 0.00%
-EXISTS coverage = 5.00%
+UNION coverage = 0.00%
+OPTIONAL coverage = 5.00%
+MINUS coverage = 10.00%
+NOT EXISTS coverage = 5.00%
+EXISTS coverage = 0.00%
 
 
 Operator set distribution is summarized below:
-{} = 60.00%
-{And} = 30.00%
+{} = 55.00%
+{And} = 40.00%
 {Filter} = 0.00%
 {Filter, And} = 0.00%
-CPF subtotal = 90.00%
+CPF subtotal = 95.00%
 {Union} = 0.00%
-{Opt} = 0.00%
+{Opt} = 5.00%
 {Filter, Union} = 0.00%
 {Filter, Opt} = 0.00%
-{And, Union} = 10.00%
+{And, Union} = 0.00%
 {And, Opt} = 0.00%
 {Union, Opt} = 0.00%
 {Filter, And, Union} = 0.00%
@@ -246,12 +220,12 @@ CPF subtotal = 90.00%
 {Filter, And, Opt} = 0.00%
 {And, Union, Opt} = 0.00%
 {Filter, And, Union, Opt} = 0.00%
-Non-CPF subtotal = 10.00%
+Non-CPF subtotal = 5.00%
 
 
 Triple pattern amount distribution is summarized below:
-{1~3} = 95.00%
-{4~6} = 5.00%
+{1~3} = 90.00%
+{4~6} = 10.00%
 {7~9} = 0.00%
 {10~12} = 0.00%
 {13~16} = 0.00%
@@ -260,17 +234,17 @@ Triple pattern amount distribution is summarized below:
 
 Join amount distribution is summarized below:
 {0~4} = 95.00%
-{5~9} = 0.00%
-{10~14} = 5.00%
+{5~9} = 5.00%
+{10~14} = 0.00%
 {15~19} = 0.00%
 {20~24} = 0.00%
 {25+} = 0.00%
 
 
 Join type distribution is summarized below:
-Subject-Subject (SS) = 30.43%
-Predicate-Predicate (PP) = 30.43%
+Subject-Subject (SS) = 26.67%
+Predicate-Predicate (PP) = 33.33%
 Object-Object (OO) = 0.00%
 Subject-Predicate (SP) = 0.00%
-Subject-Object (SO) = 39.13%
+Subject-Object (SO) = 40.00%
 Predicate-Object (PO) = 0.00%

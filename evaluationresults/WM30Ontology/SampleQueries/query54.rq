@@ -1,8 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  WM30: <http://purl.oclc.org/NET/ssnx/meteo/WM30#>
 
-SELECT DISTINCT  ?Vaisala_WM30_0
+SELECT DISTINCT  ?WM30_WindSpeed_0
 WHERE
-  { ?Vaisala_WM30_0
-              a                     WM30:Vaisala_WM30
+  { ?WM30_WindSpeed_0
+              a                     WM30:WM30_WindSpeed
   }

@@ -1,6 +1,9 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?ModelX_0
+SELECT DISTINCT  ?PulseDopplerRadar_0
 WHERE
-  { ?ModelX_0  a                    RFDevice:ModelX }
+  { ?PulseDopplerRadar_0
+              a                     RFDevice:PulseDopplerRadar
+    { ?Var0  RFDevice:supportsTransmitting  ?PulseDopplerRadar_0 }
+  }

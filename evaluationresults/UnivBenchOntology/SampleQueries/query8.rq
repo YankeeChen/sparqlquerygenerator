@@ -1,0 +1,10 @@
+PREFIX  univ-bench: <http://swat.cse.lehigh.edu/onto/univ-bench.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+
+SELECT DISTINCT  ?University_0
+WHERE
+  { ?University_0
+              a                     univ-bench:University ;
+              univ-bench:doctoralDegreeFrom  ?PostDoc_0
+    { ?PostDoc_0  a                   univ-bench:PostDoc }
+  }

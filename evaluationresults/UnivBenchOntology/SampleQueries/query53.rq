@@ -1,0 +1,10 @@
+PREFIX  univ-bench: <http://swat.cse.lehigh.edu/onto/univ-bench.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+
+SELECT DISTINCT  ?ResearchGroup_0
+WHERE
+  { ?ResearchGroup_0
+              a                     univ-bench:ResearchGroup .
+    ObjectDescription:Research_instance0
+              univ-bench:researchProject  ?ResearchGroup_0
+  }

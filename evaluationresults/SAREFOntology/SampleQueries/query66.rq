@@ -1,6 +1,18 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Actuator_0
+SELECT DISTINCT  ?Appliance_0
 WHERE
-  { ?Actuator_0  a                  saref:Actuator }
+  { ?Appliance_0  a                 saref:Appliance
+    { ?Task_0  saref:accomplishes  ?Appliance_0
+      { ?Task_0  a                     saref:Task
+        { ?LightSwitch_0
+                    saref:accomplishes  ?Task_0
+          { ?LightSwitch_0
+                      a                     saref:LightSwitch
+            { ?Task_1  saref:isAccomplishedBy  ?LightSwitch_0 }
+          }
+        }
+      }
+    }
+  }

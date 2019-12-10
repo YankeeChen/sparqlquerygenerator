@@ -1,6 +1,19 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
 
-SELECT DISTINCT  ?USRPE313_0
+SELECT DISTINCT  ?PulseRadar_0
 WHERE
-  { ?USRPE313_0  a                  SDR:USRPE313 }
+  { ?PulseRadar_0
+              a                     RFDevice:PulseRadar
+    { ?PulseRadarModulation_0
+                RFDevice:hasCapability  ?PulseRadar_0
+      { ?PulseRadarModulation_0
+                  a                     RFDevice:PulseRadarModulation
+        { ?PulseRadarModulation_0
+                    RFDevice:hasTransmitPowerRange  ?Attribute_0
+          { ?Attribute_0  a                 Nuvio:Attribute }
+        }
+      }
+    }
+  }

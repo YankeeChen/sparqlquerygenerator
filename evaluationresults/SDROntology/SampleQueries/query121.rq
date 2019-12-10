@@ -1,8 +1,23 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
+PREFIX  gml:  <http://www.opengis.net/ont/gml#>
 
-SELECT DISTINCT  ?PulseRadar_0
+SELECT DISTINCT  ?CR_0
 WHERE
-  { ?PulseRadar_0
-              a                     RFDevice:PulseRadar
+  { ?CR_0  a                     SDR:CR
+    { ?Entity_0  RFDevice:isProducerOf  ?CR_0
+      { ?Entity_0  a                    Nuvio:Entity .
+        ?InformationEntity_0
+                  Nuvio:isExpressedBy   ?Entity_0
+        { ?Entity_0  a                    Nuvio:Attribute
+          MINUS
+            { ?InformationEntity_0
+                        Nuvio:informationSource  ?Var0
+              FILTER EXISTS { ?Var0  a                     gml:AbstractGeometry }
+            }
+        }
+      }
+    }
   }

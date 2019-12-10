@@ -1,20 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?SensingDevice_0
+SELECT DISTINCT  ?ActuatingDevice_0
 WHERE
-  { ?SensingDevice_0
-              a                     ssn:SensingDevice
-    { ?SensingDevice_0
-                ssn:observes  ?MeasurementCapability_0
-      {   { ?MeasurementCapability_0
-                      a                     ssn:MeasurementCapability
-          }
-        UNION
-          { ?MeasurementCapability_0
-                      ssn:forProperty  ?Condition_0
-            { ?Condition_0  a                 ssn:Condition }
-          }
-      }
-    }
+  { ?ActuatingDevice_0
+              a                     IoT-ontology:ActuatingDevice
   }

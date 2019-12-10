@@ -1,10 +1,11 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Generator_0
+SELECT DISTINCT  ?WashingMachine_0
 WHERE
-  { ?Generator_0  a                 saref:Generator
-    { ?Commodity_0  saref:isUsedFor  ?Generator_0
-      { ?Commodity_0  a                 saref:Commodity }
+  { ?WashingMachine_0
+              a                     saref:WashingMachine
+    { ObjectDescription:Multimedia_instance85
+                saref:consistsOf  ?WashingMachine_0
     }
   }

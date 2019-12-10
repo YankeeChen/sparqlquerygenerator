@@ -1,13 +1,17 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
 PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
 
-SELECT DISTINCT  ?PulseRadar_0
+SELECT DISTINCT  ?USRPB205mini_i_0
 WHERE
-  { ?PulseRadar_0
-              a                     RFDevice:PulseRadar
-    OPTIONAL
-      { ?PulseRadar_0
-                  Nuvio:compositeOf  :Receiver_instance153
-      }
+  { ?USRPB205mini_i_0
+              a                     SDR:USRPB205mini-i
+    FILTER NOT EXISTS { ?Weight_0  RFDevice:hasChargingTime  ?USRPB205mini_i_0
+                        { ?Weight_0  a                    RFDevice:Weight
+                          { ?Var0  Nuvio:hasValue  ?Weight_0
+                            { ?Var0  Nuvio:hasDataValue  ?DataValue0 }
+                          }
+                        }
+                      }
   }

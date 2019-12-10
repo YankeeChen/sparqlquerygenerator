@@ -1,6 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?USRPE313_0
+SELECT DISTINCT  ?USRPE3xx_0
 WHERE
-  { ?USRPE313_0  a                  SDR:USRPE313 }
+  { ?USRPE3xx_0  a                  SDR:USRPE3xx }

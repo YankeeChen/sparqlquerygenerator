@@ -1,6 +1,11 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?USRPE3xx_0
+SELECT DISTINCT  ?JammingSystem_0
 WHERE
-  { ?USRPE3xx_0  a                  SDR:USRPE3xx }
+  { ?JammingSystem_0
+              a                     RFDevice:JammingSystem
+    { ?Ship_0  RFDevice:isDeployedOn  ?JammingSystem_0
+      { ?Ship_0  a                     RFDevice:Ship }
+    }
+  }

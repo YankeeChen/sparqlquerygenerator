@@ -1,12 +1,10 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?ElectronicDevice_0
+SELECT DISTINCT  ?ComputingDevice_0
 WHERE
-  { ?ElectronicDevice_0
-              a                     IoT-ontology:ElectronicDevice
-    { :OperatingRange_instance356
-                ssn:qualityOfObservation  ?ElectronicDevice_0
-    }
+  { ?ComputingDevice_0
+              a                     IoT-ontology:ComputingDevice
+    { ?Quality_0  ssn:hasOperatingRange  ?ComputingDevice_0 }
   }

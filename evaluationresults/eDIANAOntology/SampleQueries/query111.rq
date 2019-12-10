@@ -1,13 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Generator_0
+SELECT DISTINCT  ?MCC_0
 WHERE
-  { ?Generator_0  a                 ContextAwareness_eDIANA:Generator
-    { ?Configuration_Read_iEi_Service_0
-                ContextAwareness_eDIANA:provided_services  ?Generator_0
-      { ?Configuration_Read_iEi_Service_0
-                  a                     ContextAwareness_eDIANA:Configuration_Read_iEi_Service
-      }
-    }
-  }
+  { ?MCC_0  a                     ContextAwareness_eDIANA:MCC }

@@ -1,11 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
-PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Sensor_0
+SELECT DISTINCT  ?PhysicalObject_0
 WHERE
-  { ?Sensor_0  a                    ssn:Sensor
-    { ?Quality_0  ssn:hasMeasurementCapability  ?Sensor_0
-      { ?Quality_0  a                   DUL:Quality }
-    }
+  { ?PhysicalObject_0
+              a                     DUL:PhysicalObject
   }

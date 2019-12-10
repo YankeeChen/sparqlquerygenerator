@@ -1,11 +1,22 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  WM30: <http://purl.oclc.org/NET/ssnx/meteo/WM30#>
+PREFIX  qu:   <http://purl.oclc.org/NET/ssnx/qu/qu#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?Sensor_0
+SELECT DISTINCT  ?WM30_WindSpeed_0
 WHERE
-  { ?Sensor_0  a                    ssn:Sensor
-    { ?Quality_0  ssn:hasMeasurementCapability  ?Sensor_0
-      { ?Quality_0  a                   DUL:Quality }
+  { ?WM30_WindSpeed_0
+              a                     WM30:WM30_WindSpeed
+    { ?Resistivity_0
+                ssn:observes  ?WM30_WindSpeed_0
+      { ?Resistivity_0
+                  qu:name  ?DataValue0
+        { ?SystemOfQuantities_0
+                    qu:scale  ?Resistivity_0
+          { ?SystemOfQuantities_0
+                      a                     qu:SystemOfQuantities
+          }
+        }
+      }
     }
   }

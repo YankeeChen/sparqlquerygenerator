@@ -1,30 +1,11 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Meter_0
+SELECT DISTINCT  ?Sensor_0
 WHERE
-  { ?Meter_0  a                     saref:Meter
-    { ?MeteringFunction_0
-                saref:hasFunction  ?Meter_0
-      { ?MeteringFunction_0
-                  a                     saref:MeteringFunction
-        OPTIONAL
-          { ?MeteringFunction_0
-                      saref:isCommandOf  ?Var0
-            { ?StartStopFunction_0
-                        saref:isCommandOf  ?Var0
-              { ?StartStopFunction_0
-                          a                     saref:StartStopFunction
-              }
-              { ?Var0  a                     saref:GetMeterDataCommand
-                { ?Function_0  saref:isCommandOf  ?Var0
-                  { ?Command_0  saref:hasCommand  ?Function_0
-                    { ?Command_0  saref:isCommandOf  :EventFunction_instance88 }
-                  }
-                }
-              }
-            }
-          }
+  { ?Sensor_0  a                    saref:Sensor
+    OPTIONAL
+      { ObjectDescription:State_instance5
+                  saref:hasState  ?Sensor_0
       }
-    }
   }

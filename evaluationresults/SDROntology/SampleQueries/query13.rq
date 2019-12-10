@@ -1,9 +1,15 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
 
-SELECT DISTINCT  ?USRPE310_0
+SELECT DISTINCT  ?PulseDopplerRadar_0
 WHERE
-  { ?USRPE310_0  a                  SDR:USRPE310
-    { ?USRPE310_0  RFDevice:hasWidth  ?Var0 }
+  { ?PulseDopplerRadar_0
+              a                     RFDevice:PulseDopplerRadar
+    { ?Object_0  RFDevice:isProducerOf  ?PulseDopplerRadar_0
+      { ?Object_0  a                    Nuvio:Object .
+        ObjectDescription:AntennaPolarization_instance20
+                  Nuvio:hasObjectQuality  ?Object_0
+      }
+    }
   }

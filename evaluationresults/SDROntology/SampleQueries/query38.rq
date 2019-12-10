@@ -1,11 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
-PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
+PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?RFSystem_0
+SELECT DISTINCT  ?SDR_0
 WHERE
-  { ?RFSystem_0  a                  RFDevice:RFSystem
-    { ?IEDJammer_0  Nuvio:aggregateOf  ?RFSystem_0
-      { ?IEDJammer_0  a                 RFDevice:IEDJammer }
-    }
-  }
+  { ?SDR_0  a                     SDR:SDR }

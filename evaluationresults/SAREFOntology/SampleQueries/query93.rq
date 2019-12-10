@@ -1,33 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Generator_0
+SELECT DISTINCT  ?Network_0
 WHERE
-  { ?Generator_0  a                 saref:Generator
-    { ?Task_0  saref:accomplishes  ?Generator_0
-      { ?Task_0  saref:accomplishes  ?Storage_0
-        { ?Storage_0  a                   saref:Storage
-          { ?Service_0  saref:isOfferedBy  ?Storage_0
-            { ?Service_0  a                   saref:Service
-              { ?WashingMachine_0
-                          saref:isOfferedBy  ?Service_0
-                { ?WashingMachine_0
-                            a                     saref:WashingMachine
-                  { ?Time_0  saref:measuresProperty  ?WashingMachine_0
-                    { ?Time_0  a                     saref:Time
-                      { ?LightingDevice_0
-                                  saref:isControlledByDevice  ?Time_0
-                        { ?LightingDevice_0
-                                    a                     saref:LightingDevice
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
+  { ?Network_0  a                   saref:Network }

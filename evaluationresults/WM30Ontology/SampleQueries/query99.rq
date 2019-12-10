@@ -1,6 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  WM30: <http://purl.oclc.org/NET/ssnx/meteo/WM30#>
 
-SELECT DISTINCT  ?System_0
+SELECT DISTINCT  ?WMS301_0
 WHERE
-  { ?System_0  a                    ssn:System }
+  { ?WMS301_0  a                    WM30:WMS301 }

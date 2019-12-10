@@ -1,8 +1,13 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Video_Camera_0
+SELECT DISTINCT  ?Complex_Device_0
 WHERE
-  { ?Video_Camera_0
-              a                     ContextAwareness_eDIANA:Video_Camera
+  { ?Complex_Device_0
+              a                     ContextAwareness_eDIANA:Complex_Device .
+    ?Airflow_Sensor_0
+              ContextAwareness_eDIANA:composing_devices  ?Complex_Device_0
+    { ?Airflow_Sensor_0
+                a                     ContextAwareness_eDIANA:Airflow_Sensor
+    }
   }

@@ -1,8 +1,20 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  dim:  <http://purl.oclc.org/NET/ssnx/qu/dim#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?SensingDevice_0
+SELECT DISTINCT  ?Sensor_0
 WHERE
-  { ?SensingDevice_0
-              a                     ssn:SensingDevice
+  { ?Sensor_0  a                    ssn:Sensor
+    { ?ReactivePower_0
+                ssn:observes  ?Sensor_0
+      { ?ReactivePower_0
+                  a                     dim:ReactivePower
+        { ?FeatureOfInterest_0
+                    ssn:qualityOfObservation  ?ReactivePower_0
+          { ?FeatureOfInterest_0
+                      a                     ssn:FeatureOfInterest
+          }
+        }
+      }
+    }
   }

@@ -1,7 +1,7 @@
 347 out of 351 OWL classes are selected:
 false http://purl.oclc.org/NET/ssnx/meteo/WM30#DampingRatio                                               
 false http://purl.oclc.org/NET/ssnx/meteo/WM30#DelayDistance                                              
-false http://purl.oclc.org/NET/ssnx/meteo/WM30#DistanceConstant                                           
+true  http://purl.oclc.org/NET/ssnx/meteo/WM30#DistanceConstant                                           
 false http://purl.oclc.org/NET/ssnx/meteo/WM30#OverShootRatio                                             
 false http://purl.oclc.org/NET/ssnx/meteo/WM30#StartingThreshold                                          
 false http://purl.oclc.org/NET/ssnx/meteo/WM30#TransducerOutput                                           
@@ -9,13 +9,13 @@ true  http://purl.oclc.org/NET/ssnx/meteo/WM30#Vaisala_WM30
 false http://purl.oclc.org/NET/ssnx/meteo/WM30#ValueRange                                                 
 true  http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_CharacteristicTransferFunction                        
 false http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_OperatingRange                                        
-false http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_SurvivalRange                                         
+true  http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_SurvivalRange                                         
 true  http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_WindDirection                                         
 true  http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_WindDirection_MeasurementCapability                   
-false http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_WindDirection_MeasurementCapability_WMS301            
+true  http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_WindDirection_MeasurementCapability_WMS301            
 false http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_WindDirection_MeasurementCapability_WMS302            
 true  http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_WindSpeed                                             
-false http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_WindSpeed_MeasurementCapability                       
+true  http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_WindSpeed_MeasurementCapability                       
 true  http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_WindSpeed_MeasurementCapability_WSgrt10ms             
 false http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_WindSpeed_MeasurementCapability_WSless10ms            
 true  http://purl.oclc.org/NET/ssnx/meteo/WM30#WMS301                                                     
@@ -51,7 +51,7 @@ false http://purl.oclc.org/NET/ssnx/qu/dim#CoefficientOfThermalInsulation
 false http://purl.oclc.org/NET/ssnx/qu/dim#CoefficientOfThermalInsulationUnit                             
 false http://purl.oclc.org/NET/ssnx/qu/dim#Compressibility                                                
 false http://purl.oclc.org/NET/ssnx/qu/dim#CompressibilityUnit                                            
-false http://purl.oclc.org/NET/ssnx/qu/dim#Concentration                                                  
+true  http://purl.oclc.org/NET/ssnx/qu/dim#Concentration                                                  
 false http://purl.oclc.org/NET/ssnx/qu/dim#ConcentrationUnit                                              
 false http://purl.oclc.org/NET/ssnx/qu/dim#Conductance                                                    
 false http://purl.oclc.org/NET/ssnx/qu/dim#ConductanceUnit                                                
@@ -65,7 +65,7 @@ false http://purl.oclc.org/NET/ssnx/qu/dim#Dimensionless
 false http://purl.oclc.org/NET/ssnx/qu/dim#DimensionlessUnit                                              
 false http://purl.oclc.org/NET/ssnx/qu/dim#Distance                                                       
 false http://purl.oclc.org/NET/ssnx/qu/dim#DistanceUnit                                                   
-true  http://purl.oclc.org/NET/ssnx/qu/dim#DoseEquivalent                                                 
+false http://purl.oclc.org/NET/ssnx/qu/dim#DoseEquivalent                                                 
 false http://purl.oclc.org/NET/ssnx/qu/dim#DoseEquivalentUnit                                             
 false http://purl.oclc.org/NET/ssnx/qu/dim#Duration                                                       
 false http://purl.oclc.org/NET/ssnx/qu/dim#DurationUnit                                                   
@@ -135,12 +135,12 @@ false http://purl.oclc.org/NET/ssnx/qu/dim#LuminousEfficacy
 false http://purl.oclc.org/NET/ssnx/qu/dim#LuminousEfficacyUnit                                           
 false http://purl.oclc.org/NET/ssnx/qu/dim#LuminousExposure                                               
 false http://purl.oclc.org/NET/ssnx/qu/dim#LuminousExposureUnit                                           
-false http://purl.oclc.org/NET/ssnx/qu/dim#LuminousFlux                                                   
+true  http://purl.oclc.org/NET/ssnx/qu/dim#LuminousFlux                                                   
 false http://purl.oclc.org/NET/ssnx/qu/dim#LuminousFluxUnit                                               
 false http://purl.oclc.org/NET/ssnx/qu/dim#LuminousIntensity                                              
 false http://purl.oclc.org/NET/ssnx/qu/dim#LuminousIntensityUnit                                          
 false http://purl.oclc.org/NET/ssnx/qu/dim#MagneticFlux                                                   
-false http://purl.oclc.org/NET/ssnx/qu/dim#MagneticFluxDensity                                            
+true  http://purl.oclc.org/NET/ssnx/qu/dim#MagneticFluxDensity                                            
 false http://purl.oclc.org/NET/ssnx/qu/dim#MagneticFluxDensityUnit                                        
 false http://purl.oclc.org/NET/ssnx/qu/dim#MagneticFluxUnit                                               
 false http://purl.oclc.org/NET/ssnx/qu/dim#MagneticVectorPotential                                        
@@ -213,7 +213,7 @@ false http://purl.oclc.org/NET/ssnx/qu/dim#ReactivePower
 false http://purl.oclc.org/NET/ssnx/qu/dim#ReactivePowerUnit                                              
 false http://purl.oclc.org/NET/ssnx/qu/dim#ReciprocalArea                                                 
 false http://purl.oclc.org/NET/ssnx/qu/dim#ReciprocalAreaUnit                                             
-true  http://purl.oclc.org/NET/ssnx/qu/dim#Reluctance                                                     
+false http://purl.oclc.org/NET/ssnx/qu/dim#Reluctance                                                     
 false http://purl.oclc.org/NET/ssnx/qu/dim#ReluctanceUnit                                                 
 false http://purl.oclc.org/NET/ssnx/qu/dim#Resistivity                                                    
 false http://purl.oclc.org/NET/ssnx/qu/dim#ResistivityUnit                                                
@@ -245,7 +245,7 @@ false http://purl.oclc.org/NET/ssnx/qu/dim#StefanBoltzmannConstant
 false http://purl.oclc.org/NET/ssnx/qu/dim#StefanBoltzmannConstantUnit                                    
 false http://purl.oclc.org/NET/ssnx/qu/dim#StressOrPressure                                               
 false http://purl.oclc.org/NET/ssnx/qu/dim#StressOrPressureUnit                                           
-false http://purl.oclc.org/NET/ssnx/qu/dim#SurfaceDensity                                                 
+true  http://purl.oclc.org/NET/ssnx/qu/dim#SurfaceDensity                                                 
 false http://purl.oclc.org/NET/ssnx/qu/dim#SurfaceDensityUnit                                             
 false http://purl.oclc.org/NET/ssnx/qu/dim#SurfaceTension                                                 
 false http://purl.oclc.org/NET/ssnx/qu/dim#SurfaceTensionUnit                                             
@@ -255,7 +255,7 @@ false http://purl.oclc.org/NET/ssnx/qu/dim#TemperatureDriftUnit
 false http://purl.oclc.org/NET/ssnx/qu/dim#TemperatureUnit                                                
 false http://purl.oclc.org/NET/ssnx/qu/dim#ThermalConductance                                             
 false http://purl.oclc.org/NET/ssnx/qu/dim#ThermalConductanceUnit                                         
-false http://purl.oclc.org/NET/ssnx/qu/dim#ThermalConductivity                                            
+true  http://purl.oclc.org/NET/ssnx/qu/dim#ThermalConductivity                                            
 false http://purl.oclc.org/NET/ssnx/qu/dim#ThermalConductivityUnit                                        
 false http://purl.oclc.org/NET/ssnx/qu/dim#ThermalResistance                                              
 false http://purl.oclc.org/NET/ssnx/qu/dim#ThermalResistanceUnit                                          
@@ -288,7 +288,7 @@ true  http://purl.oclc.org/NET/ssnx/qu/qu#QuantityKind
 false http://purl.oclc.org/NET/ssnx/qu/qu#QuantityKindFactor                                              
 false http://purl.oclc.org/NET/ssnx/qu/qu#Scale                                                           
 false http://purl.oclc.org/NET/ssnx/qu/qu#ScaleValueDefinition                                            
-true  http://purl.oclc.org/NET/ssnx/qu/qu#SimpleQuantityKind                                              
+false http://purl.oclc.org/NET/ssnx/qu/qu#SimpleQuantityKind                                              
 false http://purl.oclc.org/NET/ssnx/qu/qu#SimpleUnit                                                      
 false http://purl.oclc.org/NET/ssnx/qu/qu#SpecializedQuantityKind                                         
 false http://purl.oclc.org/NET/ssnx/qu/qu#SystemOfQuantities                                              
@@ -297,40 +297,40 @@ false http://purl.oclc.org/NET/ssnx/qu/qu#Unit
 false http://purl.oclc.org/NET/ssnx/qu/qu#UnitFactor                                                      
 false http://purl.oclc.org/NET/ssnx/ssn#Accuracy                                                          
 false http://purl.oclc.org/NET/ssnx/ssn#BatteryLifetime                                                   
-false http://purl.oclc.org/NET/ssnx/ssn#Condition                                                         
+true  http://purl.oclc.org/NET/ssnx/ssn#Condition                                                         
 true  http://purl.oclc.org/NET/ssnx/ssn#Deployment                                                        
-true  http://purl.oclc.org/NET/ssnx/ssn#DeploymentRelatedProcess                                          
+false http://purl.oclc.org/NET/ssnx/ssn#DeploymentRelatedProcess                                          
 false http://purl.oclc.org/NET/ssnx/ssn#DetectionLimit                                                    
 true  http://purl.oclc.org/NET/ssnx/ssn#Device                                                            
 false http://purl.oclc.org/NET/ssnx/ssn#Drift                                                             
-false http://purl.oclc.org/NET/ssnx/ssn#FeatureOfInterest                                                 
-false http://purl.oclc.org/NET/ssnx/ssn#Frequency                                                         
-true  http://purl.oclc.org/NET/ssnx/ssn#Input                                                             
+true  http://purl.oclc.org/NET/ssnx/ssn#FeatureOfInterest                                                 
+true  http://purl.oclc.org/NET/ssnx/ssn#Frequency                                                         
+false http://purl.oclc.org/NET/ssnx/ssn#Input                                                             
 false http://purl.oclc.org/NET/ssnx/ssn#Latency                                                           
 false http://purl.oclc.org/NET/ssnx/ssn#MaintenanceSchedule                                               
 true  http://purl.oclc.org/NET/ssnx/ssn#MeasurementCapability                                             
 false http://purl.oclc.org/NET/ssnx/ssn#MeasurementProperty                                               
 false http://purl.oclc.org/NET/ssnx/ssn#MeasurementRange                                                  
 false http://purl.oclc.org/NET/ssnx/ssn#ObservationValue                                                  
-true  http://purl.oclc.org/NET/ssnx/ssn#OperatingPowerRange                                               
+false http://purl.oclc.org/NET/ssnx/ssn#OperatingPowerRange                                               
 false http://purl.oclc.org/NET/ssnx/ssn#OperatingProperty                                                 
 true  http://purl.oclc.org/NET/ssnx/ssn#OperatingRange                                                    
 false http://purl.oclc.org/NET/ssnx/ssn#Output                                                            
 true  http://purl.oclc.org/NET/ssnx/ssn#Platform                                                          
 false http://purl.oclc.org/NET/ssnx/ssn#Precision                                                         
-false http://purl.oclc.org/NET/ssnx/ssn#Process                                                           
+true  http://purl.oclc.org/NET/ssnx/ssn#Process                                                           
 true  http://purl.oclc.org/NET/ssnx/ssn#Property                                                          
 false http://purl.oclc.org/NET/ssnx/ssn#Resolution                                                        
 false http://purl.oclc.org/NET/ssnx/ssn#ResponseTime                                                      
 false http://purl.oclc.org/NET/ssnx/ssn#Selectivity                                                       
-false http://purl.oclc.org/NET/ssnx/ssn#Sensing                                                           
+true  http://purl.oclc.org/NET/ssnx/ssn#Sensing                                                           
 true  http://purl.oclc.org/NET/ssnx/ssn#SensingDevice                                                     
-true  http://purl.oclc.org/NET/ssnx/ssn#Sensitivity                                                       
+false http://purl.oclc.org/NET/ssnx/ssn#Sensitivity                                                       
 true  http://purl.oclc.org/NET/ssnx/ssn#Sensor                                                            
 false http://purl.oclc.org/NET/ssnx/ssn#SensorDataSheet                                                   
 false http://purl.oclc.org/NET/ssnx/ssn#SensorInput                                                       
 false http://purl.oclc.org/NET/ssnx/ssn#SensorOutput                                                      
-false http://purl.oclc.org/NET/ssnx/ssn#Stimulus                                                          
+true  http://purl.oclc.org/NET/ssnx/ssn#Stimulus                                                          
 false http://purl.oclc.org/NET/ssnx/ssn#SurvivalProperty                                                  
 false http://purl.oclc.org/NET/ssnx/ssn#SurvivalRange                                                     
 true  http://purl.oclc.org/NET/ssnx/ssn#System                                                            
@@ -340,7 +340,7 @@ false http://www.loa-cnr.it/ontologies/DUL.owl#DesignedArtifact
 true  http://www.loa-cnr.it/ontologies/DUL.owl#Event                                                      
 false http://www.loa-cnr.it/ontologies/DUL.owl#InformationObject                                          
 true  http://www.loa-cnr.it/ontologies/DUL.owl#Method                                                     
-false http://www.loa-cnr.it/ontologies/DUL.owl#Object                                                     
+true  http://www.loa-cnr.it/ontologies/DUL.owl#Object                                                     
 true  http://www.loa-cnr.it/ontologies/DUL.owl#PhysicalObject                                             
 true  http://www.loa-cnr.it/ontologies/DUL.owl#Process                                                    
 true  http://www.loa-cnr.it/ontologies/DUL.owl#Quality                                                    
@@ -363,7 +363,7 @@ false http://purl.oclc.org/NET/ssnx/qu/qu#quantityComponent
 false http://purl.oclc.org/NET/ssnx/qu/qu#quantityKind                                                    
 false http://purl.oclc.org/NET/ssnx/qu/qu#quantityKindFactor                                              
 false http://purl.oclc.org/NET/ssnx/qu/qu#referenceUnit                                                   
-false http://purl.oclc.org/NET/ssnx/qu/qu#scale                                                           
+true  http://purl.oclc.org/NET/ssnx/qu/qu#scale                                                           
 false http://purl.oclc.org/NET/ssnx/qu/qu#scaleValueDefinition                                            
 false http://purl.oclc.org/NET/ssnx/qu/qu#specificQuantityKind                                            
 false http://purl.oclc.org/NET/ssnx/qu/qu#systemOfQuantities                                              
@@ -371,49 +371,49 @@ false http://purl.oclc.org/NET/ssnx/qu/qu#unit
 false http://purl.oclc.org/NET/ssnx/qu/qu#unitComponent                                                   
 false http://purl.oclc.org/NET/ssnx/qu/qu#unitFactor                                                      
 false http://purl.oclc.org/NET/ssnx/qu/qu#unitKind                                                        
-true  http://purl.oclc.org/NET/ssnx/ssn#attachedSystem                                                    
+false http://purl.oclc.org/NET/ssnx/ssn#attachedSystem                                                    
 true  http://purl.oclc.org/NET/ssnx/ssn#deployedOnPlatform                                                
-true  http://purl.oclc.org/NET/ssnx/ssn#deployedSystem                                                    
+false http://purl.oclc.org/NET/ssnx/ssn#deployedSystem                                                    
 true  http://purl.oclc.org/NET/ssnx/ssn#deploymentProcessPart                                             
 true  http://purl.oclc.org/NET/ssnx/ssn#detects                                                           
 false http://purl.oclc.org/NET/ssnx/ssn#endTime                                                           
-false http://purl.oclc.org/NET/ssnx/ssn#forProperty                                                       
+true  http://purl.oclc.org/NET/ssnx/ssn#forProperty                                                       
 true  http://purl.oclc.org/NET/ssnx/ssn#hasDeployment                                                     
-false http://purl.oclc.org/NET/ssnx/ssn#hasInput                                                          
+true  http://purl.oclc.org/NET/ssnx/ssn#hasInput                                                          
 true  http://purl.oclc.org/NET/ssnx/ssn#hasMeasurementCapability                                          
-true  http://purl.oclc.org/NET/ssnx/ssn#hasMeasurementProperty                                            
+false http://purl.oclc.org/NET/ssnx/ssn#hasMeasurementProperty                                            
 false http://purl.oclc.org/NET/ssnx/ssn#hasOperatingProperty                                              
 true  http://purl.oclc.org/NET/ssnx/ssn#hasOperatingRange                                                 
 true  http://purl.oclc.org/NET/ssnx/ssn#hasOutput                                                         
-false http://purl.oclc.org/NET/ssnx/ssn#hasProperty                                                       
+true  http://purl.oclc.org/NET/ssnx/ssn#hasProperty                                                       
 true  http://purl.oclc.org/NET/ssnx/ssn#hasSubSystem                                                      
-false http://purl.oclc.org/NET/ssnx/ssn#hasSurvivalProperty                                               
+true  http://purl.oclc.org/NET/ssnx/ssn#hasSurvivalProperty                                               
 true  http://purl.oclc.org/NET/ssnx/ssn#hasSurvivalRange                                                  
 false http://purl.oclc.org/NET/ssnx/ssn#hasValue                                                          
 true  http://purl.oclc.org/NET/ssnx/ssn#implementedBy                                                     
 true  http://purl.oclc.org/NET/ssnx/ssn#implements                                                        
 true  http://purl.oclc.org/NET/ssnx/ssn#inCondition                                                       
-false http://purl.oclc.org/NET/ssnx/ssn#inDeployment                                                      
+true  http://purl.oclc.org/NET/ssnx/ssn#inDeployment                                                      
 false http://purl.oclc.org/NET/ssnx/ssn#isProducedBy                                                      
 true  http://purl.oclc.org/NET/ssnx/ssn#isPropertyOf                                                      
 false http://purl.oclc.org/NET/ssnx/ssn#isProxyFor                                                        
-true  http://purl.oclc.org/NET/ssnx/ssn#observationResultTime                                             
+false http://purl.oclc.org/NET/ssnx/ssn#observationResultTime                                             
 false http://purl.oclc.org/NET/ssnx/ssn#observationSamplingTime                                           
 true  http://purl.oclc.org/NET/ssnx/ssn#observes                                                          
-true  http://purl.oclc.org/NET/ssnx/ssn#ofFeature                                                         
+false http://purl.oclc.org/NET/ssnx/ssn#ofFeature                                                         
 true  http://purl.oclc.org/NET/ssnx/ssn#onPlatform                                                        
-true  http://purl.oclc.org/NET/ssnx/ssn#qualityOfObservation                                              
-false http://purl.oclc.org/NET/ssnx/ssn#startTime                                                         
-false http://www.loa-cnr.it/ontologies/DUL.owl#describes                                                  
-true  http://www.loa-cnr.it/ontologies/DUL.owl#hasLocation                                                
+false http://purl.oclc.org/NET/ssnx/ssn#qualityOfObservation                                              
+true  http://purl.oclc.org/NET/ssnx/ssn#startTime                                                         
+true  http://www.loa-cnr.it/ontologies/DUL.owl#describes                                                  
+false http://www.loa-cnr.it/ontologies/DUL.owl#hasLocation                                                
 true  http://www.loa-cnr.it/ontologies/DUL.owl#hasPart                                                    
 true  http://www.loa-cnr.it/ontologies/DUL.owl#hasParticipant                                             
-false http://www.loa-cnr.it/ontologies/DUL.owl#hasQuality                                                 
+true  http://www.loa-cnr.it/ontologies/DUL.owl#hasQuality                                                 
 false http://www.loa-cnr.it/ontologies/DUL.owl#hasRegion                                                  
 true  http://www.loa-cnr.it/ontologies/DUL.owl#isDescribedBy                                              
 true  http://www.loa-cnr.it/ontologies/DUL.owl#isLocationOf                                               
-true  http://www.loa-cnr.it/ontologies/DUL.owl#isParametrizedBy                                           
-false http://www.loa-cnr.it/ontologies/DUL.owl#isParticipantIn                                            
+false http://www.loa-cnr.it/ontologies/DUL.owl#isParametrizedBy                                           
+true  http://www.loa-cnr.it/ontologies/DUL.owl#isParticipantIn                                            
 true  http://www.loa-cnr.it/ontologies/DUL.owl#isQualityOf                                                
 false http://www.loa-cnr.it/ontologies/DUL.owl#isRegionFor                                                
 false http://www.loa-cnr.it/ontologies/DUL.owl#parametrizes                                               
@@ -428,11 +428,11 @@ false http://purl.oclc.org/NET/ssnx/meteo/WM30#hasRangeMinValueExclusive
 false http://purl.oclc.org/NET/ssnx/meteo/WM30#hasRangeMinValueInclusive                                  
 false http://purl.oclc.org/NET/ssnx/meteo/WM30#sensingDescription                                         
 false http://purl.oclc.org/NET/ssnx/qu/qu#conversionFactor                                                
-false http://purl.oclc.org/NET/ssnx/qu/qu#definitionURI                                                   
-false http://purl.oclc.org/NET/ssnx/qu/qu#description                                                     
+true  http://purl.oclc.org/NET/ssnx/qu/qu#definitionURI                                                   
+true  http://purl.oclc.org/NET/ssnx/qu/qu#description                                                     
 false http://purl.oclc.org/NET/ssnx/qu/qu#exponent                                                        
 false http://purl.oclc.org/NET/ssnx/qu/qu#expression                                                      
-false http://purl.oclc.org/NET/ssnx/qu/qu#name                                                            
+true  http://purl.oclc.org/NET/ssnx/qu/qu#name                                                            
 false http://purl.oclc.org/NET/ssnx/qu/qu#numericalValue                                                  
 true  http://purl.oclc.org/NET/ssnx/qu/qu#symbol                                                          
 false http://purl.oclc.org/NET/ssnx/qu/qu#symbolicExpression                                              
@@ -441,64 +441,64 @@ false http://www.loa-cnr.it/ontologies/DUL.owl#hasRegionDataValue
 
 
 Signature coverage of the queries is summarized below:
-Class coverage (CC) = 9.22%
-Data property coverage (DPC) = 5.56%
-Object property coverage (OPC) = 41.18%
+Class coverage (CC) = 11.82%
+Data property coverage (DPC) = 22.22%
+Object property coverage (OPC) = 44.12%
 
 
 Keyword coverage of the queries is summarized below:
 FILTER coverage = 0.00%
-AND coverage = 32.50%
-UNION coverage = 3.00%
-OPTIONAL coverage = 6.50%
+AND coverage = 40.50%
+UNION coverage = 1.00%
+OPTIONAL coverage = 5.50%
 MINUS coverage = 2.50%
-NOT EXISTS coverage = 2.50%
-EXISTS coverage = 2.00%
+NOT EXISTS coverage = 2.00%
+EXISTS coverage = 0.50%
 
 
 Operator set distribution is summarized below:
-{} = 62.50%
-{And} = 28.00%
+{} = 59.00%
+{And} = 35.00%
 {Filter} = 0.00%
 {Filter, And} = 0.00%
-CPF subtotal = 90.50%
-{Union} = 1.50%
-{Opt} = 3.50%
+CPF subtotal = 94.00%
+{Union} = 0.00%
+{Opt} = 0.50%
 {Filter, Union} = 0.00%
 {Filter, Opt} = 0.00%
-{And, Union} = 1.50%
-{And, Opt} = 3.00%
+{And, Union} = 0.50%
+{And, Opt} = 4.50%
 {Union, Opt} = 0.00%
 {Filter, And, Union} = 0.00%
 {Filter, Union, Opt} = 0.00%
 {Filter, And, Opt} = 0.00%
-{And, Union, Opt} = 0.00%
+{And, Union, Opt} = 0.50%
 {Filter, And, Union, Opt} = 0.00%
-Non-CPF subtotal = 9.50%
+Non-CPF subtotal = 6.00%
 
 
 Triple pattern amount distribution is summarized below:
-{1~3} = 93.00%
-{4~6} = 7.00%
-{7~9} = 0.00%
+{1~3} = 89.50%
+{4~6} = 8.00%
+{7~9} = 2.50%
 {10~12} = 0.00%
 {13~16} = 0.00%
 {16+} = 0.00%
 
 
 Join amount distribution is summarized below:
-{0~4} = 94.00%
-{5~9} = 5.50%
-{10~14} = 0.50%
-{15~19} = 0.00%
+{0~4} = 90.00%
+{5~9} = 6.50%
+{10~14} = 2.50%
+{15~19} = 1.00%
 {20~24} = 0.00%
 {25+} = 0.00%
 
 
 Join type distribution is summarized below:
-Subject-Subject (SS) = 27.62%
-Predicate-Predicate (PP) = 24.29%
-Object-Object (OO) = 0.48%
+Subject-Subject (SS) = 31.25%
+Predicate-Predicate (PP) = 28.29%
+Object-Object (OO) = 1.32%
 Subject-Predicate (SP) = 0.00%
-Subject-Object (SO) = 47.62%
+Subject-Object (SO) = 39.14%
 Predicate-Object (PO) = 0.00%

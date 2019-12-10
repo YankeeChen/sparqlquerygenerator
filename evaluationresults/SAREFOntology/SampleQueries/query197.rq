@@ -1,16 +1,11 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Storage_0
+SELECT DISTINCT  ?EnergyMeter_0
 WHERE
-  { ?Storage_0  a                   saref:Storage
-    { ?Storage_0  saref:hasFunction  ?Function_0
-      { ?Function_0  a                  saref:Function
-        EXISTS
-          { ?GetCommand_0
-                      saref:isCommandOf  ?Function_0
-            { ?Function_0  saref:isCommandOf  ?GetCommand_0 }
-          }
-      }
+  { ?EnergyMeter_0
+              a                     saref:EnergyMeter
+    { ObjectDescription:Task_instance166
+                saref:accomplishes  ?EnergyMeter_0
     }
   }

@@ -1,6 +1,14 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?Sensor_0
+SELECT DISTINCT  ?SensingDevice_0
 WHERE
-  { ?Sensor_0  a                    ssn:Sensor }
+  { ?SensingDevice_0
+              a                     ssn:SensingDevice
+    { ?OverShootRatio_0
+                ssn:observes  ?SensingDevice_0
+      { ?WindFeature_0
+                  ssn:hasOperatingProperty  ?OverShootRatio_0
+      }
+    }
+  }

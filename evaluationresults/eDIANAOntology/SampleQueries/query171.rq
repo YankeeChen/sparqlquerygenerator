@@ -1,11 +1,11 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Power_Sensor_0
+SELECT DISTINCT  ?Sun_Radiation_Sensor_0
 WHERE
-  { ?Power_Sensor_0
-              a                     ContextAwareness_eDIANA:Power_Sensor ;
-              ContextAwareness_eDIANA:is_generated  ?DataValue0
-    FILTER ( ?DataValue0 = false )
+  { ?Sun_Radiation_Sensor_0
+              a                     ContextAwareness_eDIANA:Sun_Radiation_Sensor
+    { ?Var0  ContextAwareness_eDIANA:provided_services  ?Sun_Radiation_Sensor_0
+      { ?Var0  a                     ContextAwareness_eDIANA:iEi_Service }
+    }
   }

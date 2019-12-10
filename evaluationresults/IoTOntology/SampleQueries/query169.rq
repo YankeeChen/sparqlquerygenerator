@@ -1,11 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
 PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?PersonalComputer_0
+SELECT DISTINCT  ?Identifier_0
 WHERE
-  { ?PersonalComputer_0
-              a                     IoT-ontology:PersonalComputer
-    OPTIONAL
-      { ?Quality_0  DUL:hasQuality  ?PersonalComputer_0 }
+  { ?Identifier_0
+              a                     IoT-ontology:Identifier
   }

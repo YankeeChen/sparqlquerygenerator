@@ -1,6 +1,14 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Load_0
+SELECT DISTINCT  ?Appliance_0
 WHERE
-  { ?Load_0  a                     saref:Load }
+  { ?Appliance_0  a                 saref:Appliance
+    { ?Var0  saref:hasTypicalConsumption  ?Appliance_0
+      { ?Var0  a                     saref:Property
+        { ObjectDescription:Appliance_instance32
+                    saref:isControlledByDevice  ?Var0
+        }
+      }
+    }
+  }

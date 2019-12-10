@@ -1,8 +1,15 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Device_0
+SELECT DISTINCT  ?Smoke_Sensor_0
 WHERE
-  { ?Device_0  a                    ContextAwareness_eDIANA:Device ;
-              ContextAwareness_eDIANA:location  ?DataValue0
+  { ?Smoke_Sensor_0
+              a                     ContextAwareness_eDIANA:Smoke_Sensor
+    { ?Var0  ContextAwareness_eDIANA:provided_services  ?Smoke_Sensor_0
+      { ?Var0  a                     ContextAwareness_eDIANA:Service
+        { ?Var0  a                     ContextAwareness_eDIANA:Configuration_Read_iEi_Service
+          { ?Var0  a                     ContextAwareness_eDIANA:Command_Write_iEi_Service }
+        }
+      }
+    }
   }

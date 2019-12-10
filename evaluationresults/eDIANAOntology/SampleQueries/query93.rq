@@ -1,8 +1,10 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Temperature_Sensor_0
+SELECT DISTINCT  ?User_Interface_0
 WHERE
-  { ?Temperature_Sensor_0
-              a                     ContextAwareness_eDIANA:Temperature_Sensor
+  { ?User_Interface_0
+              a                     ContextAwareness_eDIANA:User_Interface .
+    ?Smart_Actuator_Command_Information_0
+              ContextAwareness_eDIANA:direction  ?User_Interface_0
   }

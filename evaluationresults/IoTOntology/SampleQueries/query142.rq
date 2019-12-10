@@ -1,11 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
 PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?PhysicalObject_0
+SELECT DISTINCT  ?RFID_tag_0
 WHERE
-  { ?PhysicalObject_0
-              a                     DUL:PhysicalObject .
-    ?Resource_0  IoT-ontology:attachedTo  ?PhysicalObject_0
-    { ?Resource_0  a                  IoT-ontology:Resource }
-  }
+  { ?RFID_tag_0  a                  IoT-ontology:RFID_tag }

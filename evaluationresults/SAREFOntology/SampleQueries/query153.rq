@@ -1,9 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Sensor_0
+SELECT DISTINCT  ?Actuator_0
 WHERE
-  {   { ?Sensor_0  a                    saref:Sensor }
-    UNION
-      { ?Sensor_1  saref:consistsOf  ?Sensor_0 }
+  { ?Actuator_0  a                  saref:Actuator
+    { ?Device_0  saref:consistsOf  ?Actuator_0 }
   }

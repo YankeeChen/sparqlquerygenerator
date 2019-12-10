@@ -1,11 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Command_Actuator_0
+SELECT DISTINCT  ?Threshold_Sensor_0
 WHERE
-  { ?Command_Actuator_0
-              a                     ContextAwareness_eDIANA:Command_Actuator
-    { ?Var0  ContextAwareness_eDIANA:provided_services  ?Command_Actuator_0
-      { ?Var0  a                     ContextAwareness_eDIANA:Profile_Read_iEi_Service }
-    }
+  { ?Threshold_Sensor_0
+              a                     ContextAwareness_eDIANA:Threshold_Sensor
   }

@@ -1,8 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Video_Camera_0
+SELECT DISTINCT  ?Load_0
 WHERE
-  { ?Video_Camera_0
-              a                     ContextAwareness_eDIANA:Video_Camera
-  }
+  { ?Load_0  a                     ContextAwareness_eDIANA:Load }

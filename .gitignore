@@ -13,23 +13,29 @@
 # Catalog files
 catalog-v*.xml
 
-# Evaluation result files
-evaluationresults/QueryEvaluationResults_*Queries.txt
-
 # .classpath                           
 .classpath
 
 # .project
 .project
 
-# pom file
-pom.xml
+# .gitattributes
+.gitattributes
+
+# .DS_Store
+.DS_Store
 
 # ignore all files in the .settings/ directory
 .settings/
 
+# pom file
+pom.xml
+
 # ignore all files in the SPARQLqueries/ directory
 SPARQLqueries/
+
+# Evaluation result files
+evaluationresults/QueryEvaluationResults_*Queries.txt
 
 # ignore all files in the doc/ directory
 doc/

@@ -1,10 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Actuator_0
+SELECT DISTINCT  ?Meter_0
 WHERE
-  { ?Actuator_0  a                  saref:Actuator
-    { :ActuatingFunction_instance60
-                saref:hasFunction  ?Actuator_0
-    }
-  }
+  { ?Meter_0  a                     saref:Meter }

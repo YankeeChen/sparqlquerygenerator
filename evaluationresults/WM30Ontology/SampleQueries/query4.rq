@@ -1,13 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?Platform_0
+SELECT DISTINCT  ?System_0
 WHERE
-  { ?Platform_0  a                  ssn:Platform
-    { ?Platform_0  ssn:hasDeployment  ?DeploymentRelatedProcess_0
-      { ?DeploymentRelatedProcess_1
-                  DUL:hasPart  ?DeploymentRelatedProcess_0
-      }
-    }
-  }
+  { ?System_0  a                    ssn:System }

@@ -1,9 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?RFSystem_0
+SELECT DISTINCT  ?USRPN200_0
 WHERE
-  {   { ?RFSystem_0  a                  RFDevice:RFSystem }
-    UNION
-      { ?Var0  RFDevice:supportsTuning  ?RFSystem_0 }
-  }
+  { ?USRPN200_0  a                  SDR:USRPN200 }

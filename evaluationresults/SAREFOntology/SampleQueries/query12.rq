@@ -1,8 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Multimedia_0
+SELECT DISTINCT  ?FunctionRelated_0
 WHERE
-  { ?Multimedia_0
-              a                     saref:Multimedia
+  { ?FunctionRelated_0
+              a                     saref:FunctionRelated
   }

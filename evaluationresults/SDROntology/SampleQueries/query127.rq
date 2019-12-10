@@ -1,24 +1,16 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
-PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Half_DuplexCommunicationsSystem_0
+SELECT DISTINCT  ?PulseDopplerRadar_0
 WHERE
-  { ?Half_DuplexCommunicationsSystem_0
-              a                     RFDevice:Half-DuplexCommunicationsSystem
-    { ?Transmitter_0
-                Nuvio:partOf  ?Half_DuplexCommunicationsSystem_0
-      { ?Transmitter_0
-                  a                     RFDevice:Transmitter
-        { ?Entity_0  RFDevice:hasFrequencyAccuracy  ?Transmitter_0
-          { ?Entity_0  a                    Nuvio:Entity
-            { ?Entity_0  a                    RFDevice:DataSize
-              { ?Entity_0  Nuvio:hasValue  ?Var0
-                { ?Var0  a                     RFDevice:IntegerValue }
-              }
-              { ?Entity_0  a                    Nuvio:Attribute }
-            }
-          }
+  { ?PulseDopplerRadar_0
+              a                     RFDevice:PulseDopplerRadar
+    { ?MobilePlatform_0
+                RFDevice:isDeployedOn  ?PulseDopplerRadar_0
+      { ?MobilePlatform_0
+                  a                     RFDevice:MobilePlatform
+        { ObjectDescription:Moving_instance51
+                    RFDevice:supportsJamming  ?MobilePlatform_0
         }
       }
     }

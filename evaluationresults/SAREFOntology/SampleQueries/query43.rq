@@ -1,15 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Multimedia_0
+SELECT DISTINCT  ?Device_0
 WHERE
-  { ?Multimedia_0
-              a                     saref:Multimedia
-    EXISTS
-      { ?TemperatureSensor_0
-                  saref:consistsOf  ?Multimedia_0
-        { ?TemperatureSensor_0
-                    a                     saref:TemperatureSensor
-        }
-      }
+  { ?Device_0  a                    saref:Device
+    { ?Device_0  saref:offers  ?SwitchOnService_0 }
   }

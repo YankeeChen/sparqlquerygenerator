@@ -1,8 +1,24 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?WashingMachine_0
+SELECT DISTINCT  ?Actuator_0
 WHERE
-  { ?WashingMachine_0
-              a                     saref:WashingMachine
+  { ?Actuator_0  a                  saref:Actuator
+    { ?StartStopFunction_0
+                saref:hasFunction  ?Actuator_0
+      {   { ?StartStopFunction_0
+                      a                     saref:StartStopFunction
+          }
+        UNION
+          { ?OffCommand_0
+                      saref:isCommandOf  ?StartStopFunction_0
+            { ?OffCommand_0
+                        a                     saref:OffCommand
+              { ?CloseState_0
+                          saref:actsUpon  ?OffCommand_0
+              }
+            }
+          }
+      }
+    }
   }

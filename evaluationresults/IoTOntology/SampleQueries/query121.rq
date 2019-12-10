@@ -1,15 +1,13 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?EmbeddedDevice_0
+SELECT DISTINCT  ?Sensor_0
 WHERE
-  { ?EmbeddedDevice_0
-              a                     IoT-ontology:EmbeddedDevice
-    NOT EXISTS
-      { ?Platform_0  ssn:onPlatform  ?EmbeddedDevice_0
-        { ?Platform_0  a                  ssn:Platform
-          { ?Process_0  ssn:inDeployment  ?Platform_0 }
+  { ?Sensor_0  a                    ssn:Sensor
+    MINUS
+      { ?Sensor_0  ssn:hasMeasurementCapability  ?MeasurementCapability_0
+        { ?MeasurementCapability_0
+                    a                     ssn:MeasurementCapability
         }
       }
   }

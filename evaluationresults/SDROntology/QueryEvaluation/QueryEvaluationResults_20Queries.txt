@@ -1,16 +1,16 @@
 321 out of 321 OWL classes are selected:
-true  http://cogradio.org/ont/Nuvio.owl#Attribute                                                         
+false http://cogradio.org/ont/Nuvio.owl#Attribute                                                         
 false http://cogradio.org/ont/Nuvio.owl#DimensionlessUnit                                                 
-true  http://cogradio.org/ont/Nuvio.owl#Entity                                                            
+false http://cogradio.org/ont/Nuvio.owl#Entity                                                            
 false http://cogradio.org/ont/Nuvio.owl#InformationContent                                                
-true  http://cogradio.org/ont/Nuvio.owl#InformationEntity                                                 
+false http://cogradio.org/ont/Nuvio.owl#InformationEntity                                                 
 false http://cogradio.org/ont/Nuvio.owl#InformationRepresentation                                         
 true  http://cogradio.org/ont/Nuvio.owl#Object                                                            
 false http://cogradio.org/ont/Nuvio.owl#Process                                                           
 false http://cogradio.org/ont/Nuvio.owl#Quality                                                           
 false http://cogradio.org/ont/Nuvio.owl#Quantity                                                          
 false http://cogradio.org/ont/Nuvio.owl#Situation                                                         
-true  http://cogradio.org/ont/Nuvio.owl#UnitOfMeasure                                                     
+false http://cogradio.org/ont/Nuvio.owl#UnitOfMeasure                                                     
 false http://cogradio.org/ont/Nuvio.owl#Value                                                             
 false http://ece.neu.edu/ontologies/RFDevice.owl#ADC                                                      
 false http://ece.neu.edu/ontologies/RFDevice.owl#AdjustableBandwidthSensing                               
@@ -61,7 +61,7 @@ false http://ece.neu.edu/ontologies/RFDevice.owl#DoubleValue
 false http://ece.neu.edu/ontologies/RFDevice.owl#ElectricCharge                                           
 false http://ece.neu.edu/ontologies/RFDevice.owl#ElectricChargeUnit                                       
 false http://ece.neu.edu/ontologies/RFDevice.owl#ElectronicAttack                                         
-true  http://ece.neu.edu/ontologies/RFDevice.owl#ElectronicAttackSystem                                   
+false http://ece.neu.edu/ontologies/RFDevice.owl#ElectronicAttackSystem                                   
 false http://ece.neu.edu/ontologies/RFDevice.owl#ElectronicProtection                                     
 false http://ece.neu.edu/ontologies/RFDevice.owl#ElectronicSupport                                        
 true  http://ece.neu.edu/ontologies/RFDevice.owl#ElectronicSupportSystem                                  
@@ -82,7 +82,7 @@ false http://ece.neu.edu/ontologies/RFDevice.owl#FrequencyScanRate
 false http://ece.neu.edu/ontologies/RFDevice.owl#FrequencyScanRateUnit                                    
 false http://ece.neu.edu/ontologies/RFDevice.owl#FrequencyShiftKeyingModulation                           
 false http://ece.neu.edu/ontologies/RFDevice.owl#FrequencyUnit                                            
-true  http://ece.neu.edu/ontologies/RFDevice.owl#Full-DuplexCommunicationsSystem                          
+false http://ece.neu.edu/ontologies/RFDevice.owl#Full-DuplexCommunicationsSystem                          
 false http://ece.neu.edu/ontologies/RFDevice.owl#GPS                                                      
 false http://ece.neu.edu/ontologies/RFDevice.owl#Gain                                                     
 false http://ece.neu.edu/ontologies/RFDevice.owl#GainRange                                                
@@ -119,7 +119,7 @@ true  http://ece.neu.edu/ontologies/RFDevice.owl#MonostaticRadar
 false http://ece.neu.edu/ontologies/RFDevice.owl#Moving                                                   
 false http://ece.neu.edu/ontologies/RFDevice.owl#NoiseFigure                                              
 false http://ece.neu.edu/ontologies/RFDevice.owl#NoiseJamming                                             
-true  http://ece.neu.edu/ontologies/RFDevice.owl#NonNegativeDecimalValue                                  
+false http://ece.neu.edu/ontologies/RFDevice.owl#NonNegativeDecimalValue                                  
 false http://ece.neu.edu/ontologies/RFDevice.owl#NonNegativeIntegerValue                                  
 false http://ece.neu.edu/ontologies/RFDevice.owl#OmnidirectionalAntenna                                   
 false http://ece.neu.edu/ontologies/RFDevice.owl#OnOffKeyingModulation                                    
@@ -138,10 +138,10 @@ false http://ece.neu.edu/ontologies/RFDevice.owl#Power
 false http://ece.neu.edu/ontologies/RFDevice.owl#PowerRange                                               
 false http://ece.neu.edu/ontologies/RFDevice.owl#PowerUnit                                                
 false http://ece.neu.edu/ontologies/RFDevice.owl#Processor                                                
-false http://ece.neu.edu/ontologies/RFDevice.owl#Producer                                                 
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Producer                                                 
 false http://ece.neu.edu/ontologies/RFDevice.owl#PulseDopplerRadar                                        
 false http://ece.neu.edu/ontologies/RFDevice.owl#PulseDopplerRadarModulation                              
-false http://ece.neu.edu/ontologies/RFDevice.owl#PulseRadar                                               
+true  http://ece.neu.edu/ontologies/RFDevice.owl#PulseRadar                                               
 false http://ece.neu.edu/ontologies/RFDevice.owl#PulseRadarModulation                                     
 false http://ece.neu.edu/ontologies/RFDevice.owl#QuadratureAmplitudeModulation                            
 false http://ece.neu.edu/ontologies/RFDevice.owl#QuantityRange                                            
@@ -151,7 +151,7 @@ false http://ece.neu.edu/ontologies/RFDevice.owl#RadarFrequencyBand
 false http://ece.neu.edu/ontologies/RFDevice.owl#RadarJammer                                              
 false http://ece.neu.edu/ontologies/RFDevice.owl#RadarJamming                                             
 false http://ece.neu.edu/ontologies/RFDevice.owl#RadarModulation                                          
-false http://ece.neu.edu/ontologies/RFDevice.owl#RadarSystem                                              
+true  http://ece.neu.edu/ontologies/RFDevice.owl#RadarSystem                                              
 false http://ece.neu.edu/ontologies/RFDevice.owl#RadarWarningReceiver                                     
 false http://ece.neu.edu/ontologies/RFDevice.owl#RadioComponent                                           
 false http://ece.neu.edu/ontologies/RFDevice.owl#RadioFrequencyBand                                       
@@ -161,7 +161,7 @@ false http://ece.neu.edu/ontologies/RFDevice.owl#Receiver
 false http://ece.neu.edu/ontologies/RFDevice.owl#Receiving                                                
 false http://ece.neu.edu/ontologies/RFDevice.owl#Role                                                     
 false http://ece.neu.edu/ontologies/RFDevice.owl#Satellite                                                
-true  http://ece.neu.edu/ontologies/RFDevice.owl#SearchRadar                                              
+false http://ece.neu.edu/ontologies/RFDevice.owl#SearchRadar                                              
 false http://ece.neu.edu/ontologies/RFDevice.owl#SelfProtectionJamming                                    
 false http://ece.neu.edu/ontologies/RFDevice.owl#Ship                                                     
 false http://ece.neu.edu/ontologies/RFDevice.owl#ShortValue                                               
@@ -196,7 +196,7 @@ false http://ece.neu.edu/ontologies/RFDevice.owl#Velocity
 false http://ece.neu.edu/ontologies/RFDevice.owl#VelocityUnit                                             
 false http://ece.neu.edu/ontologies/RFDevice.owl#Voltage                                                  
 false http://ece.neu.edu/ontologies/RFDevice.owl#VoltageUnit                                              
-false http://ece.neu.edu/ontologies/RFDevice.owl#Weight                                                   
+true  http://ece.neu.edu/ontologies/RFDevice.owl#Weight                                                   
 false http://ece.neu.edu/ontologies/RFDevice.owl#WeightUnit                                               
 false http://ece.neu.edu/ontologies/RFDevice.owl#WhipAntenna                                              
 false http://ece.neu.edu/ontologies/RFDevice.owl#Width                                                    
@@ -211,26 +211,26 @@ true  http://ece.neu.edu/ontologies/SDR.owl#SDR
 false http://ece.neu.edu/ontologies/SDR.owl#Series7FPGA                                                   
 false http://ece.neu.edu/ontologies/SDR.owl#Spartan3ADSPFPGA                                              
 false http://ece.neu.edu/ontologies/SDR.owl#Spartan6FPGA                                                  
-true  http://ece.neu.edu/ontologies/SDR.owl#USRPB200                                                      
-true  http://ece.neu.edu/ontologies/SDR.owl#USRPB200-210                                                  
-true  http://ece.neu.edu/ontologies/SDR.owl#USRPB200mini                                                  
-false http://ece.neu.edu/ontologies/SDR.owl#USRPB200mini-i                                                
+false http://ece.neu.edu/ontologies/SDR.owl#USRPB200                                                      
+false http://ece.neu.edu/ontologies/SDR.owl#USRPB200-210                                                  
+false http://ece.neu.edu/ontologies/SDR.owl#USRPB200mini                                                  
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPB200mini-i                                                
 false http://ece.neu.edu/ontologies/SDR.owl#USRPB205mini-i                                                
 false http://ece.neu.edu/ontologies/SDR.owl#USRPB210                                                      
 false http://ece.neu.edu/ontologies/SDR.owl#USRPB2xx                                                      
 true  http://ece.neu.edu/ontologies/SDR.owl#USRPB2xxmini                                                  
-false http://ece.neu.edu/ontologies/SDR.owl#USRPE310                                                      
-false http://ece.neu.edu/ontologies/SDR.owl#USRPE312                                                      
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPE310                                                      
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPE312                                                      
 false http://ece.neu.edu/ontologies/SDR.owl#USRPE313                                                      
 false http://ece.neu.edu/ontologies/SDR.owl#USRPE3xx                                                      
 false http://ece.neu.edu/ontologies/SDR.owl#USRPN200                                                      
 false http://ece.neu.edu/ontologies/SDR.owl#USRPN210                                                      
-false http://ece.neu.edu/ontologies/SDR.owl#USRPN2xx                                                      
-true  http://ece.neu.edu/ontologies/SDR.owl#USRPN300                                                      
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPN2xx                                                      
+false http://ece.neu.edu/ontologies/SDR.owl#USRPN300                                                      
 true  http://ece.neu.edu/ontologies/SDR.owl#USRPN310                                                      
-true  http://ece.neu.edu/ontologies/SDR.owl#USRPN3xx                                                      
-false http://ece.neu.edu/ontologies/SDR.owl#USRPX300                                                      
-true  http://ece.neu.edu/ontologies/SDR.owl#USRPX310                                                      
+false http://ece.neu.edu/ontologies/SDR.owl#USRPN3xx                                                      
+true  http://ece.neu.edu/ontologies/SDR.owl#USRPX300                                                      
+false http://ece.neu.edu/ontologies/SDR.owl#USRPX310                                                      
 false http://ece.neu.edu/ontologies/SDR.owl#USRPX3xx                                                      
 false http://ece.neu.edu/ontologies/SDR.owl#XC3SD1800AFPGA                                                
 false http://ece.neu.edu/ontologies/SDR.owl#XC3SD3400AFPGA                                                
@@ -323,23 +323,23 @@ false http://www.w3.org/2004/02/skos/core#OrderedCollection
 
 
 102 out of 104 OWL object properties are selected:
-true  http://cogradio.org/ont/Nuvio.owl#aggregateOf                                                       
-false http://cogradio.org/ont/Nuvio.owl#compositeOf                                                       
-true  http://cogradio.org/ont/Nuvio.owl#expresses                                                         
+false http://cogradio.org/ont/Nuvio.owl#aggregateOf                                                       
+true  http://cogradio.org/ont/Nuvio.owl#compositeOf                                                       
+false http://cogradio.org/ont/Nuvio.owl#expresses                                                         
 false http://cogradio.org/ont/Nuvio.owl#hasObjectQuality                                                  
-true  http://cogradio.org/ont/Nuvio.owl#hasObjectQuantity                                                 
+false http://cogradio.org/ont/Nuvio.owl#hasObjectQuantity                                                 
 false http://cogradio.org/ont/Nuvio.owl#hasParticipant                                                    
 false http://cogradio.org/ont/Nuvio.owl#hasProcessQuality                                                 
 false http://cogradio.org/ont/Nuvio.owl#hasProcessQuantity                                                
 false http://cogradio.org/ont/Nuvio.owl#hasSubprocess                                                     
-true  http://cogradio.org/ont/Nuvio.owl#hasUnitOfMeasure                                                  
-true  http://cogradio.org/ont/Nuvio.owl#hasValue                                                          
+false http://cogradio.org/ont/Nuvio.owl#hasUnitOfMeasure                                                  
+false http://cogradio.org/ont/Nuvio.owl#hasValue                                                          
 false http://cogradio.org/ont/Nuvio.owl#informationSource                                                 
-true  http://cogradio.org/ont/Nuvio.owl#isExpressedBy                                                     
+false http://cogradio.org/ont/Nuvio.owl#isExpressedBy                                                     
 false http://cogradio.org/ont/Nuvio.owl#partOf                                                            
 false http://cogradio.org/ont/Nuvio.owl#participatesIn                                                    
 false http://cogradio.org/ont/Nuvio.owl#relevantIndividual                                                
-true  http://cogradio.org/ont/Nuvio.owl#representedBy                                                     
+false http://cogradio.org/ont/Nuvio.owl#representedBy                                                     
 false http://cogradio.org/ont/Nuvio.owl#represents                                                        
 false http://cogradio.org/ont/Nuvio.owl#subprocessOf                                                      
 false http://ece.neu.edu/ontologies/RFDevice.owl#hasBandwidth                                             
@@ -354,18 +354,18 @@ false http://ece.neu.edu/ontologies/RFDevice.owl#hasEffectiveRadiatedPower
 false http://ece.neu.edu/ontologies/RFDevice.owl#hasFrequencyAccuracy                                     
 false http://ece.neu.edu/ontologies/RFDevice.owl#hasFrequencyRange                                        
 false http://ece.neu.edu/ontologies/RFDevice.owl#hasGain                                                  
-false http://ece.neu.edu/ontologies/RFDevice.owl#hasHeight                                                
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasHeight                                                
 false http://ece.neu.edu/ontologies/RFDevice.owl#hasLength                                                
 false http://ece.neu.edu/ontologies/RFDevice.owl#hasLevel                                                 
 false http://ece.neu.edu/ontologies/RFDevice.owl#hasMax                                                   
 false http://ece.neu.edu/ontologies/RFDevice.owl#hasMaxOutputPower                                        
-false http://ece.neu.edu/ontologies/RFDevice.owl#hasMaxPowerConsumption                                   
+true  http://ece.neu.edu/ontologies/RFDevice.owl#hasMaxPowerConsumption                                   
 false http://ece.neu.edu/ontologies/RFDevice.owl#hasMaxSensedPower                                        
 false http://ece.neu.edu/ontologies/RFDevice.owl#hasMin                                                   
-true  http://ece.neu.edu/ontologies/RFDevice.owl#hasNoiseFigure                                           
+false http://ece.neu.edu/ontologies/RFDevice.owl#hasNoiseFigure                                           
 false http://ece.neu.edu/ontologies/RFDevice.owl#hasPolarization                                          
 false http://ece.neu.edu/ontologies/RFDevice.owl#hasPowerConsumptionRange                                 
-true  http://ece.neu.edu/ontologies/RFDevice.owl#hasProducer                                              
+false http://ece.neu.edu/ontologies/RFDevice.owl#hasProducer                                              
 false http://ece.neu.edu/ontologies/RFDevice.owl#hasPulseRepetitionFrequency                              
 false http://ece.neu.edu/ontologies/RFDevice.owl#hasPulseRepetitionInterval                               
 false http://ece.neu.edu/ontologies/RFDevice.owl#hasPulseWidth                                            
@@ -378,10 +378,10 @@ false http://ece.neu.edu/ontologies/RFDevice.owl#hasWeight
 false http://ece.neu.edu/ontologies/RFDevice.owl#hasWidth                                                 
 false http://ece.neu.edu/ontologies/RFDevice.owl#isDeployedOn                                             
 true  http://ece.neu.edu/ontologies/RFDevice.owl#isProducerOf                                             
-true  http://ece.neu.edu/ontologies/RFDevice.owl#supportsJamming                                          
+false http://ece.neu.edu/ontologies/RFDevice.owl#supportsJamming                                          
 false http://ece.neu.edu/ontologies/RFDevice.owl#supportsSpectrumSensing                                  
-true  http://ece.neu.edu/ontologies/RFDevice.owl#supportsTransmitting                                     
-true  http://ece.neu.edu/ontologies/RFDevice.owl#supportsTuning                                           
+false http://ece.neu.edu/ontologies/RFDevice.owl#supportsTransmitting                                     
+false http://ece.neu.edu/ontologies/RFDevice.owl#supportsTuning                                           
 false http://www.opengis.net/ont/geosparql#defaultGeometry                                                
 false http://www.opengis.net/ont/geosparql#ehContains                                                     
 false http://www.opengis.net/ont/geosparql#ehCoveredBy                                                    
@@ -429,12 +429,12 @@ false http://www.w3.org/2004/02/skos/core#topConceptOf
 
 16 out of 21 OWL data properties are selected:
 false http://cogradio.org/ont/Nuvio.owl#hasDataValue                                                      
-true  http://cogradio.org/ont/Nuvio.owl#hasPrecision                                                      
+false http://cogradio.org/ont/Nuvio.owl#hasPrecision                                                      
 false http://ece.neu.edu/ontologies/RFDevice.owl#hasDecimalValue                                          
 false http://ece.neu.edu/ontologies/RFDevice.owl#hasDoubleValue                                           
 false http://ece.neu.edu/ontologies/RFDevice.owl#hasFloatValue                                            
 false http://ece.neu.edu/ontologies/RFDevice.owl#hasIntegerValue                                          
-true  http://ece.neu.edu/ontologies/RFDevice.owl#hasNonNegativeIntegerValue                               
+false http://ece.neu.edu/ontologies/RFDevice.owl#hasNonNegativeIntegerValue                               
 false http://ece.neu.edu/ontologies/RFDevice.owl#hasPositiveIntegerValue                                  
 false http://www.opengis.net/ont/geosparql#asGML                                                          
 false http://www.opengis.net/ont/geosparql#asWKT                                                          
@@ -447,64 +447,64 @@ false http://www.opengis.net/ont/geosparql#spatialDimension
 
 
 Signature coverage of the queries is summarized below:
-Class coverage (CC) = 6.85%
-Data property coverage (DPC) = 12.50%
-Object property coverage (OPC) = 12.75%
+Class coverage (CC) = 5.30%
+Data property coverage (DPC) = 0.00%
+Object property coverage (OPC) = 3.92%
 
 
 Keyword coverage of the queries is summarized below:
-FILTER coverage = 10.00%
-AND coverage = 40.00%
-UNION coverage = 5.00%
+FILTER coverage = 0.00%
+AND coverage = 30.00%
+UNION coverage = 0.00%
 OPTIONAL coverage = 10.00%
 MINUS coverage = 0.00%
-NOT EXISTS coverage = 10.00%
-EXISTS coverage = 0.00%
+NOT EXISTS coverage = 0.00%
+EXISTS coverage = 5.00%
 
 
 Operator set distribution is summarized below:
-{} = 60.00%
-{And} = 25.00%
+{} = 70.00%
+{And} = 20.00%
 {Filter} = 0.00%
 {Filter, And} = 0.00%
-CPF subtotal = 85.00%
+CPF subtotal = 90.00%
 {Union} = 0.00%
 {Opt} = 0.00%
 {Filter, Union} = 0.00%
 {Filter, Opt} = 0.00%
 {And, Union} = 0.00%
-{And, Opt} = 5.00%
+{And, Opt} = 10.00%
 {Union, Opt} = 0.00%
-{Filter, And, Union} = 5.00%
+{Filter, And, Union} = 0.00%
 {Filter, Union, Opt} = 0.00%
-{Filter, And, Opt} = 5.00%
+{Filter, And, Opt} = 0.00%
 {And, Union, Opt} = 0.00%
 {Filter, And, Union, Opt} = 0.00%
-Non-CPF subtotal = 15.00%
+Non-CPF subtotal = 10.00%
 
 
 Triple pattern amount distribution is summarized below:
-{1~3} = 90.00%
+{1~3} = 100.00%
 {4~6} = 0.00%
-{7~9} = 10.00%
+{7~9} = 0.00%
 {10~12} = 0.00%
 {13~16} = 0.00%
 {16+} = 0.00%
 
 
 Join amount distribution is summarized below:
-{0~4} = 90.00%
+{0~4} = 100.00%
 {5~9} = 0.00%
-{10~14} = 5.00%
+{10~14} = 0.00%
 {15~19} = 0.00%
 {20~24} = 0.00%
-{25+} = 5.00%
+{25+} = 0.00%
 
 
 Join type distribution is summarized below:
-Subject-Subject (SS) = 27.08%
-Predicate-Predicate (PP) = 14.58%
-Object-Object (OO) = 8.33%
+Subject-Subject (SS) = 28.57%
+Predicate-Predicate (PP) = 28.57%
+Object-Object (OO) = 0.00%
 Subject-Predicate (SP) = 0.00%
-Subject-Object (SO) = 50.00%
+Subject-Object (SO) = 42.86%
 Predicate-Object (PO) = 0.00%

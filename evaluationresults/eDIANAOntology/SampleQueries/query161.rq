@@ -1,11 +1,15 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Value_Actuator_0
+SELECT DISTINCT  ?Airflow_Sensor_0
 WHERE
-  { ?Value_Actuator_0
-              a                     ContextAwareness_eDIANA:Value_Actuator ;
-              ContextAwareness_eDIANA:is_digital  ?DataValue0
-    FILTER ( ?DataValue0 < false )
+  { ?Airflow_Sensor_0
+              a                     ContextAwareness_eDIANA:Airflow_Sensor
+    { ?Var0  ContextAwareness_eDIANA:provided_services  ?Airflow_Sensor_0
+      { ?Var0  a                     ContextAwareness_eDIANA:Write_iEi_Service
+        OPTIONAL
+          { ?Var0  a                     ContextAwareness_eDIANA:Service }
+        { ?Var0  a                     ContextAwareness_eDIANA:Internal_Service }
+      }
+    }
   }

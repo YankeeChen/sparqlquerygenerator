@@ -1,14 +1,18 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?LightingDevice_0
+SELECT DISTINCT  ?Network_0
 WHERE
-  { ?LightingDevice_0
-              a                     saref:LightingDevice
-    { ?LightingDevice_0
-                saref:makesMeasurement  ?Measurement_0
-      { ?Measurement_0
-                  a                     saref:Measurement
+  { ?Network_0  a                   saref:Network
+    { ?SmokeSensor_0
+                saref:consistsOf  ?Network_0
+      {   { ?SmokeSensor_0
+                      a                     saref:SmokeSensor
+          }
+        UNION
+          { ?SmokeSensor_0
+                      saref:hasManufacturer  ?DataValue0
+          }
       }
     }
   }

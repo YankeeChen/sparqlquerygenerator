@@ -1,8 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Switch_Actuator_0
+SELECT DISTINCT  ?Boolean_Actuator_0
 WHERE
-  { ?Switch_Actuator_0
-              a                     ContextAwareness_eDIANA:Switch_Actuator
+  { ?Boolean_Actuator_0
+              a                     ContextAwareness_eDIANA:Boolean_Actuator
   }

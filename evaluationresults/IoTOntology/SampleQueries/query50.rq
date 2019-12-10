@@ -1,8 +1,12 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
 
-SELECT DISTINCT  ?ActuatingDevice_0
+SELECT DISTINCT  ?SmartPhone_0
 WHERE
-  { ?ActuatingDevice_0
-              a                     IoT-ontology:ActuatingDevice
+  { ?SmartPhone_0
+              a                     IoT-ontology:SmartPhone
+    { ObjectDescription:SensingDevice_instance97
+                DUL:hasComponent  ?SmartPhone_0
+    }
   }

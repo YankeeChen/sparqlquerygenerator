@@ -1,11 +1,28 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
 
-SELECT DISTINCT  ?Value_Actuator_0
+SELECT DISTINCT  ?User_Interface_0
 WHERE
-  { ?Value_Actuator_0
-              a                     ContextAwareness_eDIANA:Value_Actuator ;
-              ContextAwareness_eDIANA:max_value  ?DataValue0
-    FILTER ( ?DataValue0 < -79029689 )
+  { ?User_Interface_0
+              a                     ContextAwareness_eDIANA:User_Interface ;
+              ContextAwareness_eDIANA:is_graphical  ?DataValue0
+    FILTER ( ?DataValue0 > true )
+    ?User_Interface_0
+              ContextAwareness_eDIANA:direction  ?Output_Information_0
+    OPTIONAL
+      { ?Var0  ContextAwareness_eDIANA:provided_services  ?User_Interface_0
+        { ?Var0  a                     ContextAwareness_eDIANA:Command_Write_iEi_Service
+          {   { ?Var0  a                     ContextAwareness_eDIANA:Internal_Service
+                { ?Var0  a                     ContextAwareness_eDIANA:iEi_Service }
+              }
+            UNION
+              { ?Var0  a                     ContextAwareness_eDIANA:Configuration_Read_iEi_Service }
+          }
+        }
+        OPTIONAL
+          { ?Output_Information_0
+                      a                     ContextAwareness_eDIANA:Output_Information
+          }
+      }
   }

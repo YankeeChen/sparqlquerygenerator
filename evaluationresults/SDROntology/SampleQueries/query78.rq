@@ -1,15 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
-PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
-PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?CR_0
+SELECT DISTINCT  ?USRPB200mini_0
 WHERE
-  { ?CR_0  a                     SDR:CR
-    { ?Object_0  RFDevice:isProducerOf  ?CR_0
-      { ?Object_0  a                    Nuvio:Object .
-        ?UnitOfMeasure_0
-                  RFDevice:supportsTransmitting  ?Object_0
-      }
-    }
+  { ?USRPB200mini_0
+              a                     SDR:USRPB200mini
   }

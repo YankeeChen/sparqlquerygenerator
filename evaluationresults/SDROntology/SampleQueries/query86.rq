@@ -1,10 +1,11 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
 PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?USRPX300_0
+SELECT DISTINCT  ?MonostaticRadar_0
 WHERE
-  { ?USRPX300_0  a                  SDR:USRPX300
-    OPTIONAL
-      { ?Var0  RFDevice:hasWidth  ?USRPX300_0 }
+  { ?MonostaticRadar_0
+              a                     RFDevice:MonostaticRadar
+    { ?MonostaticRadar_0
+                RFDevice:hasProducer  ?Producer_0
+    }
   }

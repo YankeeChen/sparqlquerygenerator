@@ -1,8 +1,24 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
 
-SELECT DISTINCT  ?Half_DuplexCommunicationsSystem_0
+SELECT DISTINCT  ?USRPB200mini_0
 WHERE
-  { ?Half_DuplexCommunicationsSystem_0
-              a                     RFDevice:Half-DuplexCommunicationsSystem
+  { ?USRPB200mini_0
+              a                     SDR:USRPB200mini
+    { ?Entity_0  RFDevice:hasProducer  ?USRPB200mini_0
+      { ?Entity_0  a                    Nuvio:Entity .
+        ?Process_0  Nuvio:isExpressedBy  ?Entity_0
+        {   { ObjectDescription:RadarJammer_instance143
+                        Nuvio:partOf  ?Entity_0
+            }
+          UNION
+            { ?Entity_0  a                    RFDevice:FrequencyAccuracy
+              OPTIONAL
+                { ?Entity_0  a                    Nuvio:InformationRepresentation }
+            }
+        }
+      }
+    }
   }

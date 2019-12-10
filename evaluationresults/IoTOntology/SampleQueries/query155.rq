@@ -1,8 +1,14 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?ElectronicDevice_0
+SELECT DISTINCT  ?IdentityDevice_0
 WHERE
-  { ?ElectronicDevice_0
-              a                     IoT-ontology:ElectronicDevice
+  { ?IdentityDevice_0
+              a                     IoT-ontology:IdentityDevice
+    { ?Platform_0  ssn:attachedSystem  ?IdentityDevice_0
+      { ?Platform_0  a                  ssn:Platform
+        FILTER NOT EXISTS { ?Platform_0  ssn:attachedSystem  ObjectDescription:RFID_tag_instance95 }
+      }
+    }
   }

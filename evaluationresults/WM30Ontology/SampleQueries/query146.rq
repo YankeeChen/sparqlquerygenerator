@@ -1,26 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  WM30: <http://purl.oclc.org/NET/ssnx/meteo/WM30#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?WM30_WindDirection_0
+SELECT DISTINCT  ?System_0
 WHERE
-  { ?WM30_WindDirection_0
-              a                     WM30:WM30_WindDirection
-    { ?Sensitivity_0
-                ssn:observes  ?WM30_WindDirection_0
-      {   { ?Sensitivity_0
-                      a                     ssn:Sensitivity
-          }
-        UNION
-          { ?WindFeature_0
-                      ssn:isPropertyOf  ?Sensitivity_0
-            { ?WindFeature_0
-                        a                     WM30:WindFeature
-              { ?SpectralRadiantEnergyDensityInTermsOfWaveLength_0
-                          ssn:qualityOfObservation  ?WindFeature_0
-              }
-            }
-          }
-      }
-    }
-  }
+  { ?System_0  a                    ssn:System }

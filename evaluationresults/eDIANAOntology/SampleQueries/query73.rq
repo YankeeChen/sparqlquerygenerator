@@ -1,16 +1,12 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Sensor_0
+SELECT DISTINCT  ?Temperature_Sensor_0
 WHERE
-  { ?Sensor_0  a                    ContextAwareness_eDIANA:Sensor ;
-              ContextAwareness_eDIANA:is_calibrable  ?DataValue0
-    FILTER ( ?DataValue0 > false )
-    { ?Var0  ContextAwareness_eDIANA:provided_services  ?Sensor_0
-      { ?Var0  a                     ContextAwareness_eDIANA:LogData_Write_iEi_Service
-        { ?Var0  a                     ContextAwareness_eDIANA:Status_Read_iEi_Service }
-        { ?Var0  a                     ContextAwareness_eDIANA:SensorData_Read_iEi_Service }
-      }
+  { ?Temperature_Sensor_0
+              a                     ContextAwareness_eDIANA:Temperature_Sensor
+    { ?Temperature_Sensor_0
+                ContextAwareness_eDIANA:provided_services  ?Var0
+      { ?Var0  a                     ContextAwareness_eDIANA:Status_Read_iEi_Service }
     }
   }

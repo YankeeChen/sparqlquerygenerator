@@ -1,17 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
-PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?System_0
+SELECT DISTINCT  ?EmbeddedDevice_0
 WHERE
-  { ?System_0  a                    ssn:System
-    { ?SmartPhone_0
-                ssn:deploymentProcessPart  ?System_0
-      { ?SmartPhone_0
-                  a                     IoT-ontology:SmartPhone
-        { :SurvivalRange_instance333
-                    ssn:hasMeasurementCapability  ?SmartPhone_0
-        }
-      }
-    }
+  { ?EmbeddedDevice_0
+              a                     IoT-ontology:EmbeddedDevice
   }

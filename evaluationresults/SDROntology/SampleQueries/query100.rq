@@ -1,6 +1,31 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
+PREFIX  gml:  <http://www.opengis.net/ont/gml#>
 
-SELECT DISTINCT  ?USRPN3xx_0
+SELECT DISTINCT  ?USRPN210_0
 WHERE
-  { ?USRPN3xx_0  a                  SDR:USRPN3xx }
+  { ?USRPN210_0  a                  SDR:USRPN210
+    { ?Var0  RFDevice:supportsSpectrumSensing  ?USRPN210_0
+      { ?Var0     a                     Nuvio:Entity .
+        ?UnitOfMeasure_0
+                  Nuvio:isExpressedBy   ?Var0
+        {   { ?Var0  a                     RFDevice:FrequencyShiftKeyingModulation }
+          UNION
+            { ?Var0  a                     Nuvio:InformationEntity .
+              ?Var1  Nuvio:informationSource  ?Var0
+              { ?Var1  a                     gml:Curve
+                {   { ?Var1  a                     RFDevice:PulseRadarModulation }
+                  UNION
+                    { ?Var1  RFDevice:hasPulseRepetitionFrequency  ?Attribute_0 }
+                }
+              }
+            }
+        }
+        { ?UnitOfMeasure_0
+                    a                     Nuvio:UnitOfMeasure
+        }
+      }
+    }
+  }

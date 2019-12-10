@@ -1,12 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Appliance_0
+SELECT DISTINCT  ?Movement_Sensor_0
 WHERE
-  { ?Appliance_0  a                 ContextAwareness_eDIANA:Appliance ;
-              ContextAwareness_eDIANA:is_programmable  ?DataValue0
-    FILTER ( ?DataValue0 <= false )
-    :Humidity_Information_instance13
-              ContextAwareness_eDIANA:related_comfort_properties  ?Appliance_0
+  { ?Movement_Sensor_0
+              a                     ContextAwareness_eDIANA:Movement_Sensor
   }

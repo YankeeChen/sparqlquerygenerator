@@ -1,6 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?HVAC_0
+SELECT DISTINCT  ?Load_0
 WHERE
-  { ?HVAC_0  a                     saref:HVAC }
+  { ?Load_0  a                     saref:Load }

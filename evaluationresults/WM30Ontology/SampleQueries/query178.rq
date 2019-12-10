@@ -1,15 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?System_0
+SELECT DISTINCT  ?Sensor_0
 WHERE
-  { ?System_0  a                    ssn:System
-    MINUS
-      { ?SurvivalRange_0
-                  ssn:hasSurvivalRange  ?System_0
-        { :WindFeature_instance85
-                    DUL:isQualityOf  ?SurvivalRange_0
-        }
-      }
-  }
+  { ?Sensor_0  a                    ssn:Sensor }

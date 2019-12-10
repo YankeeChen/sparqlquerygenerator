@@ -1,15 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
 SELECT DISTINCT  ?Platform_0
 WHERE
-  { ?Platform_0  a                  ssn:Platform
-    NOT EXISTS
-      { ?PhysicalObject_0
-                  ssn:onPlatform  ?Platform_0
-        { ?PhysicalObject_0
-                    a                     DUL:PhysicalObject
-        }
-      }
-  }
+  { ?Platform_0  a                  ssn:Platform }

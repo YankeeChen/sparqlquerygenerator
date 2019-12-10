@@ -1,13 +1,13 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?MCC_0
+SELECT DISTINCT  ?Physical_Sensor_0
 WHERE
-  { ?MCC_0  a                     ContextAwareness_eDIANA:MCC
-    MINUS
-      { ?Var0  ContextAwareness_eDIANA:provided_services  ?MCC_0
-        { ?Var0  a                     ContextAwareness_eDIANA:Service
-          { ?Var0  a                     ContextAwareness_eDIANA:c2MCCi_Service }
-        }
+  { ?Physical_Sensor_0
+              a                     ContextAwareness_eDIANA:Physical_Sensor
+    { ?Var0  ContextAwareness_eDIANA:provided_services  ?Physical_Sensor_0
+      { ?Var0  a                     ContextAwareness_eDIANA:Configuration_Read_iEi_Service
+        { ?Var0  a                     ContextAwareness_eDIANA:Write_iEi_Service }
       }
+    }
   }

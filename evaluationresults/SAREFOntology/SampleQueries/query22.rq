@@ -1,6 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Storage_0
+SELECT DISTINCT  ?Actuator_0
 WHERE
-  { ?Storage_0  a                   saref:Storage }
+  { ?Actuator_0  a                  saref:Actuator }

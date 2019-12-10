@@ -1,8 +1,11 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
 
-SELECT DISTINCT  ?Switch_Actuator_0
+SELECT DISTINCT  ?Power_Sensor_0
 WHERE
-  { ?Switch_Actuator_0
-              a                     ContextAwareness_eDIANA:Switch_Actuator
+  { ?Power_Sensor_0
+              a                     ContextAwareness_eDIANA:Power_Sensor ;
+              ContextAwareness_eDIANA:is_generated  ?DataValue0
+    FILTER ( ?DataValue0 > false )
   }

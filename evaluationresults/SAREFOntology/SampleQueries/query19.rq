@@ -1,8 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?BuildingRelated_0
+SELECT DISTINCT  ?Switch_0
 WHERE
-  { ?BuildingRelated_0
-              a                     saref:BuildingRelated
+  { ?Switch_0  a                    saref:Switch
+    { ?Switch_0  saref:hasDescription  ?DataValue0 }
   }

@@ -1,8 +1,9 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Airflow_Sensor_0
+SELECT DISTINCT  ?Light_Sensor_0
 WHERE
-  { ?Airflow_Sensor_0
-              a                     ContextAwareness_eDIANA:Airflow_Sensor
+  { ?Light_Sensor_0
+              a                     ContextAwareness_eDIANA:Light_Sensor
+    { ?Var0  ContextAwareness_eDIANA:related_comfort_properties  ?Light_Sensor_0 }
   }

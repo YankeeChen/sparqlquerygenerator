@@ -1,8 +1,10 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
 
-SELECT DISTINCT  ?TrackingRadar_0
+SELECT DISTINCT  ?USRPB200_210_0
 WHERE
-  { ?TrackingRadar_0
-              a                     RFDevice:TrackingRadar
+  { ?USRPB200_210_0
+              a                     SDR:USRPB200-210
+    { ?FPGA_0  Nuvio:aggregateOf  ?USRPB200_210_0 }
   }

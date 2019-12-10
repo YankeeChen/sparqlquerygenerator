@@ -1,15 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
-PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?EmbeddedDevice_0
+SELECT DISTINCT  ?RegisterPlate_0
 WHERE
-  { ?EmbeddedDevice_0
-              a                     IoT-ontology:EmbeddedDevice
-    { ?ComputingDevice_0
-                ssn:deploymentProcessPart  ?EmbeddedDevice_0
-      { ?ComputingDevice_0
-                  a                     IoT-ontology:ComputingDevice
-      }
-    }
+  { ?RegisterPlate_0
+              a                     IoT-ontology:RegisterPlate
   }

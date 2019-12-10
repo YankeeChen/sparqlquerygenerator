@@ -1,6 +1,23 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Storage_0
+SELECT DISTINCT  ?LightingDevice_0
 WHERE
-  { ?Storage_0  a                   saref:Storage }
+  { ?LightingDevice_0
+              a                     saref:LightingDevice
+    { ?Task_0  saref:accomplishes  ?LightingDevice_0
+      { ?Task_0  saref:isAccomplishedBy  ?Storage_0
+        { ?Storage_0  a                   saref:Storage
+          { ?OpenCloseFunction_0
+                      saref:hasFunction  ?Storage_0
+            { ?StartCommand_0
+                        saref:isCommandOf  ?OpenCloseFunction_0
+              { ?StartCommand_0
+                          a                     saref:StartCommand
+              }
+            }
+          }
+        }
+      }
+    }
+  }

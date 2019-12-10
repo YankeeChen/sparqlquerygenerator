@@ -1,6 +1,10 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?Actuator_0
+SELECT DISTINCT  ?System_0
 WHERE
-  { ?Actuator_0  a                  IoT-ontology:Actuator }
+  { ?System_0  a                    ssn:System
+    { ObjectDescription:OperatingRange_instance310
+                ssn:hasOperatingRange  ?System_0
+    }
+  }

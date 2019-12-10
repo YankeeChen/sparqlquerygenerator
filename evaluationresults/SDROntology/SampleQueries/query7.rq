@@ -1,6 +1,9 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?CR_0
+SELECT DISTINCT  ?CommunicationsSystem_0
 WHERE
-  { ?CR_0  a                     SDR:CR }
+  { ?CommunicationsSystem_0
+              a                     RFDevice:CommunicationsSystem
+    { ?Receiving_0  RFDevice:supportsJamming  ?CommunicationsSystem_0 }
+  }

@@ -1,8 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Device_0
+SELECT DISTINCT  ?ProcessingPower_0
 WHERE
-  { ?Device_0  a                    ssn:Device
-    { ?Property_0  ssn:hasOperatingRange  ?Device_0 }
+  { ?ProcessingPower_0
+              a                     IoT-ontology:ProcessingPower
   }

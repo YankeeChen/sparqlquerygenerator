@@ -1,8 +1,10 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
 
-SELECT DISTINCT  ?ContinuousWaveRadar_0
+SELECT DISTINCT  ?ModelX_0
 WHERE
-  { ?ContinuousWaveRadar_0
-              a                     RFDevice:ContinuousWaveRadar
+  { ?ModelX_0  a                    RFDevice:ModelX
+    OPTIONAL
+      { ?IEDJammer_0  Nuvio:aggregateOf  ?ModelX_0 }
   }

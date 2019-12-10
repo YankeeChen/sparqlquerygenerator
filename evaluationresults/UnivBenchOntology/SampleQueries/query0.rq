@@ -1,0 +1,8 @@
+PREFIX  univ-bench: <http://swat.cse.lehigh.edu/onto/univ-bench.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+
+SELECT DISTINCT  ?Organization_0
+WHERE
+  { ?Organization_0
+              a                     univ-bench:Organization
+  }

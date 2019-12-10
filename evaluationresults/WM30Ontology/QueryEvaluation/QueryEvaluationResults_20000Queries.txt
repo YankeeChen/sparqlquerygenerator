@@ -26,51 +26,51 @@ true  http://purl.oclc.org/NET/ssnx/meteo/WM30#WindSpeed
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Acceleration                                                   
 true  http://purl.oclc.org/NET/ssnx/qu/dim#AccelerationUnit                                               
 true  http://purl.oclc.org/NET/ssnx/qu/dim#AccousticalImpedance                                           
-true  http://purl.oclc.org/NET/ssnx/qu/dim#AccousticalImpedanceUnit                                       
+false http://purl.oclc.org/NET/ssnx/qu/dim#AccousticalImpedanceUnit                                       
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Activity                                                       
-false http://purl.oclc.org/NET/ssnx/qu/dim#ActivityUnit                                                   
+true  http://purl.oclc.org/NET/ssnx/qu/dim#ActivityUnit                                                   
 true  http://purl.oclc.org/NET/ssnx/qu/dim#AmountOfSubstance                                              
 false http://purl.oclc.org/NET/ssnx/qu/dim#AmountOfSubstanceUnit                                          
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Angle                                                          
-true  http://purl.oclc.org/NET/ssnx/qu/dim#AngleUnit                                                      
+false http://purl.oclc.org/NET/ssnx/qu/dim#AngleUnit                                                      
 true  http://purl.oclc.org/NET/ssnx/qu/dim#AngularAcceleration                                            
 true  http://purl.oclc.org/NET/ssnx/qu/dim#AngularAccelerationUnit                                        
 true  http://purl.oclc.org/NET/ssnx/qu/dim#AngularMomentum                                                
-false http://purl.oclc.org/NET/ssnx/qu/dim#AngularMomentumUnit                                            
+true  http://purl.oclc.org/NET/ssnx/qu/dim#AngularMomentumUnit                                            
 true  http://purl.oclc.org/NET/ssnx/qu/dim#ApparentPower                                                  
 false http://purl.oclc.org/NET/ssnx/qu/dim#ApparentPowerUnit                                              
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Area                                                           
-true  http://purl.oclc.org/NET/ssnx/qu/dim#AreaUnit                                                       
+false http://purl.oclc.org/NET/ssnx/qu/dim#AreaUnit                                                       
 true  http://purl.oclc.org/NET/ssnx/qu/dim#AreicElectricCurrent                                           
 false http://purl.oclc.org/NET/ssnx/qu/dim#AreicElectricCurrentUnit                                       
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Capacitance                                                    
 true  http://purl.oclc.org/NET/ssnx/qu/dim#CapacitanceUnit                                                
 true  http://purl.oclc.org/NET/ssnx/qu/dim#ChargeDensity                                                  
-false http://purl.oclc.org/NET/ssnx/qu/dim#ChargeDensityUnit                                              
+true  http://purl.oclc.org/NET/ssnx/qu/dim#ChargeDensityUnit                                              
 true  http://purl.oclc.org/NET/ssnx/qu/dim#CoefficientOfThermalInsulation                                 
 true  http://purl.oclc.org/NET/ssnx/qu/dim#CoefficientOfThermalInsulationUnit                             
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Compressibility                                                
 false http://purl.oclc.org/NET/ssnx/qu/dim#CompressibilityUnit                                            
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Concentration                                                  
-true  http://purl.oclc.org/NET/ssnx/qu/dim#ConcentrationUnit                                              
+false http://purl.oclc.org/NET/ssnx/qu/dim#ConcentrationUnit                                              
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Conductance                                                    
 false http://purl.oclc.org/NET/ssnx/qu/dim#ConductanceUnit                                                
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Density                                                        
 false http://purl.oclc.org/NET/ssnx/qu/dim#DensityUnit                                                    
 true  http://purl.oclc.org/NET/ssnx/qu/dim#DifferentialCrossSection                                       
-true  http://purl.oclc.org/NET/ssnx/qu/dim#DifferentialCrossSectionUnit                                   
+false http://purl.oclc.org/NET/ssnx/qu/dim#DifferentialCrossSectionUnit                                   
 true  http://purl.oclc.org/NET/ssnx/qu/dim#DiffusionCoefficient                                           
 true  http://purl.oclc.org/NET/ssnx/qu/dim#DiffusionCoefficientUnit                                       
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Dimensionless                                                  
-true  http://purl.oclc.org/NET/ssnx/qu/dim#DimensionlessUnit                                              
+false http://purl.oclc.org/NET/ssnx/qu/dim#DimensionlessUnit                                              
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Distance                                                       
-false http://purl.oclc.org/NET/ssnx/qu/dim#DistanceUnit                                                   
+true  http://purl.oclc.org/NET/ssnx/qu/dim#DistanceUnit                                                   
 true  http://purl.oclc.org/NET/ssnx/qu/dim#DoseEquivalent                                                 
-false http://purl.oclc.org/NET/ssnx/qu/dim#DoseEquivalentUnit                                             
+true  http://purl.oclc.org/NET/ssnx/qu/dim#DoseEquivalentUnit                                             
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Duration                                                       
-true  http://purl.oclc.org/NET/ssnx/qu/dim#DurationUnit                                                   
+false http://purl.oclc.org/NET/ssnx/qu/dim#DurationUnit                                                   
 true  http://purl.oclc.org/NET/ssnx/qu/dim#DynamicViscosity                                               
-true  http://purl.oclc.org/NET/ssnx/qu/dim#DynamicViscosityUnit                                           
+false http://purl.oclc.org/NET/ssnx/qu/dim#DynamicViscosityUnit                                           
 true  http://purl.oclc.org/NET/ssnx/qu/dim#ElectricCharge                                                 
 false http://purl.oclc.org/NET/ssnx/qu/dim#ElectricChargeUnit                                             
 true  http://purl.oclc.org/NET/ssnx/qu/dim#ElectricConductivity                                           
@@ -80,40 +80,40 @@ true  http://purl.oclc.org/NET/ssnx/qu/dim#ElectricCurrentRateUnit
 true  http://purl.oclc.org/NET/ssnx/qu/dim#ElectricDipoleMoment                                           
 false http://purl.oclc.org/NET/ssnx/qu/dim#ElectricDipoleMomentUnit                                       
 true  http://purl.oclc.org/NET/ssnx/qu/dim#ElectricDisplacement                                           
-false http://purl.oclc.org/NET/ssnx/qu/dim#ElectricDisplacementUnit                                       
+true  http://purl.oclc.org/NET/ssnx/qu/dim#ElectricDisplacementUnit                                       
 true  http://purl.oclc.org/NET/ssnx/qu/dim#ElectricFieldStrength                                          
-true  http://purl.oclc.org/NET/ssnx/qu/dim#ElectricFieldStrengthUnit                                      
+false http://purl.oclc.org/NET/ssnx/qu/dim#ElectricFieldStrengthUnit                                      
 true  http://purl.oclc.org/NET/ssnx/qu/dim#ElectricLineReactance                                          
-true  http://purl.oclc.org/NET/ssnx/qu/dim#ElectricLineReactanceUnit                                      
+false http://purl.oclc.org/NET/ssnx/qu/dim#ElectricLineReactanceUnit                                      
 true  http://purl.oclc.org/NET/ssnx/qu/dim#ElectricPotential                                              
-false http://purl.oclc.org/NET/ssnx/qu/dim#ElectricPotentialUnit                                          
+true  http://purl.oclc.org/NET/ssnx/qu/dim#ElectricPotentialUnit                                          
 true  http://purl.oclc.org/NET/ssnx/qu/dim#ElectricResistance                                             
-false http://purl.oclc.org/NET/ssnx/qu/dim#ElectricResistanceUnit                                         
+true  http://purl.oclc.org/NET/ssnx/qu/dim#ElectricResistanceUnit                                         
 true  http://purl.oclc.org/NET/ssnx/qu/dim#ElectromagneticMoment                                          
-false http://purl.oclc.org/NET/ssnx/qu/dim#ElectromagneticMomentUnit                                      
+true  http://purl.oclc.org/NET/ssnx/qu/dim#ElectromagneticMomentUnit                                      
 true  http://purl.oclc.org/NET/ssnx/qu/dim#ElectronicDensityOfStates                                      
 false http://purl.oclc.org/NET/ssnx/qu/dim#ElectronicDensityOfStatesUnit                                  
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Energy                                                         
 true  http://purl.oclc.org/NET/ssnx/qu/dim#EnergyDensity                                                  
-false http://purl.oclc.org/NET/ssnx/qu/dim#EnergyDensityUnit                                              
+true  http://purl.oclc.org/NET/ssnx/qu/dim#EnergyDensityUnit                                              
 true  http://purl.oclc.org/NET/ssnx/qu/dim#EnergyFlux                                                     
 false http://purl.oclc.org/NET/ssnx/qu/dim#EnergyFluxUnit                                                 
-false http://purl.oclc.org/NET/ssnx/qu/dim#EnergyUnit                                                     
+true  http://purl.oclc.org/NET/ssnx/qu/dim#EnergyUnit                                                     
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Exposure                                                       
 true  http://purl.oclc.org/NET/ssnx/qu/dim#ExposureRate                                                   
-false http://purl.oclc.org/NET/ssnx/qu/dim#ExposureRateUnit                                               
-true  http://purl.oclc.org/NET/ssnx/qu/dim#ExposureUnit                                                   
+true  http://purl.oclc.org/NET/ssnx/qu/dim#ExposureRateUnit                                               
+false http://purl.oclc.org/NET/ssnx/qu/dim#ExposureUnit                                                   
 true  http://purl.oclc.org/NET/ssnx/qu/dim#FluxDensity                                                    
-false http://purl.oclc.org/NET/ssnx/qu/dim#FluxDensityUnit                                                
+true  http://purl.oclc.org/NET/ssnx/qu/dim#FluxDensityUnit                                                
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Force                                                          
 true  http://purl.oclc.org/NET/ssnx/qu/dim#ForceUnit                                                      
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Frequency                                                      
-false http://purl.oclc.org/NET/ssnx/qu/dim#FrequencyUnit                                                  
+true  http://purl.oclc.org/NET/ssnx/qu/dim#FrequencyUnit                                                  
 true  http://purl.oclc.org/NET/ssnx/qu/dim#GravitationalCoupling                                          
 false http://purl.oclc.org/NET/ssnx/qu/dim#GravitationalCouplingUnit                                      
 true  http://purl.oclc.org/NET/ssnx/qu/dim#HeatCapacity                                                   
-true  http://purl.oclc.org/NET/ssnx/qu/dim#HeatCapacityUnit                                               
-false http://purl.oclc.org/NET/ssnx/qu/dim#HeatTransferCoefficient                                        
+false http://purl.oclc.org/NET/ssnx/qu/dim#HeatCapacityUnit                                               
+true  http://purl.oclc.org/NET/ssnx/qu/dim#HeatTransferCoefficient                                        
 true  http://purl.oclc.org/NET/ssnx/qu/dim#HeatTransferCoefficientUnit                                    
 true  http://purl.oclc.org/NET/ssnx/qu/dim#HolographicMaterialSlabSensitivity                             
 false http://purl.oclc.org/NET/ssnx/qu/dim#HolographicMaterialSlabSensitivityUnit                         
@@ -126,43 +126,43 @@ false http://purl.oclc.org/NET/ssnx/qu/dim#InverseAmountUnit
 true  http://purl.oclc.org/NET/ssnx/qu/dim#LengthPerTemperature                                           
 true  http://purl.oclc.org/NET/ssnx/qu/dim#LengthPerTemperatureUnit                                       
 true  http://purl.oclc.org/NET/ssnx/qu/dim#LevelOfAFieldQuantity                                          
-false http://purl.oclc.org/NET/ssnx/qu/dim#LevelOfAFieldQuantityUnit                                      
+true  http://purl.oclc.org/NET/ssnx/qu/dim#LevelOfAFieldQuantityUnit                                      
 false http://purl.oclc.org/NET/ssnx/qu/dim#LinearDensity                                                  
-true  http://purl.oclc.org/NET/ssnx/qu/dim#LinearDensityUnit                                              
+false http://purl.oclc.org/NET/ssnx/qu/dim#LinearDensityUnit                                              
 true  http://purl.oclc.org/NET/ssnx/qu/dim#LinearEnergyTransfer                                           
-true  http://purl.oclc.org/NET/ssnx/qu/dim#LinearEnergyTransferUnit                                       
+false http://purl.oclc.org/NET/ssnx/qu/dim#LinearEnergyTransferUnit                                       
 true  http://purl.oclc.org/NET/ssnx/qu/dim#LuminousEfficacy                                               
 false http://purl.oclc.org/NET/ssnx/qu/dim#LuminousEfficacyUnit                                           
 true  http://purl.oclc.org/NET/ssnx/qu/dim#LuminousExposure                                               
 true  http://purl.oclc.org/NET/ssnx/qu/dim#LuminousExposureUnit                                           
 true  http://purl.oclc.org/NET/ssnx/qu/dim#LuminousFlux                                                   
-true  http://purl.oclc.org/NET/ssnx/qu/dim#LuminousFluxUnit                                               
+false http://purl.oclc.org/NET/ssnx/qu/dim#LuminousFluxUnit                                               
 true  http://purl.oclc.org/NET/ssnx/qu/dim#LuminousIntensity                                              
-true  http://purl.oclc.org/NET/ssnx/qu/dim#LuminousIntensityUnit                                          
+false http://purl.oclc.org/NET/ssnx/qu/dim#LuminousIntensityUnit                                          
 true  http://purl.oclc.org/NET/ssnx/qu/dim#MagneticFlux                                                   
 true  http://purl.oclc.org/NET/ssnx/qu/dim#MagneticFluxDensity                                            
 true  http://purl.oclc.org/NET/ssnx/qu/dim#MagneticFluxDensityUnit                                        
-true  http://purl.oclc.org/NET/ssnx/qu/dim#MagneticFluxUnit                                               
+false http://purl.oclc.org/NET/ssnx/qu/dim#MagneticFluxUnit                                               
 true  http://purl.oclc.org/NET/ssnx/qu/dim#MagneticVectorPotential                                        
 false http://purl.oclc.org/NET/ssnx/qu/dim#MagneticVectorPotentialUnit                                    
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Magnetization                                                  
 false http://purl.oclc.org/NET/ssnx/qu/dim#MagnetizationUnit                                              
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Mass                                                           
 true  http://purl.oclc.org/NET/ssnx/qu/dim#MassAttenuationCoefficient                                     
-true  http://purl.oclc.org/NET/ssnx/qu/dim#MassAttenuationCoefficientUnit                                 
+false http://purl.oclc.org/NET/ssnx/qu/dim#MassAttenuationCoefficientUnit                                 
 true  http://purl.oclc.org/NET/ssnx/qu/dim#MassFlowRate                                                   
-true  http://purl.oclc.org/NET/ssnx/qu/dim#MassFlowRateUnit                                               
+false http://purl.oclc.org/NET/ssnx/qu/dim#MassFlowRateUnit                                               
 true  http://purl.oclc.org/NET/ssnx/qu/dim#MassPerTimePerArea                                             
-false http://purl.oclc.org/NET/ssnx/qu/dim#MassPerTimePerAreaUnit                                         
+true  http://purl.oclc.org/NET/ssnx/qu/dim#MassPerTimePerAreaUnit                                         
 false http://purl.oclc.org/NET/ssnx/qu/dim#MassUnit                                                       
 true  http://purl.oclc.org/NET/ssnx/qu/dim#MechanicalImpedance                                            
-false http://purl.oclc.org/NET/ssnx/qu/dim#MechanicalImpedanceUnit                                        
+true  http://purl.oclc.org/NET/ssnx/qu/dim#MechanicalImpedanceUnit                                        
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Molality                                                       
-false http://purl.oclc.org/NET/ssnx/qu/dim#MolalityUnit                                                   
+true  http://purl.oclc.org/NET/ssnx/qu/dim#MolalityUnit                                                   
 true  http://purl.oclc.org/NET/ssnx/qu/dim#MolarAbsorptionCoefficient                                     
-false http://purl.oclc.org/NET/ssnx/qu/dim#MolarAbsorptionCoefficientUnit                                 
+true  http://purl.oclc.org/NET/ssnx/qu/dim#MolarAbsorptionCoefficientUnit                                 
 true  http://purl.oclc.org/NET/ssnx/qu/dim#MolarConductivity                                              
-false http://purl.oclc.org/NET/ssnx/qu/dim#MolarConductivityUnit                                          
+true  http://purl.oclc.org/NET/ssnx/qu/dim#MolarConductivityUnit                                          
 true  http://purl.oclc.org/NET/ssnx/qu/dim#MolarEnergy                                                    
 false http://purl.oclc.org/NET/ssnx/qu/dim#MolarEnergyUnit                                                
 true  http://purl.oclc.org/NET/ssnx/qu/dim#MolarFlux                                                      
@@ -170,39 +170,39 @@ false http://purl.oclc.org/NET/ssnx/qu/dim#MolarFluxUnit
 true  http://purl.oclc.org/NET/ssnx/qu/dim#MolarHeatCapacity                                              
 false http://purl.oclc.org/NET/ssnx/qu/dim#MolarHeatCapacityUnit                                          
 true  http://purl.oclc.org/NET/ssnx/qu/dim#MolarVolume                                                    
-true  http://purl.oclc.org/NET/ssnx/qu/dim#MolarVolumeUnit                                                
+false http://purl.oclc.org/NET/ssnx/qu/dim#MolarVolumeUnit                                                
 true  http://purl.oclc.org/NET/ssnx/qu/dim#MolecularWeight                                                
 false http://purl.oclc.org/NET/ssnx/qu/dim#MolecularWeightUnit                                            
 true  http://purl.oclc.org/NET/ssnx/qu/dim#MomentOfInertia                                                
-true  http://purl.oclc.org/NET/ssnx/qu/dim#MomentOfInertiaUnit                                            
+false http://purl.oclc.org/NET/ssnx/qu/dim#MomentOfInertiaUnit                                            
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Momentum                                                       
 false http://purl.oclc.org/NET/ssnx/qu/dim#MomentumUnit                                                   
 true  http://purl.oclc.org/NET/ssnx/qu/dim#NumberPerArea                                                  
-false http://purl.oclc.org/NET/ssnx/qu/dim#NumberPerAreaUnit                                              
+true  http://purl.oclc.org/NET/ssnx/qu/dim#NumberPerAreaUnit                                              
 true  http://purl.oclc.org/NET/ssnx/qu/dim#NumberPerLength                                                
-false http://purl.oclc.org/NET/ssnx/qu/dim#NumberPerLengthUnit                                            
+true  http://purl.oclc.org/NET/ssnx/qu/dim#NumberPerLengthUnit                                            
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Permeability                                                   
 false http://purl.oclc.org/NET/ssnx/qu/dim#PermeabilityUnit                                               
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Permittivity                                                   
-true  http://purl.oclc.org/NET/ssnx/qu/dim#PermittivityUnit                                               
+false http://purl.oclc.org/NET/ssnx/qu/dim#PermittivityUnit                                               
 true  http://purl.oclc.org/NET/ssnx/qu/dim#PhotonFluxDensity                                              
-true  http://purl.oclc.org/NET/ssnx/qu/dim#PhotonFluxDensityUnit                                          
+false http://purl.oclc.org/NET/ssnx/qu/dim#PhotonFluxDensityUnit                                          
 true  http://purl.oclc.org/NET/ssnx/qu/dim#PhotonIntensity                                                
-false http://purl.oclc.org/NET/ssnx/qu/dim#PhotonIntensityUnit                                            
+true  http://purl.oclc.org/NET/ssnx/qu/dim#PhotonIntensityUnit                                            
 true  http://purl.oclc.org/NET/ssnx/qu/dim#PhotonLuminance                                                
 false http://purl.oclc.org/NET/ssnx/qu/dim#PhotonLuminanceUnit                                            
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Power                                                          
 true  http://purl.oclc.org/NET/ssnx/qu/dim#PowerGradient                                                  
-false http://purl.oclc.org/NET/ssnx/qu/dim#PowerGradientUnit                                              
-true  http://purl.oclc.org/NET/ssnx/qu/dim#PowerUnit                                                      
+true  http://purl.oclc.org/NET/ssnx/qu/dim#PowerGradientUnit                                              
+false http://purl.oclc.org/NET/ssnx/qu/dim#PowerUnit                                                      
 true  http://purl.oclc.org/NET/ssnx/qu/dim#PressureCoefficient                                            
 false http://purl.oclc.org/NET/ssnx/qu/dim#PressureCoefficientUnit                                        
 true  http://purl.oclc.org/NET/ssnx/qu/dim#QuantityOfLight                                                
-true  http://purl.oclc.org/NET/ssnx/qu/dim#QuantityOfLightUnit                                            
+false http://purl.oclc.org/NET/ssnx/qu/dim#QuantityOfLightUnit                                            
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Radiance                                                       
 true  http://purl.oclc.org/NET/ssnx/qu/dim#RadianceExposure                                               
 true  http://purl.oclc.org/NET/ssnx/qu/dim#RadianceExposureUnit                                           
-true  http://purl.oclc.org/NET/ssnx/qu/dim#RadianceUnit                                                   
+false http://purl.oclc.org/NET/ssnx/qu/dim#RadianceUnit                                                   
 true  http://purl.oclc.org/NET/ssnx/qu/dim#RadiantIntensity                                               
 false http://purl.oclc.org/NET/ssnx/qu/dim#RadiantIntensityUnit                                           
 true  http://purl.oclc.org/NET/ssnx/qu/dim#RadiationDose                                                  
@@ -214,13 +214,13 @@ true  http://purl.oclc.org/NET/ssnx/qu/dim#ReactivePowerUnit
 true  http://purl.oclc.org/NET/ssnx/qu/dim#ReciprocalArea                                                 
 false http://purl.oclc.org/NET/ssnx/qu/dim#ReciprocalAreaUnit                                             
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Reluctance                                                     
-true  http://purl.oclc.org/NET/ssnx/qu/dim#ReluctanceUnit                                                 
+false http://purl.oclc.org/NET/ssnx/qu/dim#ReluctanceUnit                                                 
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Resistivity                                                    
 false http://purl.oclc.org/NET/ssnx/qu/dim#ResistivityUnit                                                
 true  http://purl.oclc.org/NET/ssnx/qu/dim#RotationalSpeed                                                
-false http://purl.oclc.org/NET/ssnx/qu/dim#RotationalSpeedUnit                                            
+true  http://purl.oclc.org/NET/ssnx/qu/dim#RotationalSpeedUnit                                            
 true  http://purl.oclc.org/NET/ssnx/qu/dim#RotatoryPower                                                  
-true  http://purl.oclc.org/NET/ssnx/qu/dim#RotatoryPowerUnit                                              
+false http://purl.oclc.org/NET/ssnx/qu/dim#RotatoryPowerUnit                                              
 true  http://purl.oclc.org/NET/ssnx/qu/dim#SecondMomentOfArea                                             
 true  http://purl.oclc.org/NET/ssnx/qu/dim#SecondMomentOfAreaUnit                                         
 true  http://purl.oclc.org/NET/ssnx/qu/dim#SeebeckCoefficient                                             
@@ -230,55 +230,55 @@ false http://purl.oclc.org/NET/ssnx/qu/dim#SolidAngleUnit
 true  http://purl.oclc.org/NET/ssnx/qu/dim#SpecificAcousticImpedance                                      
 true  http://purl.oclc.org/NET/ssnx/qu/dim#SpecificAcousticImpedanceUnit                                  
 true  http://purl.oclc.org/NET/ssnx/qu/dim#SpecificEnergy                                                 
-false http://purl.oclc.org/NET/ssnx/qu/dim#SpecificEnergyUnit                                             
+true  http://purl.oclc.org/NET/ssnx/qu/dim#SpecificEnergyUnit                                             
 true  http://purl.oclc.org/NET/ssnx/qu/dim#SpecificEntropy                                                
-true  http://purl.oclc.org/NET/ssnx/qu/dim#SpecificEntropyUnit                                            
-true  http://purl.oclc.org/NET/ssnx/qu/dim#SpecificVolume                                                 
+false http://purl.oclc.org/NET/ssnx/qu/dim#SpecificEntropyUnit                                            
+false http://purl.oclc.org/NET/ssnx/qu/dim#SpecificVolume                                                 
 true  http://purl.oclc.org/NET/ssnx/qu/dim#SpecificVolumeUnit                                             
 true  http://purl.oclc.org/NET/ssnx/qu/dim#SpectralAngularCrossSection                                    
-true  http://purl.oclc.org/NET/ssnx/qu/dim#SpectralAngularCrossSectionUnit                                
+false http://purl.oclc.org/NET/ssnx/qu/dim#SpectralAngularCrossSectionUnit                                
 true  http://purl.oclc.org/NET/ssnx/qu/dim#SpectralConcentrationOfVibrationalModesInTermsOfAngularFrequency
-false http://purl.oclc.org/NET/ssnx/qu/dim#SpectralConcentrationOfVibrationalModesInTermsOfAngularFrequencyUnit
+true  http://purl.oclc.org/NET/ssnx/qu/dim#SpectralConcentrationOfVibrationalModesInTermsOfAngularFrequencyUnit
 true  http://purl.oclc.org/NET/ssnx/qu/dim#SpectralRadiantEnergyDensityInTermsOfWaveLength                
-true  http://purl.oclc.org/NET/ssnx/qu/dim#SpectralRadiantEnergyDensityInTermsOfWaveLengthUnit            
+false http://purl.oclc.org/NET/ssnx/qu/dim#SpectralRadiantEnergyDensityInTermsOfWaveLengthUnit            
 true  http://purl.oclc.org/NET/ssnx/qu/dim#StefanBoltzmannConstant                                        
-true  http://purl.oclc.org/NET/ssnx/qu/dim#StefanBoltzmannConstantUnit                                    
+false http://purl.oclc.org/NET/ssnx/qu/dim#StefanBoltzmannConstantUnit                                    
 true  http://purl.oclc.org/NET/ssnx/qu/dim#StressOrPressure                                               
-false http://purl.oclc.org/NET/ssnx/qu/dim#StressOrPressureUnit                                           
+true  http://purl.oclc.org/NET/ssnx/qu/dim#StressOrPressureUnit                                           
 true  http://purl.oclc.org/NET/ssnx/qu/dim#SurfaceDensity                                                 
-false http://purl.oclc.org/NET/ssnx/qu/dim#SurfaceDensityUnit                                             
+true  http://purl.oclc.org/NET/ssnx/qu/dim#SurfaceDensityUnit                                             
 true  http://purl.oclc.org/NET/ssnx/qu/dim#SurfaceTension                                                 
-true  http://purl.oclc.org/NET/ssnx/qu/dim#SurfaceTensionUnit                                             
+false http://purl.oclc.org/NET/ssnx/qu/dim#SurfaceTensionUnit                                             
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Temperature                                                    
 true  http://purl.oclc.org/NET/ssnx/qu/dim#TemperatureDrift                                               
-false http://purl.oclc.org/NET/ssnx/qu/dim#TemperatureDriftUnit                                           
-false http://purl.oclc.org/NET/ssnx/qu/dim#TemperatureUnit                                                
+true  http://purl.oclc.org/NET/ssnx/qu/dim#TemperatureDriftUnit                                           
+true  http://purl.oclc.org/NET/ssnx/qu/dim#TemperatureUnit                                                
 true  http://purl.oclc.org/NET/ssnx/qu/dim#ThermalConductance                                             
 true  http://purl.oclc.org/NET/ssnx/qu/dim#ThermalConductanceUnit                                         
-true  http://purl.oclc.org/NET/ssnx/qu/dim#ThermalConductivity                                            
+false http://purl.oclc.org/NET/ssnx/qu/dim#ThermalConductivity                                            
 false http://purl.oclc.org/NET/ssnx/qu/dim#ThermalConductivityUnit                                        
 true  http://purl.oclc.org/NET/ssnx/qu/dim#ThermalResistance                                              
-true  http://purl.oclc.org/NET/ssnx/qu/dim#ThermalResistanceUnit                                          
+false http://purl.oclc.org/NET/ssnx/qu/dim#ThermalResistanceUnit                                          
 true  http://purl.oclc.org/NET/ssnx/qu/dim#ThicknessFrequencyProduct                                      
-false http://purl.oclc.org/NET/ssnx/qu/dim#ThicknessFrequencyProductUnit                                  
-true  http://purl.oclc.org/NET/ssnx/qu/dim#TorsionalStiffness                                             
+true  http://purl.oclc.org/NET/ssnx/qu/dim#ThicknessFrequencyProductUnit                                  
+false http://purl.oclc.org/NET/ssnx/qu/dim#TorsionalStiffness                                             
 true  http://purl.oclc.org/NET/ssnx/qu/dim#TorsionalStiffnessUnit                                         
 true  http://purl.oclc.org/NET/ssnx/qu/dim#VelocityOrSpeed                                                
 false http://purl.oclc.org/NET/ssnx/qu/dim#VelocityOrSpeedUnit                                            
 true  http://purl.oclc.org/NET/ssnx/qu/dim#Volume                                                         
 true  http://purl.oclc.org/NET/ssnx/qu/dim#VolumeDensityRate                                              
-true  http://purl.oclc.org/NET/ssnx/qu/dim#VolumeDensityRateUnit                                          
+false http://purl.oclc.org/NET/ssnx/qu/dim#VolumeDensityRateUnit                                          
 true  http://purl.oclc.org/NET/ssnx/qu/dim#VolumeFlowRate                                                 
-true  http://purl.oclc.org/NET/ssnx/qu/dim#VolumeFlowRateUnit                                             
-true  http://purl.oclc.org/NET/ssnx/qu/dim#VolumeUnit                                                     
+false http://purl.oclc.org/NET/ssnx/qu/dim#VolumeFlowRateUnit                                             
+false http://purl.oclc.org/NET/ssnx/qu/dim#VolumeUnit                                                     
 true  http://purl.oclc.org/NET/ssnx/qu/dim#VolumicActivity                                                
 true  http://purl.oclc.org/NET/ssnx/qu/dim#VolumicActivityUnit                                            
 true  http://purl.oclc.org/NET/ssnx/qu/dim#VolumicDose                                                    
-true  http://purl.oclc.org/NET/ssnx/qu/dim#VolumicDoseUnit                                                
+false http://purl.oclc.org/NET/ssnx/qu/dim#VolumicDoseUnit                                                
 false http://purl.oclc.org/NET/ssnx/qu/qu#ConversionBasedUnit                                             
 true  http://purl.oclc.org/NET/ssnx/qu/qu#DerivedQuantityKind                                             
 false http://purl.oclc.org/NET/ssnx/qu/qu#DerivedUnit                                                     
-true  http://purl.oclc.org/NET/ssnx/qu/qu#Dimension                                                       
+false http://purl.oclc.org/NET/ssnx/qu/qu#Dimension                                                       
 false http://purl.oclc.org/NET/ssnx/qu/qu#DimensionFactor                                                 
 false http://purl.oclc.org/NET/ssnx/qu/qu#GeneralConversionUnit                                           
 false http://purl.oclc.org/NET/ssnx/qu/qu#LinearConversionUnit                                            
@@ -365,7 +365,7 @@ true  http://purl.oclc.org/NET/ssnx/qu/qu#quantityKindFactor
 false http://purl.oclc.org/NET/ssnx/qu/qu#referenceUnit                                                   
 true  http://purl.oclc.org/NET/ssnx/qu/qu#scale                                                           
 true  http://purl.oclc.org/NET/ssnx/qu/qu#scaleValueDefinition                                            
-false http://purl.oclc.org/NET/ssnx/qu/qu#specificQuantityKind                                            
+true  http://purl.oclc.org/NET/ssnx/qu/qu#specificQuantityKind                                            
 true  http://purl.oclc.org/NET/ssnx/qu/qu#systemOfQuantities                                              
 true  http://purl.oclc.org/NET/ssnx/qu/qu#unit                                                            
 true  http://purl.oclc.org/NET/ssnx/qu/qu#unitComponent                                                   
@@ -397,14 +397,14 @@ true  http://purl.oclc.org/NET/ssnx/ssn#inDeployment
 false http://purl.oclc.org/NET/ssnx/ssn#isProducedBy                                                      
 true  http://purl.oclc.org/NET/ssnx/ssn#isPropertyOf                                                      
 true  http://purl.oclc.org/NET/ssnx/ssn#isProxyFor                                                        
-true  http://purl.oclc.org/NET/ssnx/ssn#observationResultTime                                             
+false http://purl.oclc.org/NET/ssnx/ssn#observationResultTime                                             
 true  http://purl.oclc.org/NET/ssnx/ssn#observationSamplingTime                                           
 true  http://purl.oclc.org/NET/ssnx/ssn#observes                                                          
 true  http://purl.oclc.org/NET/ssnx/ssn#ofFeature                                                         
 true  http://purl.oclc.org/NET/ssnx/ssn#onPlatform                                                        
 true  http://purl.oclc.org/NET/ssnx/ssn#qualityOfObservation                                              
 true  http://purl.oclc.org/NET/ssnx/ssn#startTime                                                         
-false http://www.loa-cnr.it/ontologies/DUL.owl#describes                                                  
+true  http://www.loa-cnr.it/ontologies/DUL.owl#describes                                                  
 true  http://www.loa-cnr.it/ontologies/DUL.owl#hasLocation                                                
 true  http://www.loa-cnr.it/ontologies/DUL.owl#hasPart                                                    
 true  http://www.loa-cnr.it/ontologies/DUL.owl#hasParticipant                                             
@@ -416,15 +416,15 @@ true  http://www.loa-cnr.it/ontologies/DUL.owl#isParametrizedBy
 true  http://www.loa-cnr.it/ontologies/DUL.owl#isParticipantIn                                            
 true  http://www.loa-cnr.it/ontologies/DUL.owl#isQualityOf                                                
 false http://www.loa-cnr.it/ontologies/DUL.owl#isRegionFor                                                
-false http://www.loa-cnr.it/ontologies/DUL.owl#parametrizes                                               
+true  http://www.loa-cnr.it/ontologies/DUL.owl#parametrizes                                               
 
 
 18 out of 20 OWL data properties are selected:
-false http://purl.oclc.org/NET/ssnx/meteo/WM30#hasRangeMaxValue                                           
-true  http://purl.oclc.org/NET/ssnx/meteo/WM30#hasRangeMaxValueExclusive                                  
-false http://purl.oclc.org/NET/ssnx/meteo/WM30#hasRangeMaxValueInclusive                                  
+true  http://purl.oclc.org/NET/ssnx/meteo/WM30#hasRangeMaxValue                                           
+false http://purl.oclc.org/NET/ssnx/meteo/WM30#hasRangeMaxValueExclusive                                  
+true  http://purl.oclc.org/NET/ssnx/meteo/WM30#hasRangeMaxValueInclusive                                  
 true  http://purl.oclc.org/NET/ssnx/meteo/WM30#hasRangeMinValue                                           
-true  http://purl.oclc.org/NET/ssnx/meteo/WM30#hasRangeMinValueExclusive                                  
+false http://purl.oclc.org/NET/ssnx/meteo/WM30#hasRangeMinValueExclusive                                  
 true  http://purl.oclc.org/NET/ssnx/meteo/WM30#hasRangeMinValueInclusive                                  
 true  http://purl.oclc.org/NET/ssnx/meteo/WM30#sensingDescription                                         
 false http://purl.oclc.org/NET/ssnx/qu/qu#conversionFactor                                                
@@ -435,70 +435,70 @@ false http://purl.oclc.org/NET/ssnx/qu/qu#expression
 true  http://purl.oclc.org/NET/ssnx/qu/qu#name                                                            
 true  http://purl.oclc.org/NET/ssnx/qu/qu#numericalValue                                                  
 true  http://purl.oclc.org/NET/ssnx/qu/qu#symbol                                                          
-false http://purl.oclc.org/NET/ssnx/qu/qu#symbolicExpression                                              
+true  http://purl.oclc.org/NET/ssnx/qu/qu#symbolicExpression                                              
 false http://purl.oclc.org/NET/ssnx/qu/qu#unitMultipleFactor                                              
 true  http://www.loa-cnr.it/ontologies/DUL.owl#hasRegionDataValue                                         
 
 
 Signature coverage of the queries is summarized below:
-Class coverage (CC) = 76.37%
-Data property coverage (DPC) = 66.67%
-Object property coverage (OPC) = 85.29%
+Class coverage (CC) = 73.78%
+Data property coverage (DPC) = 72.22%
+Object property coverage (OPC) = 88.24%
 
 
 Keyword coverage of the queries is summarized below:
-FILTER coverage = 0.04%
-AND coverage = 35.84%
-UNION coverage = 5.23%
-OPTIONAL coverage = 4.90%
-MINUS coverage = 1.71%
-NOT EXISTS coverage = 1.71%
-EXISTS coverage = 1.80%
+FILTER coverage = 0.03%
+AND coverage = 36.95%
+UNION coverage = 0.98%
+OPTIONAL coverage = 4.99%
+MINUS coverage = 1.70%
+NOT EXISTS coverage = 1.61%
+EXISTS coverage = 1.74%
 
 
 Operator set distribution is summarized below:
-{} = 60.75%
-{And} = 29.39%
+{} = 61.22%
+{And} = 32.93%
 {Filter} = 0.00%
-{Filter, And} = 0.02%
-CPF subtotal = 90.15%
-{Union} = 1.75%
-{Opt} = 1.67%
+{Filter, And} = 0.01%
+CPF subtotal = 94.16%
+{Union} = 0.00%
+{Opt} = 1.84%
 {Filter, Union} = 0.00%
 {Filter, Opt} = 0.00%
-{And, Union} = 3.19%
-{And, Opt} = 2.95%
+{And, Union} = 0.83%
+{And, Opt} = 3.00%
 {Union, Opt} = 0.00%
-{Filter, And, Union} = 0.02%
+{Filter, And, Union} = 0.01%
 {Filter, Union, Opt} = 0.00%
-{Filter, And, Opt} = 0.00%
-{And, Union, Opt} = 0.27%
-{Filter, And, Union, Opt} = 0.01%
-Non-CPF subtotal = 9.85%
+{Filter, And, Opt} = 0.01%
+{And, Union, Opt} = 0.14%
+{Filter, And, Union, Opt} = 0.00%
+Non-CPF subtotal = 5.83%
 
 
 Triple pattern amount distribution is summarized below:
-{1~3} = 90.80%
-{4~6} = 8.13%
-{7~9} = 0.90%
-{10~12} = 0.14%
-{13~16} = 0.02%
+{1~3} = 91.24%
+{4~6} = 7.77%
+{7~9} = 0.84%
+{10~12} = 0.13%
+{13~16} = 0.01%
 {16+} = 0.01%
 
 
 Join amount distribution is summarized below:
-{0~4} = 92.11%
-{5~9} = 6.27%
-{10~14} = 1.07%
-{15~19} = 0.37%
-{20~24} = 0.10%
-{25+} = 0.08%
+{0~4} = 92.70%
+{5~9} = 5.80%
+{10~14} = 1.06%
+{15~19} = 0.26%
+{20~24} = 0.11%
+{25+} = 0.06%
 
 
 Join type distribution is summarized below:
-Subject-Subject (SS) = 31.13%
-Predicate-Predicate (PP) = 24.27%
-Object-Object (OO) = 1.56%
+Subject-Subject (SS) = 31.61%
+Predicate-Predicate (PP) = 24.40%
+Object-Object (OO) = 1.59%
 Subject-Predicate (SP) = 0.00%
-Subject-Object (SO) = 43.04%
+Subject-Object (SO) = 42.39%
 Predicate-Object (PO) = 0.00%

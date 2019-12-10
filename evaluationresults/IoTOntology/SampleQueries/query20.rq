@@ -1,6 +1,20 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?System_0
+SELECT DISTINCT  ?ElectricHomeAppliance_0
 WHERE
-  { ?System_0  a                    ssn:System }
+  { ?ElectricHomeAppliance_0
+              a                     IoT-ontology:ElectricHomeAppliance
+    FILTER EXISTS { ?ElectricHomeAppliance_0
+                              ssn:hasOperatingProperty  ?Property_0
+                    { ?FeatureOfInterest_0
+                                ssn:hasProperty  ?Property_0
+                      { ?FeatureOfInterest_0
+                                  a                     ssn:FeatureOfInterest
+                        MINUS
+                          { ?Frequency_0  ssn:hasOperatingProperty  ?FeatureOfInterest_0 }
+                      }
+                    }
+                  }
+  }

@@ -1,11 +1,19 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?SmokeSensor_0
+SELECT DISTINCT  ?Switch_0
 WHERE
-  { ?SmokeSensor_0
-              a                     saref:SmokeSensor
-    { ?Time_0  saref:measuresProperty  ?SmokeSensor_0
-      { ?Time_0  a                     saref:Time }
+  { ?Switch_0  a                    saref:Switch
+    { ?LevelControlFunction_0
+                saref:hasFunction  ?Switch_0
+      { ?LevelControlFunction_0
+                  saref:hasCommand  ?CloseCommand_0
+        { ?CloseCommand_0
+                    a                     saref:CloseCommand
+          { ?OpenState_0  saref:actsUpon  ?CloseCommand_0
+            { ?OpenState_0  a                 saref:OpenState }
+          }
+        }
+      }
     }
   }

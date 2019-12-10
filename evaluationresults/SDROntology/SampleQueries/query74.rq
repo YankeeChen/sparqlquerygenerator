@@ -1,6 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?USRPE312_0
+SELECT DISTINCT  ?GNURadio_0
 WHERE
-  { ?USRPE312_0  a                  SDR:USRPE312 }
+  { ?GNURadio_0  a                  SDR:GNURadio }

@@ -1,8 +1,16 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?TemperatureSensor_0
+SELECT DISTINCT  ?LightSwitch_0
 WHERE
-  { ?TemperatureSensor_0
-              a                     saref:TemperatureSensor
+  { ?LightSwitch_0
+              a                     saref:LightSwitch
+    { ?Light_0  saref:measuresProperty  ?LightSwitch_0
+      { ?Measurement_0
+                  saref:relatesToMeasurement  ?Light_0
+        { ?Measurement_0
+                    a                     saref:Measurement
+        }
+      }
+    }
   }

@@ -8,11 +8,11 @@ false http://purl.oclc.org/NET/ssnx/meteo/WM30#TransducerOutput
 true  http://purl.oclc.org/NET/ssnx/meteo/WM30#Vaisala_WM30                                               
 false http://purl.oclc.org/NET/ssnx/meteo/WM30#ValueRange                                                 
 false http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_CharacteristicTransferFunction                        
-true  http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_OperatingRange                                        
+false http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_OperatingRange                                        
 false http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_SurvivalRange                                         
 true  http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_WindDirection                                         
 false http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_WindDirection_MeasurementCapability                   
-true  http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_WindDirection_MeasurementCapability_WMS301            
+false http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_WindDirection_MeasurementCapability_WMS301            
 false http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_WindDirection_MeasurementCapability_WMS302            
 true  http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_WindSpeed                                             
 false http://purl.oclc.org/NET/ssnx/meteo/WM30#WM30_WindSpeed_MeasurementCapability                       
@@ -298,10 +298,10 @@ false http://purl.oclc.org/NET/ssnx/qu/qu#UnitFactor
 false http://purl.oclc.org/NET/ssnx/ssn#Accuracy                                                          
 false http://purl.oclc.org/NET/ssnx/ssn#BatteryLifetime                                                   
 false http://purl.oclc.org/NET/ssnx/ssn#Condition                                                         
-false http://purl.oclc.org/NET/ssnx/ssn#Deployment                                                        
+true  http://purl.oclc.org/NET/ssnx/ssn#Deployment                                                        
 false http://purl.oclc.org/NET/ssnx/ssn#DeploymentRelatedProcess                                          
 false http://purl.oclc.org/NET/ssnx/ssn#DetectionLimit                                                    
-false http://purl.oclc.org/NET/ssnx/ssn#Device                                                            
+true  http://purl.oclc.org/NET/ssnx/ssn#Device                                                            
 false http://purl.oclc.org/NET/ssnx/ssn#Drift                                                             
 false http://purl.oclc.org/NET/ssnx/ssn#FeatureOfInterest                                                 
 false http://purl.oclc.org/NET/ssnx/ssn#Frequency                                                         
@@ -315,7 +315,7 @@ false http://purl.oclc.org/NET/ssnx/ssn#ObservationValue
 false http://purl.oclc.org/NET/ssnx/ssn#OperatingPowerRange                                               
 false http://purl.oclc.org/NET/ssnx/ssn#OperatingProperty                                                 
 false http://purl.oclc.org/NET/ssnx/ssn#OperatingRange                                                    
-true  http://purl.oclc.org/NET/ssnx/ssn#Output                                                            
+false http://purl.oclc.org/NET/ssnx/ssn#Output                                                            
 true  http://purl.oclc.org/NET/ssnx/ssn#Platform                                                          
 false http://purl.oclc.org/NET/ssnx/ssn#Precision                                                         
 false http://purl.oclc.org/NET/ssnx/ssn#Process                                                           
@@ -323,12 +323,12 @@ false http://purl.oclc.org/NET/ssnx/ssn#Property
 false http://purl.oclc.org/NET/ssnx/ssn#Resolution                                                        
 false http://purl.oclc.org/NET/ssnx/ssn#ResponseTime                                                      
 false http://purl.oclc.org/NET/ssnx/ssn#Selectivity                                                       
-false http://purl.oclc.org/NET/ssnx/ssn#Sensing                                                           
+true  http://purl.oclc.org/NET/ssnx/ssn#Sensing                                                           
 true  http://purl.oclc.org/NET/ssnx/ssn#SensingDevice                                                     
 false http://purl.oclc.org/NET/ssnx/ssn#Sensitivity                                                       
 true  http://purl.oclc.org/NET/ssnx/ssn#Sensor                                                            
 false http://purl.oclc.org/NET/ssnx/ssn#SensorDataSheet                                                   
-true  http://purl.oclc.org/NET/ssnx/ssn#SensorInput                                                       
+false http://purl.oclc.org/NET/ssnx/ssn#SensorInput                                                       
 false http://purl.oclc.org/NET/ssnx/ssn#SensorOutput                                                      
 false http://purl.oclc.org/NET/ssnx/ssn#Stimulus                                                          
 false http://purl.oclc.org/NET/ssnx/ssn#SurvivalProperty                                                  
@@ -337,7 +337,7 @@ true  http://purl.oclc.org/NET/ssnx/ssn#System
 false http://purl.oclc.org/NET/ssnx/ssn#SystemLifetime                                                    
 false http://www.loa-cnr.it/ontologies/DUL.owl#Amount                                                     
 false http://www.loa-cnr.it/ontologies/DUL.owl#DesignedArtifact                                           
-false http://www.loa-cnr.it/ontologies/DUL.owl#Event                                                      
+true  http://www.loa-cnr.it/ontologies/DUL.owl#Event                                                      
 false http://www.loa-cnr.it/ontologies/DUL.owl#InformationObject                                          
 false http://www.loa-cnr.it/ontologies/DUL.owl#Method                                                     
 false http://www.loa-cnr.it/ontologies/DUL.owl#Object                                                     
@@ -371,31 +371,31 @@ false http://purl.oclc.org/NET/ssnx/qu/qu#unit
 false http://purl.oclc.org/NET/ssnx/qu/qu#unitComponent                                                   
 false http://purl.oclc.org/NET/ssnx/qu/qu#unitFactor                                                      
 false http://purl.oclc.org/NET/ssnx/qu/qu#unitKind                                                        
-false http://purl.oclc.org/NET/ssnx/ssn#attachedSystem                                                    
+true  http://purl.oclc.org/NET/ssnx/ssn#attachedSystem                                                    
 false http://purl.oclc.org/NET/ssnx/ssn#deployedOnPlatform                                                
-false http://purl.oclc.org/NET/ssnx/ssn#deployedSystem                                                    
-false http://purl.oclc.org/NET/ssnx/ssn#deploymentProcessPart                                             
+true  http://purl.oclc.org/NET/ssnx/ssn#deployedSystem                                                    
+true  http://purl.oclc.org/NET/ssnx/ssn#deploymentProcessPart                                             
 true  http://purl.oclc.org/NET/ssnx/ssn#detects                                                           
 false http://purl.oclc.org/NET/ssnx/ssn#endTime                                                           
-true  http://purl.oclc.org/NET/ssnx/ssn#forProperty                                                       
+false http://purl.oclc.org/NET/ssnx/ssn#forProperty                                                       
 false http://purl.oclc.org/NET/ssnx/ssn#hasDeployment                                                     
-true  http://purl.oclc.org/NET/ssnx/ssn#hasInput                                                          
-false http://purl.oclc.org/NET/ssnx/ssn#hasMeasurementCapability                                          
-true  http://purl.oclc.org/NET/ssnx/ssn#hasMeasurementProperty                                            
-true  http://purl.oclc.org/NET/ssnx/ssn#hasOperatingProperty                                              
-true  http://purl.oclc.org/NET/ssnx/ssn#hasOperatingRange                                                 
+false http://purl.oclc.org/NET/ssnx/ssn#hasInput                                                          
+true  http://purl.oclc.org/NET/ssnx/ssn#hasMeasurementCapability                                          
+false http://purl.oclc.org/NET/ssnx/ssn#hasMeasurementProperty                                            
+false http://purl.oclc.org/NET/ssnx/ssn#hasOperatingProperty                                              
+false http://purl.oclc.org/NET/ssnx/ssn#hasOperatingRange                                                 
 false http://purl.oclc.org/NET/ssnx/ssn#hasOutput                                                         
 false http://purl.oclc.org/NET/ssnx/ssn#hasProperty                                                       
 false http://purl.oclc.org/NET/ssnx/ssn#hasSubSystem                                                      
-true  http://purl.oclc.org/NET/ssnx/ssn#hasSurvivalProperty                                               
-true  http://purl.oclc.org/NET/ssnx/ssn#hasSurvivalRange                                                  
-true  http://purl.oclc.org/NET/ssnx/ssn#hasValue                                                          
+false http://purl.oclc.org/NET/ssnx/ssn#hasSurvivalProperty                                               
+false http://purl.oclc.org/NET/ssnx/ssn#hasSurvivalRange                                                  
+false http://purl.oclc.org/NET/ssnx/ssn#hasValue                                                          
 true  http://purl.oclc.org/NET/ssnx/ssn#implementedBy                                                     
-true  http://purl.oclc.org/NET/ssnx/ssn#implements                                                        
-true  http://purl.oclc.org/NET/ssnx/ssn#inCondition                                                       
-false http://purl.oclc.org/NET/ssnx/ssn#inDeployment                                                      
+false http://purl.oclc.org/NET/ssnx/ssn#implements                                                        
+false http://purl.oclc.org/NET/ssnx/ssn#inCondition                                                       
+true  http://purl.oclc.org/NET/ssnx/ssn#inDeployment                                                      
 false http://purl.oclc.org/NET/ssnx/ssn#isProducedBy                                                      
-true  http://purl.oclc.org/NET/ssnx/ssn#isPropertyOf                                                      
+false http://purl.oclc.org/NET/ssnx/ssn#isPropertyOf                                                      
 false http://purl.oclc.org/NET/ssnx/ssn#isProxyFor                                                        
 false http://purl.oclc.org/NET/ssnx/ssn#observationResultTime                                             
 false http://purl.oclc.org/NET/ssnx/ssn#observationSamplingTime                                           
@@ -405,14 +405,14 @@ false http://purl.oclc.org/NET/ssnx/ssn#onPlatform
 false http://purl.oclc.org/NET/ssnx/ssn#qualityOfObservation                                              
 false http://purl.oclc.org/NET/ssnx/ssn#startTime                                                         
 false http://www.loa-cnr.it/ontologies/DUL.owl#describes                                                  
-true  http://www.loa-cnr.it/ontologies/DUL.owl#hasLocation                                                
-true  http://www.loa-cnr.it/ontologies/DUL.owl#hasPart                                                    
+false http://www.loa-cnr.it/ontologies/DUL.owl#hasLocation                                                
+false http://www.loa-cnr.it/ontologies/DUL.owl#hasPart                                                    
 false http://www.loa-cnr.it/ontologies/DUL.owl#hasParticipant                                             
 false http://www.loa-cnr.it/ontologies/DUL.owl#hasQuality                                                 
 false http://www.loa-cnr.it/ontologies/DUL.owl#hasRegion                                                  
-false http://www.loa-cnr.it/ontologies/DUL.owl#isDescribedBy                                              
-true  http://www.loa-cnr.it/ontologies/DUL.owl#isLocationOf                                               
-true  http://www.loa-cnr.it/ontologies/DUL.owl#isParametrizedBy                                           
+true  http://www.loa-cnr.it/ontologies/DUL.owl#isDescribedBy                                              
+false http://www.loa-cnr.it/ontologies/DUL.owl#isLocationOf                                               
+false http://www.loa-cnr.it/ontologies/DUL.owl#isParametrizedBy                                           
 false http://www.loa-cnr.it/ontologies/DUL.owl#isParticipantIn                                            
 false http://www.loa-cnr.it/ontologies/DUL.owl#isQualityOf                                                
 false http://www.loa-cnr.it/ontologies/DUL.owl#isRegionFor                                                
@@ -443,52 +443,52 @@ false http://www.loa-cnr.it/ontologies/DUL.owl#hasRegionDataValue
 Signature coverage of the queries is summarized below:
 Class coverage (CC) = 4.03%
 Data property coverage (DPC) = 0.00%
-Object property coverage (OPC) = 25.00%
+Object property coverage (OPC) = 11.76%
 
 
 Keyword coverage of the queries is summarized below:
 FILTER coverage = 0.00%
-AND coverage = 45.00%
+AND coverage = 30.00%
 UNION coverage = 0.00%
-OPTIONAL coverage = 0.00%
+OPTIONAL coverage = 10.00%
 MINUS coverage = 0.00%
 NOT EXISTS coverage = 0.00%
-EXISTS coverage = 0.00%
+EXISTS coverage = 5.00%
 
 
 Operator set distribution is summarized below:
-{} = 55.00%
-{And} = 45.00%
+{} = 70.00%
+{And} = 20.00%
 {Filter} = 0.00%
 {Filter, And} = 0.00%
-CPF subtotal = 100.00%
+CPF subtotal = 90.00%
 {Union} = 0.00%
 {Opt} = 0.00%
 {Filter, Union} = 0.00%
 {Filter, Opt} = 0.00%
 {And, Union} = 0.00%
-{And, Opt} = 0.00%
+{And, Opt} = 10.00%
 {Union, Opt} = 0.00%
 {Filter, And, Union} = 0.00%
 {Filter, Union, Opt} = 0.00%
 {Filter, And, Opt} = 0.00%
 {And, Union, Opt} = 0.00%
 {Filter, And, Union, Opt} = 0.00%
-Non-CPF subtotal = 0.00%
+Non-CPF subtotal = 10.00%
 
 
 Triple pattern amount distribution is summarized below:
-{1~3} = 85.00%
+{1~3} = 90.00%
 {4~6} = 10.00%
-{7~9} = 5.00%
+{7~9} = 0.00%
 {10~12} = 0.00%
 {13~16} = 0.00%
 {16+} = 0.00%
 
 
 Join amount distribution is summarized below:
-{0~4} = 95.00%
-{5~9} = 0.00%
+{0~4} = 90.00%
+{5~9} = 5.00%
 {10~14} = 5.00%
 {15~19} = 0.00%
 {20~24} = 0.00%
@@ -496,9 +496,9 @@ Join amount distribution is summarized below:
 
 
 Join type distribution is summarized below:
-Subject-Subject (SS) = 28.12%
-Predicate-Predicate (PP) = 21.88%
-Object-Object (OO) = 9.38%
+Subject-Subject (SS) = 32.00%
+Predicate-Predicate (PP) = 28.00%
+Object-Object (OO) = 0.00%
 Subject-Predicate (SP) = 0.00%
-Subject-Object (SO) = 40.62%
+Subject-Object (SO) = 40.00%
 Predicate-Object (PO) = 0.00%

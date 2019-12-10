@@ -1,9 +1,12 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
 
-SELECT DISTINCT  ?USRPN3xx_0
+SELECT DISTINCT  ?ElectronicAttackSystem_0
 WHERE
-  { ?USRPN3xx_0  a                  SDR:USRPN3xx
-    { ?Var0  RFDevice:hasPowerConsumptionRange  ?USRPN3xx_0 }
+  { ?ElectronicAttackSystem_0
+              a                     RFDevice:ElectronicAttackSystem
+    { ?RadioComponent_0
+                Nuvio:aggregateOf  ?ElectronicAttackSystem_0
+    }
   }

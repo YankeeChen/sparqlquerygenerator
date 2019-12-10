@@ -1,0 +1,134 @@
+42 out of 43 OWL classes are selected:
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#AdministrativeStaff                                  
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#Article                                              
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssistantProfessor                                   
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#AssociateProfessor                                   
+false http://swat.cse.lehigh.edu/onto/univ-bench.owl#Book                                                 
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#Chair                                                
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#ClericalStaff                                        
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#College                                              
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#ConferencePaper                                      
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course                                               
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#Dean                                                 
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#Department                                           
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#Director                                             
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#Employee                                             
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty                                              
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor                                        
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse                                       
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent                                      
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#Institute                                            
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#JournalArticle                                       
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#Lecturer                                             
+false http://swat.cse.lehigh.edu/onto/univ-bench.owl#Manual                                               
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#Organization                                         
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person                                               
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#PostDoc                                              
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor                                            
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#Program                                              
+false http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication                                          
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#Research                                             
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchAssistant                                    
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup                                        
+false http://swat.cse.lehigh.edu/onto/univ-bench.owl#Software                                             
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#Specification                                        
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#Student                                              
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#SystemsStaff                                         
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#TeachingAssistant                                    
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#TechnicalReport                                      
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent                                 
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#University                                           
+false http://swat.cse.lehigh.edu/onto/univ-bench.owl#UnofficialPublication                                
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#VisitingProfessor                                    
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#Work                                                 
+
+
+21 out of 25 OWL object properties are selected:
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#advisor                                              
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#affiliateOf                                          
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#affiliatedOrganizationOf                             
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#degreeFrom                                           
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#doctoralDegreeFrom                                   
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#hasAlumnus                                           
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#headOf                                               
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#mastersDegreeFrom                                    
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#member                                               
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#memberOf                                             
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#orgPublication                                       
+false http://swat.cse.lehigh.edu/onto/univ-bench.owl#publicationAuthor                                    
+false http://swat.cse.lehigh.edu/onto/univ-bench.owl#publicationResearch                                  
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#researchProject                                      
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#softwareDocumentation                                
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#subOrganizationOf                                    
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#takesCourse                                          
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#teacherOf                                            
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#teachingAssistantOf                                  
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#undergraduateDegreeFrom                              
+true  http://swat.cse.lehigh.edu/onto/univ-bench.owl#worksFor                                             
+
+
+0 out of 7 OWL data properties are selected:
+
+
+Signature coverage of the queries is summarized below:
+Class coverage (CC) = 88.10%
+Data property coverage (DPC) = 100.00%
+Object property coverage (OPC) = 90.48%
+
+
+Keyword coverage of the queries is summarized below:
+FILTER coverage = 0.00%
+AND coverage = 22.10%
+UNION coverage = 0.10%
+OPTIONAL coverage = 1.30%
+MINUS coverage = 0.50%
+NOT EXISTS coverage = 0.30%
+EXISTS coverage = 0.40%
+
+
+Operator set distribution is summarized below:
+{} = 77.90%
+{And} = 20.70%
+{Filter} = 0.00%
+{Filter, And} = 0.00%
+CPF subtotal = 98.60%
+{Union} = 0.00%
+{Opt} = 0.00%
+{Filter, Union} = 0.00%
+{Filter, Opt} = 0.00%
+{And, Union} = 0.10%
+{And, Opt} = 1.30%
+{Union, Opt} = 0.00%
+{Filter, And, Union} = 0.00%
+{Filter, Union, Opt} = 0.00%
+{Filter, And, Opt} = 0.00%
+{And, Union, Opt} = 0.00%
+{Filter, And, Union, Opt} = 0.00%
+Non-CPF subtotal = 1.40%
+
+
+Triple pattern amount distribution is summarized below:
+{1~3} = 98.65%
+{4~6} = 1.25%
+{7~9} = 0.10%
+{10~12} = 0.00%
+{13~16} = 0.00%
+{16+} = 0.00%
+
+
+Join amount distribution is summarized below:
+{0~4} = 98.90%
+{5~9} = 0.90%
+{10~14} = 0.20%
+{15~19} = 0.00%
+{20~24} = 0.00%
+{25+} = 0.00%
+
+
+Join type distribution is summarized below:
+Subject-Subject (SS) = 29.71%
+Predicate-Predicate (PP) = 25.86%
+Object-Object (OO) = 0.59%
+Subject-Predicate (SP) = 0.00%
+Subject-Object (SO) = 43.83%
+Predicate-Object (PO) = 0.00%

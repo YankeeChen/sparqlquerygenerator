@@ -1,11 +1,13 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?WashingMachine_0
+SELECT DISTINCT  ?Storage_0
 WHERE
-  { ?WashingMachine_0
-              a                     saref:WashingMachine
-    { ?Measurement_0
-                saref:makesMeasurement  ?WashingMachine_0
+  { ?Storage_0  a                   saref:Storage
+    { ?Var0  saref:hasTypicalConsumption  ?Storage_0
+      {   { ?Var0  a                     saref:Power }
+        UNION
+          { ?Var0  a                     saref:Energy }
+      }
     }
   }

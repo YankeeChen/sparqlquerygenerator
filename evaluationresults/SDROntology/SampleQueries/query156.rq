@@ -1,10 +1,12 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
 
-SELECT DISTINCT  ?ContinuousWaveRadar_0
+SELECT DISTINCT  ?USRPN200_0
 WHERE
-  { ?ContinuousWaveRadar_0
-              a                     RFDevice:ContinuousWaveRadar
-    MINUS
-      { ?Quantity_0  RFDevice:hasWeight  ?ContinuousWaveRadar_0 }
+  { ?USRPN200_0  a                  SDR:USRPN200
+    { ?Component_0  Nuvio:aggregateOf  ?USRPN200_0
+      { ?Component_0  a                 RFDevice:Component }
+    }
   }

@@ -1,18 +1,11 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?LightSwitch_0
+SELECT DISTINCT  ?MicroRenewable_0
 WHERE
-  { ?LightSwitch_0
-              a                     saref:LightSwitch
-    { ?Commodity_0  saref:isUsedFor  ?LightSwitch_0
-      { ?Commodity_0  a                 saref:Commodity
-        { ?IlluminanceUnit_0
-                    saref:isMeasuredIn  ?Commodity_0
-          { ?IlluminanceUnit_0
-                      a                     saref:IlluminanceUnit
-          }
-        }
-      }
+  { ?MicroRenewable_0
+              a                     saref:MicroRenewable
+    { ObjectDescription:EnergyRelated_instance128
+                saref:consistsOf  ?MicroRenewable_0
     }
   }

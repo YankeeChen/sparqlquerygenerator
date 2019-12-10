@@ -1,14 +1,10 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
 
-SELECT DISTINCT  ?Switch_Actuator_0
+SELECT DISTINCT  ?Appliance_0
 WHERE
-  { ?Switch_Actuator_0
-              a                     ContextAwareness_eDIANA:Switch_Actuator
-    NOT EXISTS
-      { ?Var0  ContextAwareness_eDIANA:provided_services  ?Switch_Actuator_0
-        { ?Var0  a                     ContextAwareness_eDIANA:iEi_Service
-          { ?Var0  a                     ContextAwareness_eDIANA:Service }
-        }
-      }
+  { ?Appliance_0  a                 ContextAwareness_eDIANA:Appliance ;
+              ContextAwareness_eDIANA:is_programmable  ?DataValue0
+    FILTER ( ?DataValue0 < false )
   }

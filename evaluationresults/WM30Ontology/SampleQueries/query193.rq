@@ -1,12 +1,11 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  WM30: <http://purl.oclc.org/NET/ssnx/meteo/WM30#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?WMS302_0
+SELECT DISTINCT  ?WMS301_0
 WHERE
-  { ?WMS302_0  a                    WM30:WMS302
-    { ?Event_0  ssn:detects  ?WMS302_0
-      { ?Event_0  a                     DUL:Event }
+  { ?WMS301_0  a                    WM30:WMS301
+    { ?WM30_CharacteristicTransferFunction_0
+                ssn:implementedBy  ?WMS301_0
     }
   }

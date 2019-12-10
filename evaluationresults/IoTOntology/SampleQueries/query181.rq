@@ -1,8 +1,10 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?IdentityDevice_0
+SELECT DISTINCT  ?Sensor_0
 WHERE
-  { ?IdentityDevice_0
-              a                     IoT-ontology:IdentityDevice
+  { ?Sensor_0  a                    ssn:Sensor
+    { ObjectDescription:Stimulus_instance20
+                ssn:detects  ?Sensor_0
+    }
   }

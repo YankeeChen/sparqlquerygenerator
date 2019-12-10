@@ -453,58 +453,58 @@ Object property coverage (OPC) = 100.00%
 
 
 Keyword coverage of the queries is summarized below:
-FILTER coverage = 2.01%
-AND coverage = 38.46%
-UNION coverage = 6.92%
-OPTIONAL coverage = 6.90%
-MINUS coverage = 2.47%
-NOT EXISTS coverage = 2.45%
-EXISTS coverage = 2.44%
+FILTER coverage = 2.02%
+AND coverage = 40.62%
+UNION coverage = 2.67%
+OPTIONAL coverage = 6.89%
+MINUS coverage = 2.45%
+NOT EXISTS coverage = 2.44%
+EXISTS coverage = 2.48%
 
 
 Operator set distribution is summarized below:
-{} = 57.17%
-{And} = 29.47%
+{} = 57.20%
+{And} = 33.41%
 {Filter} = 0.00%
-{Filter, And} = 0.65%
-CPF subtotal = 87.29%
-{Union} = 2.19%
-{Opt} = 2.18%
+{Filter, And} = 0.73%
+CPF subtotal = 91.35%
+{Union} = 0.00%
+{Opt} = 2.17%
 {Filter, Union} = 0.00%
 {Filter, Opt} = 0.00%
-{And, Union} = 3.13%
-{And, Opt} = 3.12%
+{And, Union} = 1.34%
+{And, Opt} = 3.27%
 {Union, Opt} = 0.00%
-{Filter, And, Union} = 0.49%
+{Filter, And, Union} = 0.42%
 {Filter, Union, Opt} = 0.00%
-{Filter, And, Opt} = 0.49%
-{And, Union, Opt} = 0.74%
-{Filter, And, Union, Opt} = 0.38%
-Non-CPF subtotal = 12.71%
+{Filter, And, Opt} = 0.54%
+{And, Union, Opt} = 0.59%
+{Filter, And, Union, Opt} = 0.33%
+Non-CPF subtotal = 8.65%
 
 
 Triple pattern amount distribution is summarized below:
-{1~3} = 87.59%
-{4~6} = 7.55%
-{7~9} = 2.95%
-{10~12} = 1.33%
+{1~3} = 87.61%
+{4~6} = 7.50%
+{7~9} = 2.96%
+{10~12} = 1.35%
 {13~16} = 0.44%
 {16+} = 0.14%
 
 
 Join amount distribution is summarized below:
-{0~4} = 88.73%
-{5~9} = 5.05%
-{10~14} = 1.80%
-{15~19} = 1.07%
-{20~24} = 0.81%
-{25+} = 2.54%
+{0~4} = 88.75%
+{5~9} = 5.03%
+{10~14} = 1.78%
+{15~19} = 1.08%
+{20~24} = 0.82%
+{25+} = 2.55%
 
 
 Join type distribution is summarized below:
-Subject-Subject (SS) = 33.59%
-Predicate-Predicate (PP) = 26.17%
-Object-Object (OO) = 3.26%
+Subject-Subject (SS) = 33.58%
+Predicate-Predicate (PP) = 26.18%
+Object-Object (OO) = 3.28%
 Subject-Predicate (SP) = 0.00%
-Subject-Object (SO) = 36.98%
+Subject-Object (SO) = 36.96%
 Predicate-Object (PO) = 0.00%

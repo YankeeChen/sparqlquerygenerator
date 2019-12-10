@@ -1,18 +1,9 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?BuildingRelated_0
+SELECT DISTINCT  ?Storage_0
 WHERE
-  { ?BuildingRelated_0
-              a                     saref:BuildingRelated
-    OPTIONAL
-      { ?Multimedia_0
-                  saref:consistsOf  ?BuildingRelated_0
-        { ?Multimedia_0
-                    a                     saref:Multimedia
-          { :Commodity_instance49
-                      saref:isUsedFor  ?Multimedia_0
-          }
-        }
-      }
+  { ?Storage_0  a                   saref:Storage
+    MINUS
+      { ?Storage_0  saref:hasTypicalConsumption  ?Var0 }
   }

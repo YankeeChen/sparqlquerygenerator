@@ -1,16 +1,18 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?System_0
+SELECT DISTINCT  ?IdentityDevice_0
 WHERE
-  { ?System_0  a                    ssn:System
-    { ?DeploymentRelatedProcess_0
-                DUL:isParticipantIn  ?System_0
-      { ?DeploymentRelatedProcess_0
-                  a                     ssn:DeploymentRelatedProcess
-        { ?Deployment_0
-                    ssn:deploymentProcessPart  ?DeploymentRelatedProcess_0
+  { ?IdentityDevice_0
+              a                     IoT-ontology:IdentityDevice
+    { ?ComputingDevice_0
+                DUL:hasPart  ?IdentityDevice_0
+      { ?ComputingDevice_0
+                  a                     IoT-ontology:ComputingDevice
+        { ObjectDescription:Platform_instance50
+                    ssn:onPlatform  ?ComputingDevice_0
         }
       }
     }

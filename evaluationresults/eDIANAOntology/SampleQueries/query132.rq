@@ -1,15 +1,16 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?User_Interface_0
+SELECT DISTINCT  ?Switch_Actuator_0
 WHERE
-  { ?User_Interface_0
-              a                     ContextAwareness_eDIANA:User_Interface ;
-              ContextAwareness_eDIANA:is_graphical  ?DataValue0
-    FILTER ( ?DataValue0 > false )
+  { ?Switch_Actuator_0
+              a                     ContextAwareness_eDIANA:Switch_Actuator
     OPTIONAL
-      { ?Var0  ContextAwareness_eDIANA:provided_services  ?User_Interface_0
-        { ?Var0  a                     ContextAwareness_eDIANA:iEi_Service }
+      { ?Var0  ContextAwareness_eDIANA:provided_services  ?Switch_Actuator_0
+        { ?Var0  a                     ContextAwareness_eDIANA:Command_Write_iEi_Service
+          { ?Var0  a                     ContextAwareness_eDIANA:Profile_Read_iEi_Service
+            { ?Var0  a                     ContextAwareness_eDIANA:Internal_Service }
+          }
+        }
       }
   }

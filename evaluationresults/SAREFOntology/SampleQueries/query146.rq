@@ -1,13 +1,13 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Generator_0
+SELECT DISTINCT  ?DoorSwitch_0
 WHERE
-  { ?Generator_0  a                 saref:Generator
-    { ?Measurement_0
-                saref:makesMeasurement  ?Generator_0
-      { ?Measurement_0
-                  a                     saref:Measurement
+  { ?DoorSwitch_0
+              a                     saref:DoorSwitch
+    { ?Light_0  saref:measuresProperty  ?DoorSwitch_0
+      { ?Light_0  a                     saref:Light
+        FILTER NOT EXISTS { ?Light_0  saref:relatesToMeasurement  ObjectDescription:Measurement_instance810 }
       }
     }
   }

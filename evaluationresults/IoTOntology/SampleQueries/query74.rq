@@ -1,14 +1,10 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
 SELECT DISTINCT  ?ElectricMechanicDevice_0
 WHERE
-  {   { ?ElectricMechanicDevice_0
-                  a                     IoT-ontology:ElectricMechanicDevice
-      }
-    UNION
-      { :ComputingDevice_instance119
-                  ssn:deploymentProcessPart  ?ElectricMechanicDevice_0
-      }
+  { ?ElectricMechanicDevice_0
+              a                     IoT-ontology:ElectricMechanicDevice
+    { ?Quality_0  ssn:hasOperatingRange  ?ElectricMechanicDevice_0 }
   }

@@ -1,8 +1,18 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
 
-SELECT DISTINCT  ?USRPB205mini_i_0
+SELECT DISTINCT  ?USRPN2xx_0
 WHERE
-  { ?USRPB205mini_i_0
-              a                     SDR:USRPB205mini-i
+  { ?USRPN2xx_0  a                  SDR:USRPN2xx
+    { ?Submarine_0  RFDevice:isDeployedOn  ?USRPN2xx_0
+      { ?Submarine_0  a                 RFDevice:Submarine
+        { ?Process_0  RFDevice:hasCapability  ?Submarine_0
+          { ?Process_0  a                   Nuvio:Process ;
+                      Nuvio:hasProcessQuality  ?Attribute_0
+          }
+        }
+      }
+    }
   }

@@ -1,8 +1,10 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
 
-SELECT DISTINCT  ?Identifier_0
+SELECT DISTINCT  ?Resource_0
 WHERE
-  { ?Identifier_0
-              a                     IoT-ontology:Identifier
+  { ?Resource_0  a                  IoT-ontology:Resource .
+    ?Situation_0  IoT-ontology:usesResource  ?Resource_0
+    { ?Situation_0  a                 DUL:Situation }
   }

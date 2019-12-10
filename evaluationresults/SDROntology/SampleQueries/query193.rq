@@ -1,8 +1,9 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
 
-SELECT DISTINCT  ?USRPB200mini_0
+SELECT DISTINCT  ?USRPX310_0
 WHERE
-  { ?USRPB200mini_0
-              a                     SDR:USRPB200mini
+  { ?USRPX310_0  a                  SDR:USRPX310
+    { ?Var0  RFDevice:supportsSpectrumSensing  ?USRPX310_0 }
   }

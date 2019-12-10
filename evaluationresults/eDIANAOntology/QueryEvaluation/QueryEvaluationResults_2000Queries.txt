@@ -14,7 +14,7 @@ true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Complex_Sensor
 true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Concentrator                              
 true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Configuration_Read_iEi_Service            
 true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Configuration_Write_iEi_Service           
-true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Delayed_Turn_Off_Command_Information      
+false http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Delayed_Turn_Off_Command_Information      
 true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Delayed_Turn_On_Command_Information       
 true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Device                                    
 true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#Direction_Information                     
@@ -96,64 +96,64 @@ true  http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#unit
 
 
 Signature coverage of the queries is summarized below:
-Class coverage (CC) = 100.00%
+Class coverage (CC) = 98.57%
 Data property coverage (DPC) = 100.00%
 Object property coverage (OPC) = 100.00%
 
 
 Keyword coverage of the queries is summarized below:
-FILTER coverage = 8.55%
-AND coverage = 50.20%
-UNION coverage = 6.45%
-OPTIONAL coverage = 6.60%
-MINUS coverage = 2.35%
+FILTER coverage = 9.50%
+AND coverage = 52.70%
+UNION coverage = 2.00%
+OPTIONAL coverage = 6.75%
+MINUS coverage = 2.10%
 NOT EXISTS coverage = 2.35%
-EXISTS coverage = 2.05%
+EXISTS coverage = 1.95%
 
 
 Operator set distribution is summarized below:
-{} = 47.80%
-{And} = 32.40%
+{} = 46.30%
+{And} = 37.00%
 {Filter} = 0.00%
-{Filter, And} = 7.30%
-CPF subtotal = 87.50%
-{Union} = 1.05%
-{Opt} = 0.95%
+{Filter, And} = 8.20%
+CPF subtotal = 91.50%
+{Union} = 0.00%
+{Opt} = 1.00%
 {Filter, Union} = 0.00%
 {Filter, Opt} = 0.00%
-{And, Union} = 3.95%
-{And, Opt} = 4.80%
+{And, Union} = 1.30%
+{And, Opt} = 4.65%
 {Union, Opt} = 0.00%
-{Filter, And, Union} = 0.90%
+{Filter, And, Union} = 0.45%
 {Filter, Union, Opt} = 0.00%
-{Filter, And, Opt} = 0.30%
-{And, Union, Opt} = 0.50%
-{Filter, And, Union, Opt} = 0.05%
-Non-CPF subtotal = 12.50%
+{Filter, And, Opt} = 0.85%
+{And, Union, Opt} = 0.25%
+{Filter, And, Union, Opt} = 0.00%
+Non-CPF subtotal = 8.50%
 
 
 Triple pattern amount distribution is summarized below:
-{1~3} = 81.55%
-{4~6} = 17.65%
+{1~3} = 79.15%
+{4~6} = 20.10%
 {7~9} = 0.75%
-{10~12} = 0.05%
+{10~12} = 0.00%
 {13~16} = 0.00%
 {16+} = 0.00%
 
 
 Join amount distribution is summarized below:
-{0~4} = 81.65%
-{5~9} = 11.70%
-{10~14} = 5.10%
-{15~19} = 1.30%
-{20~24} = 0.10%
-{25+} = 0.15%
+{0~4} = 79.25%
+{5~9} = 14.55%
+{10~14} = 4.85%
+{15~19} = 1.20%
+{20~24} = 0.15%
+{25+} = 0.00%
 
 
 Join type distribution is summarized below:
-Subject-Subject (SS) = 44.57%
-Predicate-Predicate (PP) = 27.14%
-Object-Object (OO) = 1.06%
+Subject-Subject (SS) = 45.10%
+Predicate-Predicate (PP) = 26.85%
+Object-Object (OO) = 0.70%
 Subject-Predicate (SP) = 0.00%
-Subject-Object (SO) = 27.23%
+Subject-Object (SO) = 27.35%
 Predicate-Object (PO) = 0.00%

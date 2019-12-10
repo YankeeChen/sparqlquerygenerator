@@ -1,16 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
 PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
-PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?SensingDevice_0
+SELECT DISTINCT  ?SmartPhone_0
 WHERE
-  { ?SensingDevice_0
-              a                     ssn:SensingDevice
-    { ?IdentityDevice_0
-                DUL:hasPart  ?SensingDevice_0
-      { ?IdentityDevice_0
-                  a                     IoT-ontology:IdentityDevice
-      }
-    }
+  { ?SmartPhone_0
+              a                     IoT-ontology:SmartPhone
   }

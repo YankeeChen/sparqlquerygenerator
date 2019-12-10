@@ -1,13 +1,35 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
 PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
 
-SELECT DISTINCT  ?USRPX3xx_0
+SELECT DISTINCT  ?SDR_0
 WHERE
-  { ?USRPX3xx_0  a                  SDR:USRPX3xx
-    OPTIONAL
-      { ?Object_0  RFDevice:isProducerOf  ?USRPX3xx_0
-        { ?Object_0  a                    Nuvio:Object }
+  { ?SDR_0  a                     SDR:SDR
+    { ?Var0  RFDevice:supportsTuning  ?SDR_0
+      {   { ?Var0  a                     RFDevice:FixedBandwidthSensing }
+        UNION
+          { ?CoverPulsesJamming_0
+                      Nuvio:subprocessOf  ?Var0
+          }
+        FILTER EXISTS { ?Attribute_0  RFDevice:hasPulseRepetitionInterval  ?Var0
+                        { ?Attribute_0  a                 Nuvio:Attribute }
+                        {   { ?Var0  a                     RFDevice:Receiving }
+                          UNION
+                            { ?Entity_0  RFDevice:hasFrequencyAccuracy  ?Var0
+                              { ?Entity_0  a                    Nuvio:Entity
+                                { ?Entity_0  a                    Nuvio:UnitOfMeasure
+                                  OPTIONAL
+                                    { ?Var1  Nuvio:hasValue  ?Entity_0
+                                      { ?Var1  a                     RFDevice:ShortValue
+                                        { ?Var1  RFDevice:hasPositiveIntegerValue  ?DataValue0 }
+                                      }
+                                    }
+                                }
+                              }
+                            }
+                        }
+                      }
       }
+    }
   }

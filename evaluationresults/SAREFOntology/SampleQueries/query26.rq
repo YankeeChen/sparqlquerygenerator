@@ -1,11 +1,18 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?DoorSwitch_0
+SELECT DISTINCT  ?SmokeSensor_0
 WHERE
-  { ?DoorSwitch_0
-              a                     saref:DoorSwitch
-    { ?LightSwitch_0
-                saref:consistsOf  ?DoorSwitch_0
+  { ?SmokeSensor_0
+              a                     saref:SmokeSensor
+    { ?Energy_0  saref:measuresProperty  ?SmokeSensor_0
+      { ?Energy_0  a                    saref:Energy
+        FILTER NOT EXISTS { ?Measurement_0
+                                      saref:relatesToMeasurement  ?Energy_0
+                            { ?Measurement_0
+                                        a                     saref:Measurement
+                            }
+                          }
+      }
     }
   }

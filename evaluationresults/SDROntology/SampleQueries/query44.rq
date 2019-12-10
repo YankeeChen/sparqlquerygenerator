@@ -1,6 +1,21 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
 
-SELECT DISTINCT  ?USRPN210_0
+SELECT DISTINCT  ?USRPB200_210_0
 WHERE
-  { ?USRPN210_0  a                  SDR:USRPN210 }
+  { ?USRPB200_210_0
+              a                     SDR:USRPB200-210
+    { ?Var0  Nuvio:aggregateOf  ?USRPB200_210_0
+      {   { ?Var0  RFDevice:hasResolution  ?Var1 }
+        UNION
+          { ?NoiseJamming_0
+                      RFDevice:supportsTuning  ?Var0
+          }
+        { SDR:Freq_61_44MHz
+                    RFDevice:hasHeight  ?Var0
+        }
+      }
+    }
+  }

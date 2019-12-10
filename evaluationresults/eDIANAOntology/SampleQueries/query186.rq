@@ -1,6 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Generator_0
+SELECT DISTINCT  ?Value_Actuator_0
 WHERE
-  { ?Generator_0  a                 ContextAwareness_eDIANA:Generator }
+  { ?Value_Actuator_0
+              a                     ContextAwareness_eDIANA:Value_Actuator
+  }

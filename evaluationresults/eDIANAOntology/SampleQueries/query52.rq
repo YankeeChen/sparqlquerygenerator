@@ -1,6 +1,15 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Generator_0
+SELECT DISTINCT  ?Command_Actuator_0
 WHERE
-  { ?Generator_0  a                 ContextAwareness_eDIANA:Generator }
+  { ?Command_Actuator_0
+              a                     ContextAwareness_eDIANA:Command_Actuator .
+    ?Smart_Actuator_Command_Information_0
+              ContextAwareness_eDIANA:accepted_commands  ?Command_Actuator_0
+    { ?Var0  ContextAwareness_eDIANA:provided_services  ?Command_Actuator_0
+      FILTER EXISTS { ?Smart_Actuator_Command_Information_0
+                                a                     ContextAwareness_eDIANA:Smart_Actuator_Command_Information
+                    }
+    }
+  }

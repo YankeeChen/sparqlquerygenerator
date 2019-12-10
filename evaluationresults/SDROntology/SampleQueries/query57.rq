@@ -1,6 +1,11 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
 
-SELECT DISTINCT  ?USRPE310_0
+SELECT DISTINCT  ?GNURadio_0
 WHERE
-  { ?USRPE310_0  a                  SDR:USRPE310 }
+  { ?GNURadio_0  a                  SDR:GNURadio
+    { ObjectDescription:Jammer_instance22
+                Nuvio:partOf  ?GNURadio_0
+    }
+  }

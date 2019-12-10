@@ -1,21 +1,8 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  saref: <https://w3id.org/saref#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Meter_0
+SELECT DISTINCT  ?MicroRenewable_0
 WHERE
-  { ?Meter_0  a                     saref:Meter
-    { ?MeteringFunction_0
-                saref:hasFunction  ?Meter_0
-      {   { ?MeteringFunction_0
-                      a                     saref:MeteringFunction
-          }
-        UNION
-          { ?Measurement_0
-                      saref:hasMeterReading  ?MeteringFunction_0
-            { :Energy_instance25
-                        saref:relatesToProperty  ?Measurement_0
-            }
-          }
-      }
-    }
+  { ?MicroRenewable_0
+              a                     saref:MicroRenewable
   }

@@ -1,14 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?System_0
+SELECT DISTINCT  ?Platform_0
 WHERE
-  { ?System_0  a                    ssn:System
-    EXISTS
-      { ?Deployment_0
-                  ssn:deployedSystem  ?System_0
-        { ?Deployment_0
-                    a                     ssn:Deployment
-        }
-      }
-  }
+  { ?Platform_0  a                  ssn:Platform }

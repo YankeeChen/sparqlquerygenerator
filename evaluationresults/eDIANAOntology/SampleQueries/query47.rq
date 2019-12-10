@@ -1,8 +1,9 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Concentrator_0
+SELECT DISTINCT  ?User_Interface_0
 WHERE
-  { ?Concentrator_0
-              a                     ContextAwareness_eDIANA:Concentrator
+  { ?User_Interface_0
+              a                     ContextAwareness_eDIANA:User_Interface
+    { ?Var0  ContextAwareness_eDIANA:provided_services  ?User_Interface_0 }
   }

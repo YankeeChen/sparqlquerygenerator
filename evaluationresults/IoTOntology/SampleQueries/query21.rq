@@ -1,19 +1,6 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
-PREFIX  DUL:  <http://www.loa-cnr.it/ontologies/DUL.owl#>
 PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
-PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Server_0
+SELECT DISTINCT  ?Actuator_0
 WHERE
-  { ?Server_0  a                    IoT-ontology:Server
-    { ?SmartPhone_0
-                ssn:hasSubSystem  ?Server_0
-      { ?SmartPhone_0
-                  a                     IoT-ontology:SmartPhone
-        NOT EXISTS
-          { ?Processor_0  DUL:hasPart  ?SmartPhone_0
-            { ?Processor_0  a                 IoT-ontology:Processor }
-          }
-      }
-    }
-  }
+  { ?Actuator_0  a                  IoT-ontology:Actuator }

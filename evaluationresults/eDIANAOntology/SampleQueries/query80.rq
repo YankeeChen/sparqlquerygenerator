@@ -1,14 +1,9 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  ContextAwareness_eDIANA: <http://www.owl-ontologies.com/ContextAwareness_eDIANA.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 
-SELECT DISTINCT  ?Sensor_0
+SELECT DISTINCT  ?Gas_Sensor_0
 WHERE
-  { ?Sensor_0  a                    ContextAwareness_eDIANA:Sensor ;
-              ContextAwareness_eDIANA:related_comfort_properties  ?Temperature_Information_0
-    { ?Var0  ContextAwareness_eDIANA:provided_services  ?Sensor_0
-      { ?Var0  a                     ContextAwareness_eDIANA:LogData_Write_iEi_Service }
-      { ?Temperature_Information_0
-                  a                     ContextAwareness_eDIANA:Temperature_Information
-      }
-    }
+  { ?Gas_Sensor_0
+              a                     ContextAwareness_eDIANA:Gas_Sensor ;
+              ContextAwareness_eDIANA:gas_type  ?DataValue0
   }

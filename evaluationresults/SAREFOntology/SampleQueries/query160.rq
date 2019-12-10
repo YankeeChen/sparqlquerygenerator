@@ -1,9 +1,17 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
+PREFIX  time: <http://www.w3.org/2006/time#>
 PREFIX  saref: <https://w3id.org/saref#>
 
-SELECT DISTINCT  ?MicroRenewable_0
+SELECT DISTINCT  ?Load_0
 WHERE
-  { ?MicroRenewable_0
-              a                     saref:MicroRenewable
-    { ?Profile_0  saref:hasProfile  ?MicroRenewable_0 }
+  { ?Load_0  a                     saref:Load
+    { ?Commodity_0  saref:isUsedFor  ?Load_0
+      { ?Commodity_0  a                 saref:Commodity
+        { ?Commodity_0  saref:isMeasuredIn  ?TemporalUnit_0
+          { ?TemporalUnit_0
+                      a                     time:TemporalUnit
+          }
+        }
+      }
+    }
   }

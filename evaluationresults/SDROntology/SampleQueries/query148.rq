@@ -1,18 +1,11 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
 PREFIX  SDR:  <http://ece.neu.edu/ontologies/SDR.owl#>
-PREFIX  RFDevice: <http://ece.neu.edu/ontologies/RFDevice.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  Nuvio: <http://cogradio.org/ont/Nuvio.owl#>
 
-SELECT DISTINCT  ?USRPB2xx_0
+SELECT DISTINCT  ?USRPB200_0
 WHERE
-  { ?USRPB2xx_0  a                  SDR:USRPB2xx
-    { ?Entity_0  RFDevice:hasWeight  ?USRPB2xx_0
-      { ?Entity_0  a                    Nuvio:Entity ;
-                  Nuvio:expresses       ?Entity_0
-        { ?Entity_0  a                    Nuvio:Process .
-          :Instance2584
-                    Nuvio:subprocessOf    ?Entity_0
-        }
-      }
+  { ?USRPB200_0  a                  SDR:USRPB200
+    { ?Object_0  Nuvio:compositeOf  ?USRPB200_0
+      { ?Object_0  a                    Nuvio:Object }
     }
   }

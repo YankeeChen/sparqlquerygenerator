@@ -10,13 +10,13 @@ true  http://www.w3.org/2006/time#Instant
 true  http://www.w3.org/2006/time#Interval                                                                
 false http://www.w3.org/2006/time#January                                                                 
 false http://www.w3.org/2006/time#MonthOfYear                                                             
-false http://www.w3.org/2006/time#ProperInterval                                                          
+true  http://www.w3.org/2006/time#ProperInterval                                                          
 false http://www.w3.org/2006/time#TRS                                                                     
 false http://www.w3.org/2006/time#TemporalDuration                                                        
-true  http://www.w3.org/2006/time#TemporalEntity                                                          
-false http://www.w3.org/2006/time#TemporalPosition                                                        
+false http://www.w3.org/2006/time#TemporalEntity                                                          
+true  http://www.w3.org/2006/time#TemporalPosition                                                        
 true  http://www.w3.org/2006/time#TemporalUnit                                                            
-true  http://www.w3.org/2006/time#TimePosition                                                            
+false http://www.w3.org/2006/time#TimePosition                                                            
 false http://www.w3.org/2006/time#TimeZone                                                                
 false http://www.w3.org/2006/time#Year                                                                    
 true  https://w3id.org/saref#ActuatingFunction                                                            
@@ -117,29 +117,29 @@ true  https://w3id.org/saref#Water
 false http://www.w3.org/2006/time#after                                                                   
 false http://www.w3.org/2006/time#before                                                                  
 false http://www.w3.org/2006/time#dayOfWeek                                                               
-true  http://www.w3.org/2006/time#hasBeginning                                                            
+false http://www.w3.org/2006/time#hasBeginning                                                            
 true  http://www.w3.org/2006/time#hasDateTimeDescription                                                  
 false http://www.w3.org/2006/time#hasDuration                                                             
 false http://www.w3.org/2006/time#hasDurationDescription                                                  
-true  http://www.w3.org/2006/time#hasEnd                                                                  
-false http://www.w3.org/2006/time#hasTRS                                                                  
+false http://www.w3.org/2006/time#hasEnd                                                                  
+true  http://www.w3.org/2006/time#hasTRS                                                                  
 false http://www.w3.org/2006/time#hasTemporalDuration                                                     
-true  http://www.w3.org/2006/time#hasTime                                                                 
-false http://www.w3.org/2006/time#inDateTime                                                              
+false http://www.w3.org/2006/time#hasTime                                                                 
+true  http://www.w3.org/2006/time#inDateTime                                                              
 false http://www.w3.org/2006/time#inTemporalPosition                                                      
 true  http://www.w3.org/2006/time#inTimePosition                                                          
 true  http://www.w3.org/2006/time#inside                                                                  
 false http://www.w3.org/2006/time#intervalAfter                                                           
 false http://www.w3.org/2006/time#intervalBefore                                                          
 false http://www.w3.org/2006/time#intervalContains                                                        
-false http://www.w3.org/2006/time#intervalDisjoint                                                        
+true  http://www.w3.org/2006/time#intervalDisjoint                                                        
 false http://www.w3.org/2006/time#intervalDuring                                                          
 false http://www.w3.org/2006/time#intervalEquals                                                          
 false http://www.w3.org/2006/time#intervalFinishedBy                                                      
 false http://www.w3.org/2006/time#intervalFinishes                                                        
 false http://www.w3.org/2006/time#intervalIn                                                              
 false http://www.w3.org/2006/time#intervalMeets                                                           
-false http://www.w3.org/2006/time#intervalMetBy                                                           
+true  http://www.w3.org/2006/time#intervalMetBy                                                           
 false http://www.w3.org/2006/time#intervalOverlappedBy                                                    
 false http://www.w3.org/2006/time#intervalOverlaps                                                        
 false http://www.w3.org/2006/time#intervalStartedBy                                                       
@@ -183,11 +183,11 @@ true  https://w3id.org/saref#represents
 false http://www.w3.org/2006/time#day                                                                     
 false http://www.w3.org/2006/time#dayOfYear                                                               
 false http://www.w3.org/2006/time#days                                                                    
-true  http://www.w3.org/2006/time#hasXSDDuration                                                          
+false http://www.w3.org/2006/time#hasXSDDuration                                                          
 false http://www.w3.org/2006/time#hour                                                                    
 false http://www.w3.org/2006/time#hours                                                                   
-false http://www.w3.org/2006/time#inXSDDate                                                               
-false http://www.w3.org/2006/time#inXSDDateTime                                                           
+true  http://www.w3.org/2006/time#inXSDDate                                                               
+true  http://www.w3.org/2006/time#inXSDDateTime                                                           
 false http://www.w3.org/2006/time#inXSDDateTimeStamp                                                      
 true  http://www.w3.org/2006/time#inXSDgYear                                                              
 false http://www.w3.org/2006/time#inXSDgYearMonth                                                         
@@ -195,14 +195,14 @@ false http://www.w3.org/2006/time#minute
 false http://www.w3.org/2006/time#minutes                                                                 
 false http://www.w3.org/2006/time#month                                                                   
 false http://www.w3.org/2006/time#months                                                                  
-true  http://www.w3.org/2006/time#nominalPosition                                                         
+false http://www.w3.org/2006/time#nominalPosition                                                         
 false http://www.w3.org/2006/time#numericDuration                                                         
 false http://www.w3.org/2006/time#numericPosition                                                         
-true  http://www.w3.org/2006/time#second                                                                  
+false http://www.w3.org/2006/time#second                                                                  
 false http://www.w3.org/2006/time#seconds                                                                 
 false http://www.w3.org/2006/time#week                                                                    
 false http://www.w3.org/2006/time#weeks                                                                   
-false http://www.w3.org/2006/time#xsdDateTime                                                             
+true  http://www.w3.org/2006/time#xsdDateTime                                                             
 false http://www.w3.org/2006/time#year                                                                    
 false http://www.w3.org/2006/time#years                                                                   
 true  https://w3id.org/saref#hasDescription                                                               
@@ -215,62 +215,62 @@ true  https://w3id.org/saref#hasValue
 Signature coverage of the queries is summarized below:
 Class coverage (CC) = 88.39%
 Data property coverage (DPC) = 30.00%
-Object property coverage (OPC) = 57.14%
+Object property coverage (OPC) = 58.73%
 
 
 Keyword coverage of the queries is summarized below:
-FILTER coverage = 0.30%
-AND coverage = 37.58%
-UNION coverage = 5.66%
-OPTIONAL coverage = 4.91%
-MINUS coverage = 2.01%
-NOT EXISTS coverage = 1.74%
-EXISTS coverage = 1.85%
+FILTER coverage = 0.33%
+AND coverage = 40.38%
+UNION coverage = 0.97%
+OPTIONAL coverage = 5.52%
+MINUS coverage = 1.74%
+NOT EXISTS coverage = 1.95%
+EXISTS coverage = 1.90%
 
 
 Operator set distribution is summarized below:
-{} = 57.58%
-{And} = 31.84%
+{} = 57.25%
+{And} = 36.17%
 {Filter} = 0.00%
-{Filter, And} = 0.19%
-CPF subtotal = 89.61%
-{Union} = 2.69%
-{Opt} = 2.15%
+{Filter, And} = 0.24%
+CPF subtotal = 93.66%
+{Union} = 0.00%
+{Opt} = 2.38%
 {Filter, Union} = 0.00%
 {Filter, Opt} = 0.00%
-{And, Union} = 2.73%
-{And, Opt} = 2.56%
+{And, Union} = 0.80%
+{And, Opt} = 2.94%
 {Union, Opt} = 0.00%
-{Filter, And, Union} = 0.07%
+{Filter, And, Union} = 0.03%
 {Filter, Union, Opt} = 0.00%
-{Filter, And, Opt} = 0.02%
-{And, Union, Opt} = 0.15%
-{Filter, And, Union, Opt} = 0.02%
-Non-CPF subtotal = 10.39%
+{Filter, And, Opt} = 0.06%
+{And, Union, Opt} = 0.14%
+{Filter, And, Union, Opt} = 0.00%
+Non-CPF subtotal = 6.34%
 
 
 Triple pattern amount distribution is summarized below:
-{1~3} = 90.68%
-{4~6} = 8.37%
-{7~9} = 0.88%
+{1~3} = 90.32%
+{4~6} = 8.57%
+{7~9} = 1.04%
 {10~12} = 0.07%
-{13~16} = 0.01%
+{13~16} = 0.00%
 {16+} = 0.00%
 
 
 Join amount distribution is summarized below:
-{0~4} = 92.01%
-{5~9} = 6.29%
-{10~14} = 1.23%
-{15~19} = 0.33%
-{20~24} = 0.11%
-{25+} = 0.03%
+{0~4} = 91.75%
+{5~9} = 6.46%
+{10~14} = 1.33%
+{15~19} = 0.32%
+{20~24} = 0.09%
+{25+} = 0.05%
 
 
 Join type distribution is summarized below:
-Subject-Subject (SS) = 33.90%
-Predicate-Predicate (PP) = 24.31%
-Object-Object (OO) = 1.95%
+Subject-Subject (SS) = 33.21%
+Predicate-Predicate (PP) = 24.59%
+Object-Object (OO) = 1.73%
 Subject-Predicate (SP) = 0.00%
-Subject-Object (SO) = 39.83%
+Subject-Object (SO) = 40.47%
 Predicate-Object (PO) = 0.00%

@@ -1,8 +1,19 @@
-PREFIX  :     <http://ece.neu.edu/ontologies/DeviceDescription3000.owl#>
+PREFIX  ObjectDescription: <http://ece.neu.edu/ontologies/ObjectDescription3000.owl#>
 PREFIX  IoT-ontology: <http://kotis.epizy.com/Ontologies/IoT/IoT-ontology.owl#>
+PREFIX  ssn:  <http://purl.oclc.org/NET/ssnx/ssn#>
 
-SELECT DISTINCT  ?Identifier_0
+SELECT DISTINCT  ?Server_0
 WHERE
-  { ?Identifier_0
-              a                     IoT-ontology:Identifier
+  { ?Server_0  a                    IoT-ontology:Server
+    { ?Property_0  ssn:isPropertyOf  ?Server_0
+      { ?Property_0  a                  ssn:Property
+        MINUS
+          { ?FeatureOfInterest_0
+                      ssn:hasMeasurementProperty  ?Property_0
+            { ObjectDescription:Sensitivity_instance2
+                        ssn:hasSurvivalRange  ?FeatureOfInterest_0
+            }
+          }
+      }
+    }
   }
