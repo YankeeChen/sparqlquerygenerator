@@ -15,7 +15,7 @@ $ git clone https://github.com/YankeeChen/sparqlquerygenerator.git
 $ java -jar sparqlquerygenerator-1.0-SNAPSHOT.jar -h
 
 # Simple call (Load target RDF object descriptions based on its ontology IRI or document IRI.
-$ java -jar sparqlquerygenerator-1.0-SNAPSHOT.jar -rootIRI <IRI> -datasetURI <URI> [-IRIMapping <IRIMapping1,IRIMapping2,IRIMapping3...>] [-queryNumber <NUMBER>] [-outputDirectoryPath <PATH>] [-ramSeed <SEED>] [-classConstraintSelectionProbability <PROBABILITY>] [-classAssertionProbability <PROBABILITY>] [-objectPropertyAssertionProbability <PROBABILITY>] [-dataPropertyAssertionProbability <PROBABILITY>] [-inverseObjectPropertySelectionProbability <PROBABILITY>] [-newVariableProbability <PROBABILITY>] [-linkToIndividualProbability <PROBABILITY>] [-filterProbability <PROBABILITY>] [-conjunctionGraphPatternProbability <PROBABILITY>] [-optionalGraphPatternProbability <PROBABILITY>] [-unionGraphPatternProbability <PROBABILITY>] [-negationGraphPatternProbability <PROBABILITY>]
+$ java -jar sparqlquerygenerator-1.0-SNAPSHOT.jar -rootIRI <IRI> -datasetURI <URI> [-IRIMapping <IRIMapping1,IRIMapping2,IRIMapping3...>] [-queryNumber <NUMBER>] [-outputDirectoryPath <PATH>] [-ramSeed <SEED>] [-d] [-classConstraintSelectionProbability <PROBABILITY>] [-classAssertionProbability <PROBABILITY>] [-objectPropertyAssertionProbability <PROBABILITY>] [-dataPropertyAssertionProbability <PROBABILITY>] [-inverseObjectPropertySelectionProbability <PROBABILITY>] [-newVariableProbability <PROBABILITY>] [-linkToIndividualProbability <PROBABILITY>] [-filterProbability <PROBABILITY>] [-conjunctionGraphPatternProbability <PROBABILITY>] [-optionalGraphPatternProbability <PROBABILITY>] [-unionGraphPatternProbability <PROBABILITY>] [-negationGraphPatternProbability <PROBABILITY>]
 
 ```
 `-rootIRI <IRI>` e.g. http://www.loa-cnr.it/ontologies/DUL.owl#PhysicalObject 
@@ -35,6 +35,9 @@ is optional and states a local directory of the generated queries; SPARQLqueries
 
 `-ramSeed <SEED>` 
 is optional and states random seed used for random query generation; 0 by default.
+
+`-d` 
+Enable generating distinct queries.
 
 `-classConstraintSelectionProbability <PROBABILITY>`
 is optional and states the probability of selecting an OWL class constraint (anonymous super class expression) of an OWL class; 0.9 by default.
