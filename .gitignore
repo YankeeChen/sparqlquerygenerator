@@ -29,7 +29,7 @@ catalog-v*.xml
 .settings/
 
 # pom file
-pom.xml
+#pom.xml
 
 # ignore all files in the SPARQLqueries/ directory
 SPARQLqueries/
