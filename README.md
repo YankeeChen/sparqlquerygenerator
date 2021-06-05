@@ -88,7 +88,7 @@ Lab of Info and Software Fusion
 
 ECE Department, Northeastern University, MA, USA
 
-Email:chen.yanj@husky.neu.edu
+Email:chen.yanj@northeastern.edu
 
 Personal website: https://sites.google.com/view/yanjichen0101/home?authuser=0
 
